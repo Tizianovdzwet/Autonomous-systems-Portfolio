@@ -1,0 +1,6 @@
+Agent,Total Profit,Win Rate,Expected Value
+Baseline (Hit < 17),-772.0,41.33%,-0.0772
+Expert 1: Hard Totals,-388.0,43.76%,-0.0388
+Expert 2: Soft Totals,-564.0,42.30%,-0.0564
+Expert 3: Dealer Aware,-557.0,42.75%,-0.0557
+Expert 4: Pro BJA (Combined),-493.0,42.88%,-0.0493
