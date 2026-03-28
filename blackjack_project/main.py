@@ -3,16 +3,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-# --- 1. Importeer je Agents ---
-# Zorg dat al deze bestanden in je 'agents' map staan.
-# Als een bestand mist, krijg je een ImportError.
+# Importeer je Agents
+
 try:
     from agents.baseline_agent import baseline_policy
     from agents.hard_total_agent import hard_total_policy
     from agents.soft_total_agent import soft_total_policy
     from agents.dealer_aware_agent import dealer_aware_policy
     from agents.pro_bja_agent import bja_policy
-    # Nieuwe agents
     from agents.safe_play_agent import safe_play_policy
     from agents.probabilistic_agent import probabilistic_policy
     from agents.dealer_copy_agent import dealer_copy_policy
@@ -58,22 +56,22 @@ def run_simulation(policy_func, name, num_episodes=10000):
     }
 
 if __name__ == "__main__":
-    # --- 2. Configuratie ---
-    ROUNDS = 10000 # Voor het definitieve rapport
+    #Configuratie 
+    ROUNDS = 10000 
     RESULTS_DIR = "results"
     
     # Zorg dat de resultatenmap bestaat
     if not os.path.exists(RESULTS_DIR):
         os.makedirs(RESULTS_DIR)
 
-    # --- 3. Lijst met Agents voor de Legende (EXACT de volgorde van de voorbeeldfoto) ---
+    # Lijst met Agents voor de Legende (EXACT de volgorde van de voorbeeldfoto) ---
     agents_to_test = [
         (baseline_policy, "Baseline (Hit < 17)"),
         (hard_total_policy, "Expert 1: Hard Totals"),
         (soft_total_policy, "Expert 2: Soft Totals"),
         (dealer_aware_policy, "Expert 3: Dealer Aware"),
         (bja_policy, "Expert 4: Pro BJA (Combined)"),
-        (safe_play_policy, "Bonus: Ultra-Conservative"), # We hernoemen deze naar de legende uit je foto
+        (safe_play_policy, "Bonus: Ultra-Conservative"), 
         (probabilistic_policy, "Bonus: Stochastic Rule"),
         (dealer_copy_policy, "Bonus: Dealer Mimic")
     ]
@@ -82,7 +80,7 @@ if __name__ == "__main__":
     # Forceer de grootte van de grafiek
     plt.figure(figsize=(14, 8))
 
-    print(f"\n🚀 Simulatie gestart: {ROUNDS} rondes per agent...\n")
+    print(f"\n Simulatie gestart: {ROUNDS} rondes per agent...\n")
 
     for policy, name in agents_to_test:
         print(f"Systeem test: {name}...")
@@ -97,8 +95,7 @@ if __name__ == "__main__":
         
         plt.plot(res["history"], label=res["name"])
 
-    # --- 4. DATA OPSLAAN & VISUALISEREN (EXACT zo geconfigureerd als de voorbeeldfoto) ---
-    
+    # DATA OPSLAAN & VISUALISEREN (EXACT zo geconfigureerd als de voorbeeldfoto) 
     # Sla de tabel op
     df = pd.DataFrame(all_stats)
     print("\n--- PERFORMANCE RESULTATEN ---")
@@ -106,7 +103,7 @@ if __name__ == "__main__":
     
     df.to_csv(os.path.join(RESULTS_DIR, "performance_results.csv"), index=False)
 
-    # --- De Grafiek Configuratie (Naspelen van je voorbeeldfoto) ---
+    # De Grafiek Configuratie (Naspelen van je voorbeeldfoto) 
     plt.title(f"Vergelijkende Analyse: Rule-Based Strategies ({ROUNDS} ronden)")
     plt.xlabel("Aantal Gespeelde Handen")
     plt.ylabel("Cumulatieve Winst / Verlies (Units)")
@@ -126,5 +123,5 @@ if __name__ == "__main__":
     plot_path = os.path.join(RESULTS_DIR, "blackjack_comparison_plot.png")
     plt.savefig(plot_path)
     
-    print(f"\n✅ Resultaten en de grafiek zijn bijgewerkt in de map '{RESULTS_DIR}'.")
+    print(f"\n Resultaten en de grafiek zijn bijgewerkt in de map '{RESULTS_DIR}'.")
     plt.show()
