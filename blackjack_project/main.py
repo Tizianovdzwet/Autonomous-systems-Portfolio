@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-# Importeer je Agents
-
+# Importeer de Agents
 try:
     from agents.baseline_agent import baseline_policy
     from agents.hard_total_agent import hard_total_policy
@@ -14,6 +13,7 @@ try:
     from agents.safe_play_agent import safe_play_policy
     from agents.probabilistic_agent import probabilistic_policy
     from agents.dealer_copy_agent import dealer_copy_policy
+
 except ImportError as e:
     print("\nFoutmelding: Een agent-bestand kon niet worden geladen.")
     print(f"Controleer of de bestandsnamen kloppen en in de 'agents' map staan.")

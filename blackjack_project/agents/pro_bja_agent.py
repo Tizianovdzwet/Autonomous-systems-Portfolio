@@ -2,11 +2,16 @@ from agents.soft_total_agent import soft_total_policy
 from agents.dealer_aware_agent import dealer_aware_policy
 
 def bja_policy(observation):
-    player_score, dealer_card, has_ace = observation
+    """
+    Expert 4: Pro BJA (Combined)
+    Deze agent kijkt eerst of de speler eerst een aas heeft, als dat niet zo is, gebruikt het de
+    dealer aware policy (Agent Expert 3)
+    """
+
+    # observation = (speler_punten, dealer_kaart, heeft_aas)
+    _, _, has_ace = observation
     
-    # Prioriteit 1: Gebruik Soft-logica als we een Aas hebben
     if has_ace:
         return soft_total_policy(observation)
     
-    # Prioriteit 2: Gebruik de Dealer-Aware strategie voor harde totalen
     return dealer_aware_policy(observation)
