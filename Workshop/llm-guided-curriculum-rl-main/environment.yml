@@ -1,0 +1,16 @@
+name: llm-guided-curriculum-rl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools
+  - wheel
+  - pip:
+      - cloudpickle==3.1.1
+      - farama-notifications==0.0.4
+      - gymnasium==1.1.1
+      - numpy==2.3.1
+      - swig==4.3.1
+      - typing-extensions==4.14.0

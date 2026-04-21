@@ -1,0 +1,7 @@
+__pycache__/
+*.pth
+*.pkl
+.DS_Store
+.idea*
+paper/*.pdf
+analysis

@@ -1,0 +1,85 @@
+name: Update Conda Environment
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - 'environment.yml'
+      - '.github/workflows/update-environment.yml'
+
+jobs:
+  update-environment:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v3
+      with:
+        auto-update-conda: true
+        python-version: "3.12"
+        activate-environment: "llm-guided-curriculum-rl"
+
+    - name: Install dependencies
+      run: |
+        conda env create -f environment.yml
+
+    - name: Update environment.yml with cross-platform compatibility
+      run: |
+        # Use conda run to execute commands in the environment
+        conda run -n llm-guided-curriculum-rl conda list --export | grep -v '^#' | grep -v '^@' | cut -d'=' -f1 | grep -v '^$' > conda_packages.txt
+        
+        # Get pip packages
+        conda run -n llm-guided-curriculum-rl pip list --format=freeze | grep -v '^#' > pip_packages.txt
+        
+        # Create the new environment.yml content
+        echo "name: llm-guided-curriculum-rl" > environment.yml
+        echo "channels:" >> environment.yml
+        echo "  - conda-forge" >> environment.yml
+        echo "  - defaults" >> environment.yml
+        echo "dependencies:" >> environment.yml
+        
+        # Add conda packages (only names, no versions for cross-platform compatibility)
+        while read package; do
+          if [ ! -z "$package" ]; then
+            echo "  - $package" >> environment.yml
+          fi
+        done < conda_packages.txt
+        
+        # Add pip packages if any
+        if [ -s pip_packages.txt ]; then
+          echo "  - pip:" >> environment.yml
+          while read package; do
+            if [ ! -z "$package" ]; then
+              echo "    - $package" >> environment.yml
+            fi
+          done < pip_packages.txt
+        fi
+        
+        # Clean up temporary files
+        rm conda_packages.txt pip_packages.txt
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --quiet environment.yml; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add environment.yml
+        git commit -m "Auto-update conda environment dependencies (cross-platform)"
+        git push 

@@ -1,0 +1,8 @@
+Agent,Total Profit,Win Rate,EV
+Baseline (Hit < 17),-598.0,41.77%,-0.0598
+Expert 1: Hard Totals,-576.0,42.74%,-0.0576
+Expert 2: Soft Totals,-939.0,40.41%,-0.0939
+Expert 3: Dealer Aware,-690.0,42.06%,-0.0690
+Expert 4: Pro BJA (Combined),-637.0,42.50%,-0.0637
+Bonus: Ultra-Conservative,-1020.0,41.52%,-0.1020
+Bonus: Stochastic Rule,-728.0,42.18%,-0.0728
