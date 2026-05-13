@@ -1,0 +1,40 @@
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08417589996679453
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\agent.py:56: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:257.)
+  states = torch.FloatTensor(states).to(self.device)
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.13529279984504683
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 22.72 | Epsilon: 0.995 | Steps: 419
+Episode 1 | Reward: 18.67 | Epsilon: 0.990 | Steps: 396
+Episode 2 | Reward: 24.36 | Epsilon: 0.985 | Steps: 400
+Episode 3 | Reward: 9.80 | Epsilon: 0.980 | Steps: 143
+Episode 4 | Reward: 8.55 | Epsilon: 0.975 | Steps: 125
+Episode 5 | Reward: 34.27 | Epsilon: 0.970 | Steps: 673
+Episode 6 | Reward: 9.82 | Epsilon: 0.966 | Steps: 162
+Episode 7 | Reward: 9.92 | Epsilon: 0.961 | Steps: 141
+Episode 8 | Reward: 10.45 | Epsilon: 0.956 | Steps: 179
+Episode 9 | Reward: 9.91 | Epsilon: 0.951 | Steps: 156
+Episode 10 | Reward: 10.04 | Epsilon: 0.946 | Steps: 249
+Episode 11 | Reward: 23.39 | Epsilon: 0.942 | Steps: 435
+Episode 12 | Reward: 24.78 | Epsilon: 0.937 | Steps: 489
+Episode 13 | Reward: 9.99 | Epsilon: 0.932 | Steps: 173
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\train.py", line 76, in <module>
+    action = agent.select_action(state)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 443, in step
+    self.wait()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 458, in wait
+    self.interface.wait()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 181, in wait
+    time.sleep(0.5)
+KeyboardInterrupt

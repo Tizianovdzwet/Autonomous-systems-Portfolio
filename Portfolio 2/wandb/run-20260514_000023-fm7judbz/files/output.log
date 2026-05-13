@@ -1,0 +1,27 @@
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11911749980936293
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 10.49 | Epsilon: 0.995 | Steps: 149
+Episode 1 | Reward: 10.11 | Epsilon: 0.990 | Steps: 176
+Episode 2 | Reward: 9.81 | Epsilon: 0.985 | Steps: 216
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\train.py", line 79, in <module>
+    next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 427, in step
+    self._join_thread()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 273, in _join_thread
+    self._at_thread.join()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt

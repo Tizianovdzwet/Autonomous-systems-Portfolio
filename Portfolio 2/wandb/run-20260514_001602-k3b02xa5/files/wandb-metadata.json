@@ -1,0 +1,38 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.10.20",
+  "startedAt":  "2026-05-13T22:16:02.123483Z",
+  "program":  "-m src.sweep",
+  "git":  {
+    "remote":  "https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git",
+    "commit":  "8d7943c69726a486b45a85a839a5027b329b6bc1"
+  },
+  "email":  "matthias@devreede.net",
+  "root":  "C:\\Users\\matt\\Documents\\[1] - Code Projects\\[0] - College\\Autonomous-systems-Portfolio\\Portfolio 2",
+  "host":  "DESKTOP-V93H26C",
+  "executable":  "C:\\Users\\matt\\miniconda3\\envs\\trackmania\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 4070",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "499429404672",
+      "used":  "435318845440"
+    }
+  },
+  "memory":  {
+    "total":  "34262204416"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4070",
+      "memoryTotal":  "12878610432",
+      "cudaCores":  5888,
+      "architecture":  "Ada",
+      "uuid":  "GPU-a0db4fb5-d0e2-b7b1-f0a0-247ce864b901"
+    }
+  ],
+  "cudaVersion":  "13.1",
+  "writerId":  "3ihihqml8vq7cyfgo1xd8oco2jqosxfx"
+}

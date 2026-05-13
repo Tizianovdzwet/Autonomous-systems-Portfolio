@@ -1,0 +1,52 @@
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11824669990164693
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 22.71 | Epsilon: 0.995 | Steps: 491
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055140299678896554
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 1 | Reward: 10.35 | Epsilon: 0.990 | Steps: 160
+Episode 2 | Reward: 16.63 | Epsilon: 0.985 | Steps: 339
+Episode 3 | Reward: 10.06 | Epsilon: 0.980 | Steps: 186
+Episode 4 | Reward: 23.98 | Epsilon: 0.975 | Steps: 449
+Episode 5 | Reward: 17.42 | Epsilon: 0.970 | Steps: 315
+Episode 6 | Reward: 16.63 | Epsilon: 0.966 | Steps: 469
+Episode 7 | Reward: 23.90 | Epsilon: 0.961 | Steps: 489
+Episode 8 | Reward: 61.03 | Epsilon: 0.956 | Steps: 1000
+Episode 9 | Reward: 23.54 | Epsilon: 0.951 | Steps: 403
+Episode 10 | Reward: 10.76 | Epsilon: 0.946 | Steps: 200
+Episode 11 | Reward: 9.05 | Epsilon: 0.942 | Steps: 131
+Episode 12 | Reward: 19.40 | Epsilon: 0.937 | Steps: 428
+Episode 13 | Reward: 25.08 | Epsilon: 0.932 | Steps: 503
+Episode 14 | Reward: 10.03 | Epsilon: 0.928 | Steps: 200
+Episode 15 | Reward: 9.91 | Epsilon: 0.923 | Steps: 158
+Episode 16 | Reward: 9.39 | Epsilon: 0.918 | Steps: 222
+Episode 17 | Reward: 16.29 | Epsilon: 0.914 | Steps: 419
+Episode 18 | Reward: 16.37 | Epsilon: 0.909 | Steps: 379
+Episode 19 | Reward: 10.08 | Epsilon: 0.905 | Steps: 139
+Episode 20 | Reward: 23.49 | Epsilon: 0.900 | Steps: 472
+Episode 21 | Reward: 10.06 | Epsilon: 0.896 | Steps: 217
+Episode 22 | Reward: 25.31 | Epsilon: 0.891 | Steps: 530
+Episode 23 | Reward: 10.43 | Epsilon: 0.887 | Steps: 143
+Episode 24 | Reward: 15.18 | Epsilon: 0.882 | Steps: 298
+Episode 25 | Reward: 30.70 | Epsilon: 0.878 | Steps: 621
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\train.py", line 79, in <module>
+    next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 427, in step
+    self._join_thread()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 273, in _join_thread
+    self._at_thread.join()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt

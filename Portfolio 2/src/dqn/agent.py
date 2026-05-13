@@ -53,11 +53,11 @@ class DQNAgent:
         states, actions, rewards, next_states, dones = zip(*batch)
         
         # 3. Convert to tensors
-        states = torch.FloatTensor(states).to(self.device)
-        actions = torch.LongTensor(actions).to(self.device)
-        rewards = torch.FloatTensor(rewards).to(self.device)
-        next_states = torch.FloatTensor(next_states).to(self.device)
-        dones = torch.FloatTensor(dones).to(self.device)
+        states = torch.FloatTensor(np.array(states)).to(self.device)
+        actions = torch.LongTensor(np.array(actions)).to(self.device)
+        rewards = torch.FloatTensor(np.array(rewards)).to(self.device)
+        next_states = torch.FloatTensor(np.array(next_states)).to(self.device)
+        dones = torch.FloatTensor(np.array(dones)).to(self.device)
         
         # 4. Compute current Q-values
         current_q = self.q_network(states).gather(1, actions.unsqueeze(1))
@@ -77,6 +77,22 @@ class DQNAgent:
         
         return loss.item()
     
+
+    def save(self, path):
+        torch.save({
+            'q_network': self.q_network.state_dict(),
+            'target_network': self.target_network.state_dict(),
+            'optimizer': self.optimizer.state_dict(),
+            'epsilon': self.epsilon,
+        }, path)
+
+    def load(self, path):
+        checkpoint = torch.load(path)
+        self.q_network.load_state_dict(checkpoint['q_network'])
+        self.target_network.load_state_dict(checkpoint['target_network'])
+        self.optimizer.load_state_dict(checkpoint['optimizer'])
+        self.epsilon = checkpoint['epsilon']
+
     def update_target_network(self):
         self.target_network.load_state_dict(self.q_network.state_dict())
         

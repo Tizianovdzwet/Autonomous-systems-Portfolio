@@ -167,3 +167,86 @@ Episode 145, Total Reward: 5.820001602172852
 Episode 146, Total Reward: 10.079998016357422
 Episode 147, Total Reward: 15.810009002685547
 Episode 148, Total Reward: 11.250006675720215
+Episode 149, Total Reward: 33.81002426147461
+Episode 150, Total Reward: 9.950002670288086
+Episode 151, Total Reward: 9.99999713897705
+Episode 152, Total Reward: 10.30000114440918
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06288299916923279
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 153, Total Reward: 16.690006256103516
+Episode 154, Total Reward: 9.890003204345703
+Episode 155, Total Reward: 10.280003547668457
+Episode 156, Total Reward: 9.770011901855469
+Episode 157, Total Reward: 9.680000305175781
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.053293899771233555
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 158, Total Reward: 1.9299992322921753
+Episode 159, Total Reward: 10.95999813079834
+Episode 160, Total Reward: 8.010000228881836
+Episode 161, Total Reward: 9.430000305175781
+Episode 162, Total Reward: 11.090006828308105
+Episode 163, Total Reward: 17.240013122558594
+Episode 164, Total Reward: 22.62002182006836
+Episode 165, Total Reward: 9.84000015258789
+Episode 166, Total Reward: 21.8900146484375
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 1.3652151998103363
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 167, Total Reward: 3.9800004959106445
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 1.04463789924921
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5302343999574077
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 168, Total Reward: 19.800016403198242
+Episode 169, Total Reward: 6.519999980926514
+Episode 170, Total Reward: 7.240000247955322
+Episode 171, Total Reward: 15.419998168945312
+Episode 172, Total Reward: 10.769999504089355
+Episode 173, Total Reward: 30.32001304626465
+Episode 174, Total Reward: 9.990002632141113
+Episode 175, Total Reward: 9.650004386901855
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05595479893236188
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 176, Total Reward: 24.350000381469727
+Episode 177, Total Reward: 0.0
+Episode 178, Total Reward: 10.29999828338623
+Episode 179, Total Reward: 9.89000415802002
+Episode 180, Total Reward: 10.870001792907715
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.051365099803660996
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 181, Total Reward: 8.63000202178955
+Episode 182, Total Reward: 10.969998359680176
+Episode 183, Total Reward: 12.550006866455078
+Episode 184, Total Reward: 10.1899995803833
+Episode 185, Total Reward: 9.000000953674316
+Episode 186, Total Reward: 10.609999656677246
+Episode 187, Total Reward: 15.150009155273438
+Episode 188, Total Reward: 9.860001564025879
+Episode 189, Total Reward: 0.06999999284744263
+Episode 190, Total Reward: 10.539999008178711
+Episode 191, Total Reward: 9.559996604919434
+Episode 192, Total Reward: 10.210002899169922
+Episode 193, Total Reward: 10.289999961853027
+Episode 194, Total Reward: 2.3099992275238037
+Episode 195, Total Reward: 10.030003547668457
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\train.py", line 54, in <module>
+    next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 427, in step
+    self._join_thread()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 273, in _join_thread
+    self._at_thread.join()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
