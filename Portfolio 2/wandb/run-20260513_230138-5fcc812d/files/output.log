@@ -1,0 +1,169 @@
+C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\agent.py:52: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:257.)
+  states = torch.FloatTensor(states)
+Episode 0, Total Reward: 11.200008392333984
+Episode 1, Total Reward: 9.98000431060791
+Episode 2, Total Reward: 15.910015106201172
+Episode 3, Total Reward: 8.670008659362793
+Episode 4, Total Reward: 23.919992446899414
+Episode 5, Total Reward: 16.770017623901367
+Episode 6, Total Reward: 24.460012435913086
+Episode 7, Total Reward: 10.210002899169922
+Episode 8, Total Reward: 10.139997482299805
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05206769730284577
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.054491799950483255
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 9, Total Reward: 68.42008972167969
+Episode 10, Total Reward: 8.60999870300293
+Episode 11, Total Reward: 10.45999813079834
+Episode 12, Total Reward: 9.330002784729004
+Episode 13, Total Reward: 9.380005836486816
+Episode 14, Total Reward: 23.539997100830078
+Episode 15, Total Reward: 57.250118255615234
+Episode 16, Total Reward: 16.130006790161133
+Episode 17, Total Reward: 10.09000015258789
+Episode 18, Total Reward: 8.820001602172852
+Episode 19, Total Reward: 9.990005493164062
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 75.77671989758528
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.16016969999327557
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 20, Total Reward: 47.29004669189453
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 4.14361649996863
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05129519999900367
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 21, Total Reward: 8.780006408691406
+Episode 22, Total Reward: 9.429998397827148
+Episode 23, Total Reward: 17.780010223388672
+Episode 24, Total Reward: 10.100003242492676
+Episode 25, Total Reward: 10.510004043579102
+Episode 26, Total Reward: 17.240026473999023
+Episode 27, Total Reward: 9.149998664855957
+Episode 28, Total Reward: 10.430000305175781
+Episode 29, Total Reward: 26.460031509399414
+Episode 30, Total Reward: 17.41004180908203
+Episode 31, Total Reward: 9.630002975463867
+Episode 32, Total Reward: 18.80000114440918
+Episode 33, Total Reward: 35.39002227783203
+Episode 34, Total Reward: 15.700010299682617
+Episode 35, Total Reward: 9.680002212524414
+Episode 36, Total Reward: 54.1201171875
+Episode 37, Total Reward: 9.89000415802002
+Episode 38, Total Reward: 10.369999885559082
+Episode 39, Total Reward: 10.220000267028809
+Episode 40, Total Reward: 9.780008316040039
+Episode 41, Total Reward: 9.530000686645508
+Episode 42, Total Reward: 9.620004653930664
+Episode 43, Total Reward: 17.810009002685547
+Episode 44, Total Reward: 9.729999542236328
+Episode 45, Total Reward: 16.930023193359375
+Episode 46, Total Reward: 16.120019912719727
+Episode 47, Total Reward: 10.59999942779541
+Episode 48, Total Reward: 9.659998893737793
+Episode 49, Total Reward: 63.590087890625
+Episode 50, Total Reward: 24.260040283203125
+Episode 51, Total Reward: 11.810001373291016
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05769869803043548
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05042279999906896
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 52, Total Reward: 51.85005569458008
+Episode 53, Total Reward: 16.92000961303711
+Episode 54, Total Reward: 16.8000431060791
+Episode 55, Total Reward: 8.65999984741211
+Episode 56, Total Reward: 9.220000267028809
+Episode 57, Total Reward: 9.370000839233398
+Episode 58, Total Reward: 8.080004692077637
+Episode 59, Total Reward: 10.310001373291016
+Episode 60, Total Reward: 9.720001220703125
+Episode 61, Total Reward: 9.810004234313965
+Episode 62, Total Reward: 15.040017127990723
+Episode 63, Total Reward: 57.46013641357422
+Episode 64, Total Reward: 23.110002517700195
+Episode 65, Total Reward: 7.540008544921875
+Episode 66, Total Reward: 3.949997901916504
+Episode 67, Total Reward: 23.690040588378906
+Episode 68, Total Reward: 8.960000991821289
+Episode 69, Total Reward: 23.22001838684082
+Episode 70, Total Reward: 4.890002727508545
+Episode 71, Total Reward: 9.660002708435059
+Episode 72, Total Reward: 10.909997940063477
+Episode 73, Total Reward: 9.830002784729004
+Episode 74, Total Reward: 2.2799997329711914
+Episode 75, Total Reward: 2.959998846054077
+Episode 76, Total Reward: 15.770021438598633
+Episode 77, Total Reward: 9.970003128051758
+Episode 78, Total Reward: 9.800005912780762
+Episode 79, Total Reward: 9.089999198913574
+Episode 80, Total Reward: 10.280001640319824
+Episode 81, Total Reward: 47.75008773803711
+Episode 82, Total Reward: 9.770004272460938
+Episode 83, Total Reward: 10.930006980895996
+Episode 84, Total Reward: 1.8499990701675415
+Episode 85, Total Reward: 9.130005836486816
+Episode 86, Total Reward: 9.290007591247559
+Episode 87, Total Reward: 8.98000431060791
+Episode 88, Total Reward: 9.460004806518555
+Episode 89, Total Reward: 8.400012969970703
+Episode 90, Total Reward: 16.00003433227539
+Episode 91, Total Reward: 10.14000129699707
+Episode 92, Total Reward: 22.51002311706543
+Episode 93, Total Reward: 10.059998512268066
+Episode 94, Total Reward: 10.120007514953613
+Episode 95, Total Reward: 9.840002059936523
+Episode 96, Total Reward: 16.520008087158203
+Episode 97, Total Reward: 16.110021591186523
+Episode 98, Total Reward: 9.559999465942383
+Episode 99, Total Reward: 3.259998083114624
+Episode 100, Total Reward: 9.160003662109375
+Episode 101, Total Reward: 10.210000991821289
+Episode 102, Total Reward: 2.709998607635498
+Episode 103, Total Reward: 9.170015335083008
+Episode 104, Total Reward: 23.23005485534668
+Episode 105, Total Reward: 27.249996185302734
+Episode 106, Total Reward: 10.320006370544434
+Episode 107, Total Reward: 11.51000690460205
+Episode 108, Total Reward: 9.60000228881836
+Episode 109, Total Reward: 15.940021514892578
+Episode 110, Total Reward: 23.71003532409668
+Episode 111, Total Reward: 10.460000991821289
+Episode 112, Total Reward: 28.720035552978516
+Episode 113, Total Reward: 4.219998836517334
+Episode 114, Total Reward: 4.829998016357422
+Episode 115, Total Reward: 47.45009231567383
+Episode 116, Total Reward: 6.29000186920166
+Episode 117, Total Reward: 2.649998903274536
+Episode 118, Total Reward: 8.630002975463867
+Episode 119, Total Reward: 1.6199995279312134
+Episode 120, Total Reward: 10.38000202178955
+Episode 121, Total Reward: 12.020001411437988
+Episode 122, Total Reward: 10.150005340576172
+Episode 123, Total Reward: 6.570000648498535
+Episode 124, Total Reward: 16.040008544921875
+Episode 125, Total Reward: 1.7399988174438477
+Episode 126, Total Reward: 11.270000457763672
+Episode 127, Total Reward: 25.63002586364746
+Episode 128, Total Reward: 10.060005187988281
+Episode 129, Total Reward: 4.889999866485596
+Episode 130, Total Reward: 10.550003051757812
+Episode 131, Total Reward: 1.3499997854232788
+Episode 132, Total Reward: 11.500004768371582
+Episode 133, Total Reward: 5.739999294281006
+Episode 134, Total Reward: 1.6699997186660767
+Episode 135, Total Reward: 9.070000648498535
+Episode 136, Total Reward: 8.970001220703125
+Episode 137, Total Reward: 11.48000431060791
+Episode 138, Total Reward: 1.7599992752075195
+Episode 139, Total Reward: 5.659999847412109
+Episode 140, Total Reward: 2.4299986362457275
+Episode 141, Total Reward: 10.10000228881836
+Episode 142, Total Reward: 9.450000762939453
+Episode 143, Total Reward: 14.45001220703125
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0632549998772447
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 144, Total Reward: 8.220000267028809
+Episode 145, Total Reward: 5.820001602172852
+Episode 146, Total Reward: 10.079998016357422
+Episode 147, Total Reward: 15.810009002685547
+Episode 148, Total Reward: 11.250006675720215

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\dqn\train.py", line 54, in <module>
+    next_state = process_observation(next_obs)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\utils\environment.py", line 10, in process_observation
+    return np.concatenate([o.flatten() for o in obs])
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\utils\environment.py", line 10, in <listcomp>
+    return np.concatenate([o.flatten() for o in obs])
+AttributeError: 'list' object has no attribute 'flatten'
