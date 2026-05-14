@@ -1,0 +1,22 @@
+
+Starting run: sweep-lr0.001-decay0.99-hidden64-batch64-gamma0.99
+Traceback (most recent call last):
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\Wille\OneDrive - De Haagse Hogeschool\Documenten\GitHub\Autonomous-systems-Portfolio\Portfolio 2\src\sweep.py", line 73, in train
+    obs, info = env.reset()
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\gymnasium\core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\gymnasium\wrappers\common.py", line 400, in reset
+    return super().reset(seed=seed, options=options)
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\gymnasium\core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py", line 396, in reset
+    elt, info = self.interface.reset(seed=seed, options=options)
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 268, in reset
+    img, speed, data = self.grab_lidar_speed_and_data()
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 250, in grab_lidar_speed_and_data
+    data = self.client.retrieve_data()
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\tmrl\custom\tm\utils\tools.py", line 72, in retrieve_data
+    assert t_now - t_start < timeout, f"OpenPlanet stopped sending data since more than {timeout}s."
+AssertionError: OpenPlanet stopped sending data since more than 10.0s.

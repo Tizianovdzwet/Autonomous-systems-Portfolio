@@ -1,0 +1,13 @@
+
+Starting run: sweep-lr0.001-decay0.995-hidden128-batch32-gamma0.999
+Network warmed up!
+Episode 0 | Reward: 42.64 | Avg: 42.64 | Epsilon: 0.995
+Episode 1 | Reward: 9.14 | Avg: 25.89 | Epsilon: 0.990
+Episode 2 | Reward: 51.18 | Avg: 34.32 | Epsilon: 0.985
+Episode 3 | Reward: 9.64 | Avg: 28.15 | Epsilon: 0.980
+Episode 4 | Reward: 10.24 | Avg: 24.57 | Epsilon: 0.975
+Episode 5 | Reward: 9.76 | Avg: 22.10 | Epsilon: 0.970
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06434340847772546
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 6 | Reward: 45.51 | Avg: 25.44 | Epsilon: 0.966
+Run crashed at episode 7:

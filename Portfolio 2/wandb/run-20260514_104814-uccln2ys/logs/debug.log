@@ -1,0 +1,25 @@
+2026-05-14 10:48:14,027 INFO    Thread-9 (_run_job):24208 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-14 10:48:14,027 INFO    Thread-9 (_run_job):24208 [wandb_setup.py:_flush():81] Configure stats pid to 24208
+2026-05-14 10:48:14,028 INFO    Thread-9 (_run_job):24208 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-14 10:48:14,028 INFO    Thread-9 (_run_job):24208 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260514_104814-uccln2ys\logs\debug.log
+2026-05-14 10:48:14,028 INFO    Thread-9 (_run_job):24208 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260514_104814-uccln2ys\logs\debug-internal.log
+2026-05-14 10:48:14,028 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():850] calling init triggers
+2026-05-14 10:48:14,028 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():855] wandb.init called with sweep_config: {'batch_size': 64, 'epsilon_decay': 0.995, 'gamma': 0.999, 'hidden_size': 32, 'lr': 0.0001}
+config: {'_wandb': {}}
+2026-05-14 10:48:14,028 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():898] starting backend
+2026-05-14 10:48:16,376 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():913] sending inform_init request
+2026-05-14 10:48:17,063 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():918] backend started and connected
+2026-05-14 10:48:17,063 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_config_callback():1415] config_cb None None {'batch_size': 64, 'epsilon_decay': 0.995, 'gamma': 0.999, 'hidden_size': 32, 'lr': 0.0001}
+2026-05-14 10:48:17,064 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():988] updated telemetry
+2026-05-14 10:48:17,107 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-14 10:48:17,554 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-14 10:48:17,680 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-14 10:48:17,681 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-14 10:48:17,681 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-14 10:48:17,681 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-14 10:48:17,685 INFO    Thread-9 (_run_job):24208 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-14 11:04:02,365 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_finish():2321] finishing run hhs-autonomous-systems/trackmania-rl/uccln2ys
+2026-05-14 11:04:02,366 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 0
+2026-05-14 11:04:02,366 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_restore():2502] restore
+2026-05-14 11:04:02,366 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_restore():2508] restore done
+2026-05-14 11:04:03,382 INFO    Thread-9 (_run_job):24208 [wandb_run.py:_footer_sync_info():3889] logging synced files

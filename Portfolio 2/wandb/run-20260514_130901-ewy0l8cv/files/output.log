@@ -1,0 +1,14 @@
+
+Starting run: sweep-lr0.0001-decay0.99-hidden64-batch64-gamma0.999
+Traceback (most recent call last):
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\Wille\OneDrive - De Haagse Hogeschool\Documenten\GitHub\Autonomous-systems-Portfolio\Portfolio 2\src\sweep.py", line 58, in train
+    wandb.run.save()
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\wandb\sdk\wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\wandb\sdk\wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\wandb\sdk\wandb_run.py", line 444, in wrapper
+    return func(self, *args, **kwargs)
+TypeError: Run.save() missing 1 required positional argument: 'glob_str'

@@ -1,5 +1,6 @@
 import os
 import sys
+import torch
 import wandb
 from src.utils.environment import make_env
 from src.utils.environment import process_observation
@@ -34,12 +35,25 @@ sweep_config = {
     }
 }
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# TRAIN_EVERY = 8 if device.type == "cuda" else 16
+TRAIN_EVERY = 16  # simplified
+print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
+
+env = make_env()
+
 def train():
     run = wandb.init()
     config = wandb.config
 
     RUN_NAME = f"sweep-lr{config.lr}-decay{config.epsilon_decay}-hidden{config.hidden_size}-batch{config.batch_size}-gamma{config.gamma}"
     print(f"\nStarting run: {RUN_NAME}")
+
+    wandb.config.update({
+        "run_name": RUN_NAME,
+    }, allow_val_change=True)
+
+    wandb.run.name = f"phase-1-sweep-{wandb.run.id[:4]}"
 
     agent = DQNAgent(
         input_size=83,
@@ -54,7 +68,13 @@ def train():
         batch_size=config.batch_size
     )
 
-    env = make_env()
+    # Warm up GPU/CPU before real-time loop
+    dummy = torch.zeros(config.batch_size, 83).to(agent.device)
+    with torch.no_grad():
+        agent.q_network(dummy)
+        agent.target_network(dummy)
+    print("Network warmed up!")
+
     os.makedirs(f"experiments/runs/{RUN_NAME}", exist_ok=True)
 
     ACTIONS = [
@@ -66,59 +86,72 @@ def train():
 
     EPISODES = 500
     TARGET_UPDATE_EVERY = 10
-    TRAIN_EVERY = 8
     recent_rewards = []
+    x = 0
 
-    for x in range(EPISODES):
-        obs, info = env.reset()
-        done = False
-        total_reward = 0
-        step_count = 0
-        loss = None
-
-        while not done:
+    try:
+        for x in range(EPISODES):
+            obs, info = env.reset()
+            done = False
+            total_reward = 0
+            step_count = 0
             loss = None
-            state = process_observation(obs)
-            action = agent.select_action(state)
 
-            next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
-            next_state = process_observation(next_obs)
-            done = terminated or truncated
-            total_reward += reward
-            step_count += 1
+            while not done:
+                loss = None
+                state = process_observation(obs)
+                action = agent.select_action(state)
 
-            agent.store_transition(state, action, reward, next_state, done)
-            if step_count % TRAIN_EVERY == 0:
-                loss = agent.train()
+                next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
+                next_state = process_observation(next_obs)
+                done = terminated or truncated
+                total_reward += reward
+                step_count += 1
 
-            obs = next_obs
+                agent.store_transition(state, action, reward, next_state, done)
+                if step_count % TRAIN_EVERY == 0:
+                    loss = agent.train()
 
-        agent.decay_epsilon()
+                obs = next_obs
 
-        if x % TARGET_UPDATE_EVERY == 0:
-            agent.update_target_network()
+            agent.decay_epsilon()
 
-        if x % 50 == 0:
-            agent.save(f"experiments/runs/{RUN_NAME}/dqn_episode_{x}.pt")
+            if x % TARGET_UPDATE_EVERY == 0:
+                agent.update_target_network()
 
-        recent_rewards.append(total_reward)
-        if len(recent_rewards) > 50:
-            recent_rewards.pop(0)
+            if x % 50 == 0:
+                agent.save(f"experiments/runs/{RUN_NAME}/dqn_episode_{x}.pt")
 
-        wandb.log({
-            "episode": x,
-            "total_reward": total_reward,
-            "avg_recent_reward": sum(recent_rewards) / len(recent_rewards),
-            "epsilon": agent.epsilon,
-            "buffer_size": len(agent.buffer),
-            "episode_length": step_count,
-            "loss": loss if loss is not None else 0,
-        })
+            recent_rewards.append(total_reward)
+            if len(recent_rewards) > 50:
+                recent_rewards.pop(0)
 
-        print(f"Episode {x} | Reward: {total_reward:.2f} | Avg: {sum(recent_rewards)/len(recent_rewards):.2f} | Epsilon: {agent.epsilon:.3f}")
+            wandb.log({
+                "episode": x,
+                "total_reward": total_reward,
+                "avg_recent_reward": sum(recent_rewards) / len(recent_rewards),
+                "epsilon": agent.epsilon,
+                "buffer_size": len(agent.buffer),
+                "episode_length": step_count,
+                "loss": loss if loss is not None else 0,
+            })
 
-    agent.save(f"experiments/runs/{RUN_NAME}/dqn_final.pt")
-    wandb.finish()
+            print(f"Episode {x} | Reward: {total_reward:.2f} | Avg: {sum(recent_rewards)/len(recent_rewards):.2f} | Epsilon: {agent.epsilon:.3f}")
+
+        agent.save(f"experiments/runs/{RUN_NAME}/dqn_final.pt")
+        wandb.finish(exit_code=0)  # success
+
+    except KeyboardInterrupt:
+        print("Manual stop - saving checkpoint...")
+        agent.save(f"experiments/runs/{RUN_NAME}/dqn_episode_{x}_stopped.pt")
+        wandb.finish(exit_code=1)
+        raise
+    except BaseException as e:
+        print(f"Run crashed at episode {x}: {e}")
+        agent.save(f"experiments/runs/{RUN_NAME}/dqn_episode_{x}_crashed.pt")
+        wandb.finish(exit_code=1)
+    finally:
+        pass
 
 
 # Your PC creates the sweep, buddy's PC joins it
@@ -133,4 +166,10 @@ else:
     )
     print(f"Created sweep: {sweep_id}")
 
-wandb.agent(sweep_id, function=train, count=10)
+wandb.agent(
+    sweep_id,
+    function=train,
+    entity="hhs-autonomous-systems",
+    project="trackmania-rl",
+    count=10
+)

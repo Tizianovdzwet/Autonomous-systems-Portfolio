@@ -73,6 +73,7 @@ class DQNAgent:
         # 7. Backprop
         self.optimizer.zero_grad()
         loss.backward()
+        torch.nn.utils.clip_grad_norm_(self.q_network.parameters(), max_norm=1.0)
         self.optimizer.step()
         
         return loss.item()

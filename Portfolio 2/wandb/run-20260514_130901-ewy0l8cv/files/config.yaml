@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            7juud6m39ji9i05q4wwb2jbc62su61rz:
+                args:
+                    - 0flch31g
+                email: willemvd@outlook.com
+                executable: C:\Users\Wille\anaconda3\envs\trackmania-rl\python.exe
+                git:
+                    commit: 6651da73f49b5e7842beb094656cc3420a6413df
+                    remote: https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git
+                host: Willem_PC
+                os: Windows-10-10.0.26200-SP0
+                program: -m src.sweep
+                python: CPython 3.10.20
+                root: C:\Users\Wille\OneDrive - De Haagse Hogeschool\Documenten\GitHub\Autonomous-systems-Portfolio\Portfolio 2
+                startedAt: "2026-05-14T11:09:01.890144Z"
+                writerId: 7juud6m39ji9i05q4wwb2jbc62su61rz
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 14
+                - 17
+            "4": 3.10.20
+            "5": 0.25.1
+            "8":
+                - 3
+            "12": 0.25.1
+            "13": windows-amd64
+batch_size:
+    value: 64
+epsilon_decay:
+    value: 0.99
+gamma:
+    value: 0.999
+hidden_size:
+    value: 64
+lr:
+    value: 0.0001
+resume_command:
+    value: python -m src.sweep 0flch31g
+run_name:
+    value: sweep-lr0.0001-decay0.99-hidden64-batch64-gamma0.999

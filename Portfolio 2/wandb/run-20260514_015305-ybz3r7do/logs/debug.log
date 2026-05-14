@@ -1,0 +1,25 @@
+2026-05-14 01:53:05,016 INFO    Thread-63243 (_run_job):25628 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-14 01:53:05,016 INFO    Thread-63243 (_run_job):25628 [wandb_setup.py:_flush():81] Configure stats pid to 25628
+2026-05-14 01:53:05,016 INFO    Thread-63243 (_run_job):25628 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-14 01:53:05,017 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260514_015305-ybz3r7do\logs\debug.log
+2026-05-14 01:53:05,017 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260514_015305-ybz3r7do\logs\debug-internal.log
+2026-05-14 01:53:05,020 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():850] calling init triggers
+2026-05-14 01:53:05,020 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():855] wandb.init called with sweep_config: {'batch_size': 32, 'epsilon_decay': 0.995, 'gamma': 0.999, 'hidden_size': 128, 'lr': 1e-05}
+config: {'_wandb': {}}
+2026-05-14 01:53:05,020 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():898] starting backend
+2026-05-14 01:53:07,229 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():913] sending inform_init request
+2026-05-14 01:53:07,502 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():918] backend started and connected
+2026-05-14 01:53:07,503 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_config_callback():1415] config_cb None None {'batch_size': 32, 'epsilon_decay': 0.995, 'gamma': 0.999, 'hidden_size': 128, 'lr': 1e-05}
+2026-05-14 01:53:07,504 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():988] updated telemetry
+2026-05-14 01:53:07,547 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-14 01:53:07,866 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-14 01:53:07,975 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-14 01:53:07,975 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-14 01:53:07,975 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-14 01:53:07,976 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-14 01:53:07,977 INFO    Thread-63243 (_run_job):25628 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-14 02:07:01,408 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_finish():2321] finishing run hhs-autonomous-systems/trackmania-rl/ybz3r7do
+2026-05-14 02:07:01,409 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 1
+2026-05-14 02:07:01,409 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_restore():2502] restore
+2026-05-14 02:07:01,409 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_restore():2508] restore done
+2026-05-14 02:07:02,430 INFO    Thread-63243 (_run_job):25628 [wandb_run.py:_footer_sync_info():3889] logging synced files

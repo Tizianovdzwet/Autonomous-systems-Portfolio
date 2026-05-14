@@ -1,0 +1,65 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            5mnrfxf4lihmqex7a8iydae2k1pvl6hy:
+                args:
+                    - 0flch31g
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "499429404672"
+                        used: "435819929600"
+                email: matthias@devreede.net
+                executable: C:\Users\matt\miniconda3\envs\trackmania\python.exe
+                git:
+                    commit: 9c734b7238532824edd4f6ac8d28af92f2cc66e7
+                    remote: https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git
+                gpu: NVIDIA GeForce RTX 4070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 5888
+                      memoryTotal: "12878610432"
+                      name: NVIDIA GeForce RTX 4070
+                      uuid: GPU-a0db4fb5-d0e2-b7b1-f0a0-247ce864b901
+                host: DESKTOP-V93H26C
+                memory:
+                    total: "34262204416"
+                os: Windows-10-10.0.19045-SP0
+                program: -m src.sweep
+                python: CPython 3.10.20
+                root: C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2
+                startedAt: "2026-05-14T15:42:10.459264Z"
+                writerId: 5mnrfxf4lihmqex7a8iydae2k1pvl6hy
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 14
+                - 17
+            "4": 3.10.20
+            "5": 0.26.1
+            "8":
+                - 3
+            "12": 0.26.1
+            "13": windows-amd64
+batch_size:
+    value: 16
+epsilon_decay:
+    value: 0.999
+gamma:
+    value: 0.99
+hidden_size:
+    value: 128
+lr:
+    value: 0.001
+run_name:
+    value: sweep-lr0.001-decay0.999-hidden128-batch16-gamma0.99

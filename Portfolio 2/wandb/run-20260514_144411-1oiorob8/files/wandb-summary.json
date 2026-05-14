@@ -1,0 +1,1 @@
+{"_timestamp":1.7787723898218515e+09,"epsilon":0.6063789448611848,"buffer_size":100000,"_runtime":9735,"episode":499,"loss":0,"avg_recent_reward":22.603212356567383,"_wandb":{"runtime":9735},"total_reward":9.840006828308105,"episode_length":197,"_step":499}

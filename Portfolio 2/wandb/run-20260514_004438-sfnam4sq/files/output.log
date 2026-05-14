@@ -1,0 +1,21 @@
+
+Starting run: sweep-lr0.0001-decay0.995-hidden32-batch16-gamma0.999
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.16538069994567195
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 11.52 | Avg: 11.52 | Epsilon: 0.995
+Episode 1 | Reward: 10.52 | Avg: 11.02 | Epsilon: 0.990
+Episode 2 | Reward: 9.24 | Avg: 10.43 | Epsilon: 0.985
+Episode 3 | Reward: 9.63 | Avg: 10.23 | Epsilon: 0.980
+Episode 4 | Reward: 53.82 | Avg: 18.95 | Epsilon: 0.975
+Episode 5 | Reward: 9.77 | Avg: 17.42 | Epsilon: 0.970
+Episode 6 | Reward: 23.06 | Avg: 18.22 | Epsilon: 0.966
+Episode 7 | Reward: 10.54 | Avg: 17.26 | Epsilon: 0.961
+Episode 8 | Reward: 10.92 | Avg: 16.56 | Epsilon: 0.956
+Episode 9 | Reward: 32.70 | Avg: 18.17 | Epsilon: 0.951
+Episode 10 | Reward: 15.56 | Avg: 17.93 | Epsilon: 0.946
+Episode 11 | Reward: 16.02 | Avg: 17.78 | Epsilon: 0.942
+Episode 12 | Reward: 9.84 | Avg: 17.16 | Epsilon: 0.937
+Episode 13 | Reward: 10.12 | Avg: 16.66 | Epsilon: 0.932
+Episode 14 | Reward: 25.87 | Avg: 17.28 | Epsilon: 0.928
+Episode 15 | Reward: 9.97 | Avg: 16.82 | Epsilon: 0.923
+Episode 16 | Reward: 26.03 | Avg: 17.36 | Epsilon: 0.918

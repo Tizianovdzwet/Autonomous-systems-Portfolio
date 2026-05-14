@@ -1,0 +1,8 @@
+
+Starting run: sweep-lr0.001-decay0.999-hidden64-batch32-gamma0.95
+Network warmed up!
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 10.582915399783815
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 10.05 | Avg: 10.05 | Epsilon: 0.999
+Episode 1 | Reward: 24.01 | Avg: 17.03 | Epsilon: 0.998
+Run crashed at episode 2:

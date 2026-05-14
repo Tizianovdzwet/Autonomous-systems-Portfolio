@@ -1,0 +1,15 @@
+
+Starting run: sweep-lr1e-05-decay0.995-hidden32-batch64-gamma0.999
+Network warmed up!
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.17137420004655723
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 60.22 | Avg: 60.22 | Epsilon: 0.995
+Episode 1 | Reward: 10.17 | Avg: 35.20 | Epsilon: 0.990
+Episode 2 | Reward: 46.61 | Avg: 39.00 | Epsilon: 0.985
+Episode 3 | Reward: 51.67 | Avg: 42.17 | Epsilon: 0.980
+Episode 4 | Reward: 8.08 | Avg: 35.35 | Epsilon: 0.975
+Episode 5 | Reward: 10.09 | Avg: 31.14 | Epsilon: 0.970
+Episode 6 | Reward: 2.99 | Avg: 27.12 | Epsilon: 0.966
+Episode 7 | Reward: 9.81 | Avg: 24.96 | Epsilon: 0.961
+Episode 8 | Reward: 9.96 | Avg: 23.29 | Epsilon: 0.956
+Episode 9 | Reward: 25.05 | Avg: 23.47 | Epsilon: 0.951
