@@ -55,7 +55,6 @@ def train():
     }, allow_val_change=True)
 
     wandb.run.name = f"phase-1-sweep-{wandb.run.id[:4]}"
-    wandb.run.save()
 
     agent = DQNAgent(
         input_size=83,
