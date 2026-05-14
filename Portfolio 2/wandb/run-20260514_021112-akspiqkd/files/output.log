@@ -1,0 +1,92 @@
+
+Starting run: sweep-lr0.0001-decay0.99-hidden32-batch32-gamma0.999
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 10.952499203849584
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 9.28 | Avg: 9.28 | Epsilon: 0.990
+Episode 1 | Reward: 25.41 | Avg: 17.35 | Epsilon: 0.980
+Episode 2 | Reward: 9.50 | Avg: 14.73 | Epsilon: 0.970
+Episode 3 | Reward: 24.35 | Avg: 17.14 | Epsilon: 0.961
+Episode 4 | Reward: 15.76 | Avg: 16.86 | Epsilon: 0.951
+Episode 5 | Reward: 10.54 | Avg: 15.81 | Epsilon: 0.941
+Episode 6 | Reward: 19.44 | Avg: 16.33 | Epsilon: 0.932
+Episode 7 | Reward: 25.73 | Avg: 17.50 | Epsilon: 0.923
+Episode 8 | Reward: 9.24 | Avg: 16.58 | Epsilon: 0.914
+Episode 9 | Reward: 10.16 | Avg: 15.94 | Epsilon: 0.904
+Episode 10 | Reward: 10.24 | Avg: 15.42 | Epsilon: 0.895
+Episode 11 | Reward: 10.19 | Avg: 14.99 | Epsilon: 0.886
+Episode 12 | Reward: 16.57 | Avg: 15.11 | Epsilon: 0.878
+Episode 13 | Reward: 18.90 | Avg: 15.38 | Epsilon: 0.869
+Episode 14 | Reward: 3.98 | Avg: 14.62 | Epsilon: 0.860
+Episode 15 | Reward: 10.18 | Avg: 14.34 | Epsilon: 0.851
+Episode 16 | Reward: 10.87 | Avg: 14.14 | Epsilon: 0.843
+Episode 17 | Reward: 8.96 | Avg: 13.85 | Epsilon: 0.835
+Episode 18 | Reward: 31.68 | Avg: 14.79 | Epsilon: 0.826
+Episode 19 | Reward: 67.82 | Avg: 17.44 | Epsilon: 0.818
+Episode 20 | Reward: 15.94 | Avg: 17.37 | Epsilon: 0.810
+Episode 21 | Reward: 16.46 | Avg: 17.33 | Epsilon: 0.802
+Episode 22 | Reward: 10.20 | Avg: 17.02 | Epsilon: 0.794
+Episode 23 | Reward: 9.14 | Avg: 16.69 | Epsilon: 0.786
+Episode 24 | Reward: 19.11 | Avg: 16.79 | Epsilon: 0.778
+Episode 25 | Reward: 69.08 | Avg: 18.80 | Epsilon: 0.770
+Episode 26 | Reward: 26.67 | Avg: 19.09 | Epsilon: 0.762
+Episode 27 | Reward: 22.88 | Avg: 19.22 | Epsilon: 0.755
+Episode 28 | Reward: 10.33 | Avg: 18.92 | Epsilon: 0.747
+Episode 29 | Reward: 10.42 | Avg: 18.63 | Epsilon: 0.740
+Episode 30 | Reward: 9.51 | Avg: 18.34 | Epsilon: 0.732
+Episode 31 | Reward: 17.90 | Avg: 18.33 | Epsilon: 0.725
+Episode 32 | Reward: 3.59 | Avg: 17.88 | Epsilon: 0.718
+Episode 33 | Reward: 17.29 | Avg: 17.86 | Epsilon: 0.711
+Episode 34 | Reward: 22.32 | Avg: 17.99 | Epsilon: 0.703
+Episode 35 | Reward: 9.53 | Avg: 17.75 | Epsilon: 0.696
+Episode 36 | Reward: 48.44 | Avg: 18.58 | Epsilon: 0.689
+Episode 37 | Reward: 26.95 | Avg: 18.80 | Epsilon: 0.683
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.101245102356188
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Exception in thread Thread-28085 (__send_act_get_obs_and_wait):
+Traceback (most recent call last):
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 311, in __send_act_get_obs_and_wait
+    self.interface.send_control(act)
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 103, in send_control
+    control_gamepad(self.j, control)
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\utils\control_gamepad.py", line 19, in control_gamepad
+    gamepad.update()
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\vgamepad\win\virtual_gamepad.py", line 223, in update
+    check_err(vcli.vigem_target_x360_update(self._busp, self._devicep, self.report))
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\vgamepad\win\virtual_gamepad.py", line 15, in check_err
+    raise Exception(vcom.VIGEM_ERRORS(err).name)
+Exception: VIGEM_ERROR_INVALID_TARGET
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 10800.784750300052
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.3721851000445895
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 53585.22703940037
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.12185529980342835
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Episode 38 | Reward: 12.81 | Avg: 18.65 | Epsilon: 0.676
+Episode 39 | Reward: 12.79 | Avg: 18.50 | Epsilon: 0.669
+Traceback (most recent call last):
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\matth\Autonomous-systems-Portfolio\Portfolio 2\src\sweep.py", line 85, in train
+    next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 427, in step
+    self._join_thread()
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 273, in _join_thread
+    self._at_thread.join()
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "C:\Users\matth\miniconda3\envs\trackmania\lib\threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+Exception
