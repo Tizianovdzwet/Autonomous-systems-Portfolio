@@ -1,0 +1,184 @@
+
+Starting run: sweep-lr1e-05-decay0.999-hidden128-batch16-gamma0.999
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.1306716999533819
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 10.53 | Avg: 10.53 | Epsilon: 0.999
+Episode 1 | Reward: 15.81 | Avg: 13.17 | Epsilon: 0.998
+Episode 2 | Reward: 9.39 | Avg: 11.91 | Epsilon: 0.997
+Episode 3 | Reward: 25.61 | Avg: 15.34 | Epsilon: 0.996
+Episode 4 | Reward: 10.21 | Avg: 14.31 | Epsilon: 0.995
+Episode 5 | Reward: 9.84 | Avg: 13.57 | Epsilon: 0.994
+Episode 6 | Reward: 50.85 | Avg: 18.89 | Epsilon: 0.993
+Episode 7 | Reward: 26.86 | Avg: 19.89 | Epsilon: 0.992
+Episode 8 | Reward: 10.90 | Avg: 18.89 | Epsilon: 0.991
+Episode 9 | Reward: 16.89 | Avg: 18.69 | Epsilon: 0.990
+Episode 10 | Reward: 10.25 | Avg: 17.92 | Epsilon: 0.989
+Episode 11 | Reward: 9.74 | Avg: 17.24 | Epsilon: 0.988
+Episode 12 | Reward: 10.07 | Avg: 16.69 | Epsilon: 0.987
+Episode 13 | Reward: 17.22 | Avg: 16.73 | Epsilon: 0.986
+Episode 14 | Reward: 17.07 | Avg: 16.75 | Epsilon: 0.985
+Episode 15 | Reward: 24.74 | Avg: 17.25 | Epsilon: 0.984
+Episode 16 | Reward: 8.94 | Avg: 16.76 | Epsilon: 0.983
+Episode 17 | Reward: 62.12 | Avg: 19.28 | Epsilon: 0.982
+Episode 18 | Reward: 10.28 | Avg: 18.81 | Epsilon: 0.981
+Episode 19 | Reward: 8.83 | Avg: 18.31 | Epsilon: 0.980
+Episode 20 | Reward: 22.20 | Avg: 18.49 | Epsilon: 0.979
+Episode 21 | Reward: 8.29 | Avg: 18.03 | Epsilon: 0.978
+Episode 22 | Reward: 24.83 | Avg: 18.32 | Epsilon: 0.977
+Episode 23 | Reward: 10.25 | Avg: 17.99 | Epsilon: 0.976
+Episode 24 | Reward: 64.62 | Avg: 19.85 | Epsilon: 0.975
+Episode 25 | Reward: 15.69 | Avg: 19.69 | Epsilon: 0.974
+Episode 26 | Reward: 56.35 | Avg: 21.05 | Epsilon: 0.973
+Episode 27 | Reward: 9.88 | Avg: 20.65 | Epsilon: 0.972
+Episode 28 | Reward: 10.44 | Avg: 20.30 | Epsilon: 0.971
+Episode 29 | Reward: 10.10 | Avg: 19.96 | Epsilon: 0.970
+Episode 30 | Reward: 9.95 | Avg: 19.64 | Epsilon: 0.969
+Episode 31 | Reward: 9.66 | Avg: 19.33 | Epsilon: 0.968
+Episode 32 | Reward: 10.70 | Avg: 19.06 | Epsilon: 0.968
+Episode 33 | Reward: 17.18 | Avg: 19.01 | Epsilon: 0.967
+Episode 34 | Reward: 25.78 | Avg: 19.20 | Epsilon: 0.966
+Episode 35 | Reward: 10.50 | Avg: 18.96 | Epsilon: 0.965
+Episode 36 | Reward: 9.14 | Avg: 18.69 | Epsilon: 0.964
+Episode 37 | Reward: 25.17 | Avg: 18.87 | Epsilon: 0.963
+Episode 38 | Reward: 10.05 | Avg: 18.64 | Epsilon: 0.962
+Episode 39 | Reward: 26.23 | Avg: 18.83 | Epsilon: 0.961
+Episode 40 | Reward: 9.32 | Avg: 18.60 | Epsilon: 0.960
+Episode 41 | Reward: 16.03 | Avg: 18.54 | Epsilon: 0.959
+Episode 42 | Reward: 25.39 | Avg: 18.70 | Epsilon: 0.958
+Episode 43 | Reward: 16.47 | Avg: 18.64 | Epsilon: 0.957
+Episode 44 | Reward: 15.56 | Avg: 18.58 | Epsilon: 0.956
+Episode 45 | Reward: 9.59 | Avg: 18.38 | Epsilon: 0.955
+Episode 46 | Reward: 10.80 | Avg: 18.22 | Epsilon: 0.954
+Episode 47 | Reward: 9.78 | Avg: 18.04 | Epsilon: 0.953
+Episode 48 | Reward: 8.67 | Avg: 17.85 | Epsilon: 0.952
+Episode 49 | Reward: 10.05 | Avg: 17.70 | Epsilon: 0.951
+Episode 50 | Reward: 10.01 | Avg: 17.69 | Epsilon: 0.950
+Episode 51 | Reward: 17.17 | Avg: 17.71 | Epsilon: 0.949
+Episode 52 | Reward: 16.66 | Avg: 17.86 | Epsilon: 0.948
+Episode 53 | Reward: 16.64 | Avg: 17.68 | Epsilon: 0.947
+Episode 54 | Reward: 22.18 | Avg: 17.92 | Epsilon: 0.946
+Episode 55 | Reward: 23.38 | Avg: 18.19 | Epsilon: 0.946
+Episode 56 | Reward: 39.65 | Avg: 17.97 | Epsilon: 0.945
+Episode 57 | Reward: 9.13 | Avg: 17.61 | Epsilon: 0.944
+Episode 58 | Reward: 35.69 | Avg: 18.11 | Epsilon: 0.943
+Episode 59 | Reward: 22.55 | Avg: 18.22 | Epsilon: 0.942
+Episode 60 | Reward: 50.80 | Avg: 19.03 | Epsilon: 0.941
+Episode 61 | Reward: 23.26 | Avg: 19.30 | Epsilon: 0.940
+Episode 62 | Reward: 10.50 | Avg: 19.31 | Epsilon: 0.939
+Episode 63 | Reward: 16.38 | Avg: 19.29 | Epsilon: 0.938
+Episode 64 | Reward: 8.08 | Avg: 19.11 | Epsilon: 0.937
+Episode 65 | Reward: 8.99 | Avg: 18.80 | Epsilon: 0.936
+Episode 66 | Reward: 9.26 | Avg: 18.80 | Epsilon: 0.935
+Episode 67 | Reward: 23.22 | Avg: 18.03 | Epsilon: 0.934
+Episode 68 | Reward: 15.32 | Avg: 18.13 | Epsilon: 0.933
+Episode 69 | Reward: 18.71 | Avg: 18.33 | Epsilon: 0.932
+Episode 70 | Reward: 10.89 | Avg: 18.10 | Epsilon: 0.931
+Episode 71 | Reward: 9.72 | Avg: 18.13 | Epsilon: 0.930
+Episode 72 | Reward: 9.27 | Avg: 17.82 | Epsilon: 0.930
+Episode 73 | Reward: 16.94 | Avg: 17.95 | Epsilon: 0.929
+Episode 74 | Reward: 16.15 | Avg: 16.98 | Epsilon: 0.928
+Episode 75 | Reward: 10.30 | Avg: 16.87 | Epsilon: 0.927
+Episode 76 | Reward: 11.06 | Avg: 15.97 | Epsilon: 0.926
+Episode 77 | Reward: 10.54 | Avg: 15.98 | Epsilon: 0.925
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.4868458997370908
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 78 | Reward: 17.48 | Avg: 16.12 | Epsilon: 0.924
+Episode 79 | Reward: 16.13 | Avg: 16.24 | Epsilon: 0.923
+Episode 80 | Reward: 23.82 | Avg: 16.52 | Epsilon: 0.922
+Episode 81 | Reward: 10.03 | Avg: 16.53 | Epsilon: 0.921
+Episode 82 | Reward: 10.38 | Avg: 16.52 | Epsilon: 0.920
+Episode 83 | Reward: 9.63 | Avg: 16.37 | Epsilon: 0.919
+Episode 84 | Reward: 11.01 | Avg: 16.07 | Epsilon: 0.918
+Episode 85 | Reward: 25.25 | Avg: 16.37 | Epsilon: 0.918
+Episode 86 | Reward: 10.73 | Avg: 16.40 | Epsilon: 0.917
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.3918201996420976
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.4190290999977151
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.27435739998327335
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0795328000021982
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 87 | Reward: 9.41 | Avg: 16.09 | Epsilon: 0.916
+Episode 88 | Reward: 10.34 | Avg: 16.09 | Epsilon: 0.915
+Episode 89 | Reward: 59.20 | Avg: 16.75 | Epsilon: 0.914
+Episode 90 | Reward: 9.16 | Avg: 16.75 | Epsilon: 0.913
+Episode 91 | Reward: 10.41 | Avg: 16.63 | Epsilon: 0.912
+Episode 92 | Reward: 15.75 | Avg: 16.44 | Epsilon: 0.911
+Episode 93 | Reward: 10.19 | Avg: 16.32 | Epsilon: 0.910
+Episode 94 | Reward: 10.88 | Avg: 16.22 | Epsilon: 0.909
+Episode 95 | Reward: 18.76 | Avg: 16.41 | Epsilon: 0.908
+Episode 96 | Reward: 16.35 | Avg: 16.52 | Epsilon: 0.908
+Episode 97 | Reward: 10.02 | Avg: 16.52 | Epsilon: 0.907
+Episode 98 | Reward: 23.78 | Avg: 16.82 | Epsilon: 0.906
+Episode 99 | Reward: 9.71 | Avg: 16.82 | Epsilon: 0.905
+Episode 100 | Reward: 10.59 | Avg: 16.83 | Epsilon: 0.904
+Episode 101 | Reward: 10.48 | Avg: 16.70 | Epsilon: 0.903
+Episode 102 | Reward: 9.04 | Avg: 16.54 | Epsilon: 0.902
+Episode 103 | Reward: 11.15 | Avg: 16.43 | Epsilon: 0.901
+Episode 104 | Reward: 16.18 | Avg: 16.31 | Epsilon: 0.900
+Episode 105 | Reward: 16.10 | Avg: 16.17 | Epsilon: 0.899
+Episode 106 | Reward: 10.15 | Avg: 15.58 | Epsilon: 0.898
+Episode 107 | Reward: 9.68 | Avg: 15.59 | Epsilon: 0.898
+Episode 108 | Reward: 8.95 | Avg: 15.05 | Epsilon: 0.897
+Episode 109 | Reward: 10.62 | Avg: 14.82 | Epsilon: 0.896
+Episode 110 | Reward: 9.61 | Avg: 13.99 | Epsilon: 0.895
+Episode 111 | Reward: 3.36 | Avg: 13.59 | Epsilon: 0.894
+Episode 112 | Reward: 8.55 | Avg: 13.55 | Epsilon: 0.893
+Episode 113 | Reward: 10.38 | Avg: 13.43 | Epsilon: 0.892
+Episode 114 | Reward: 70.18 | Avg: 14.68 | Epsilon: 0.891
+Episode 115 | Reward: 48.93 | Avg: 15.48 | Epsilon: 0.890
+Episode 116 | Reward: 9.39 | Avg: 15.48 | Epsilon: 0.890
+Episode 117 | Reward: 21.79 | Avg: 15.45 | Epsilon: 0.889
+Episode 118 | Reward: 10.29 | Avg: 15.35 | Epsilon: 0.888
+Episode 119 | Reward: 10.78 | Avg: 15.19 | Epsilon: 0.887
+Episode 120 | Reward: 9.76 | Avg: 15.17 | Epsilon: 0.886
+Episode 121 | Reward: 9.77 | Avg: 15.17 | Epsilon: 0.885
+Episode 122 | Reward: 10.09 | Avg: 15.18 | Epsilon: 0.884
+Episode 123 | Reward: 10.51 | Avg: 15.06 | Epsilon: 0.883
+Episode 124 | Reward: 10.82 | Avg: 14.95 | Epsilon: 0.882
+Episode 125 | Reward: 16.78 | Avg: 15.08 | Epsilon: 0.882
+Episode 126 | Reward: 9.64 | Avg: 15.05 | Epsilon: 0.881
+Episode 127 | Reward: 10.16 | Avg: 15.04 | Epsilon: 0.880
+Episode 128 | Reward: 10.62 | Avg: 14.91 | Epsilon: 0.879
+Episode 129 | Reward: 9.95 | Avg: 14.78 | Epsilon: 0.878
+Episode 130 | Reward: 9.97 | Avg: 14.51 | Epsilon: 0.877
+Episode 131 | Reward: 9.44 | Avg: 14.49 | Epsilon: 0.876
+Episode 132 | Reward: 10.54 | Avg: 14.50 | Epsilon: 0.875
+Episode 133 | Reward: 14.79 | Avg: 14.60 | Epsilon: 0.875
+Episode 134 | Reward: 9.03 | Avg: 14.56 | Epsilon: 0.874
+Episode 135 | Reward: 10.07 | Avg: 14.26 | Epsilon: 0.873
+Episode 136 | Reward: 10.09 | Avg: 14.24 | Epsilon: 0.872
+Episode 137 | Reward: 15.35 | Avg: 14.36 | Epsilon: 0.871
+Episode 138 | Reward: 51.01 | Avg: 15.18 | Epsilon: 0.870
+Episode 139 | Reward: 17.57 | Avg: 14.34 | Epsilon: 0.869
+Episode 140 | Reward: 10.72 | Avg: 14.37 | Epsilon: 0.868
+Episode 141 | Reward: 23.36 | Avg: 14.63 | Epsilon: 0.868
+Episode 142 | Reward: 10.14 | Avg: 14.52 | Epsilon: 0.867
+Episode 143 | Reward: 62.85 | Avg: 15.57 | Epsilon: 0.866
+Episode 144 | Reward: 9.50 | Avg: 15.55 | Epsilon: 0.865
+Episode 145 | Reward: 9.75 | Avg: 15.37 | Epsilon: 0.864
+Episode 146 | Reward: 11.32 | Avg: 15.27 | Epsilon: 0.863
+Episode 147 | Reward: 10.06 | Avg: 15.27 | Epsilon: 0.862
+Episode 148 | Reward: 17.18 | Avg: 15.14 | Epsilon: 0.862
+Episode 149 | Reward: 35.33 | Avg: 15.65 | Epsilon: 0.861
+Episode 150 | Reward: 9.09 | Avg: 15.62 | Epsilon: 0.860
+Episode 151 | Reward: 10.89 | Avg: 15.63 | Epsilon: 0.859
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\sweep.py", line 84, in train
+    next_obs, reward, terminated, truncated, info = env.step(ACTIONS[action])
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 443, in step
+    self.wait()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 458, in wait
+    self.interface.wait()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 181, in wait
+    time.sleep(0.5)
+Exception

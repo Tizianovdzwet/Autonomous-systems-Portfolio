@@ -1,0 +1,63 @@
+
+Starting run: sweep-lr0.001-decay0.99-hidden64-batch16-gamma0.95
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 10.448152699937054
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 24.20 | Avg: 24.20 | Epsilon: 0.990
+Episode 1 | Reward: 15.58 | Avg: 19.89 | Epsilon: 0.980
+Episode 2 | Reward: 10.55 | Avg: 16.78 | Epsilon: 0.970
+Episode 3 | Reward: 16.03 | Avg: 16.59 | Epsilon: 0.961
+Episode 4 | Reward: 11.25 | Avg: 15.52 | Epsilon: 0.951
+Episode 5 | Reward: 16.69 | Avg: 15.72 | Epsilon: 0.941
+Episode 6 | Reward: 55.20 | Avg: 21.36 | Epsilon: 0.932
+Episode 7 | Reward: 65.46 | Avg: 26.87 | Epsilon: 0.923
+Episode 8 | Reward: 51.16 | Avg: 29.57 | Epsilon: 0.914
+Episode 9 | Reward: 9.17 | Avg: 27.53 | Epsilon: 0.904
+Episode 10 | Reward: 17.49 | Avg: 26.62 | Epsilon: 0.895
+Episode 11 | Reward: 31.30 | Avg: 27.01 | Epsilon: 0.886
+Episode 12 | Reward: 69.20 | Avg: 30.25 | Epsilon: 0.878
+Episode 13 | Reward: 19.36 | Avg: 29.47 | Epsilon: 0.869
+Episode 14 | Reward: 9.34 | Avg: 28.13 | Epsilon: 0.860
+Episode 15 | Reward: 49.91 | Avg: 29.49 | Epsilon: 0.851
+Episode 16 | Reward: 10.11 | Avg: 28.35 | Epsilon: 0.843
+Episode 17 | Reward: 23.13 | Avg: 28.06 | Epsilon: 0.835
+Episode 18 | Reward: 10.31 | Avg: 27.13 | Epsilon: 0.826
+Episode 19 | Reward: 33.01 | Avg: 27.42 | Epsilon: 0.818
+Episode 20 | Reward: 52.23 | Avg: 28.60 | Epsilon: 0.810
+Episode 21 | Reward: 16.15 | Avg: 28.04 | Epsilon: 0.802
+Episode 22 | Reward: 10.04 | Avg: 27.26 | Epsilon: 0.794
+Episode 23 | Reward: 10.04 | Avg: 26.54 | Epsilon: 0.786
+Episode 24 | Reward: 9.49 | Avg: 25.86 | Epsilon: 0.778
+Episode 25 | Reward: 10.02 | Avg: 25.25 | Epsilon: 0.770
+Episode 26 | Reward: 10.00 | Avg: 24.68 | Epsilon: 0.762
+Episode 27 | Reward: 22.02 | Avg: 24.59 | Epsilon: 0.755
+Episode 28 | Reward: 10.18 | Avg: 24.09 | Epsilon: 0.747
+Episode 29 | Reward: 25.63 | Avg: 24.14 | Epsilon: 0.740
+Episode 30 | Reward: 9.86 | Avg: 23.68 | Epsilon: 0.732
+Episode 31 | Reward: 10.33 | Avg: 23.26 | Epsilon: 0.725
+Episode 32 | Reward: 27.33 | Avg: 23.39 | Epsilon: 0.718
+Episode 33 | Reward: 8.54 | Avg: 22.95 | Epsilon: 0.711
+Episode 34 | Reward: 15.74 | Avg: 22.74 | Epsilon: 0.703
+Episode 35 | Reward: 23.10 | Avg: 22.75 | Epsilon: 0.696
+Episode 36 | Reward: 41.51 | Avg: 23.26 | Epsilon: 0.689
+Episode 37 | Reward: 9.68 | Avg: 22.90 | Epsilon: 0.683
+Episode 38 | Reward: 3.74 | Avg: 22.41 | Epsilon: 0.676
+Episode 39 | Reward: 30.62 | Avg: 22.62 | Epsilon: 0.669
+Episode 40 | Reward: 9.95 | Avg: 22.31 | Epsilon: 0.662
+Episode 41 | Reward: 23.39 | Avg: 22.33 | Epsilon: 0.656
+Exception in thread Thread-95461 (__send_act_get_obs_and_wait):
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 320, in __send_act_get_obs_and_wait
+    self.__update_obs_rew_terminated_truncated()  # capture observation
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 334, in __update_obs_rew_terminated_truncated
+    o, r, d, i = self.interface.get_obs_rew_terminated_info()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 281, in get_obs_rew_terminated_info
+    img, speed, data = self.grab_lidar_speed_and_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 250, in grab_lidar_speed_and_data
+    data = self.client.retrieve_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\utils\tools.py", line 72, in retrieve_data
+    assert t_now - t_start < timeout, f"OpenPlanet stopped sending data since more than {timeout}s."
+AssertionError: OpenPlanet stopped sending data since more than 10.0s.
