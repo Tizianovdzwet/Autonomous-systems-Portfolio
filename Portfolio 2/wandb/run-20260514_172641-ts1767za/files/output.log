@@ -1,0 +1,54 @@
+
+Starting run: sweep-lr1e-05-decay0.999-hidden32-batch32-gamma0.95
+Network warmed up!
+Episode 0 | Reward: 32.13 | Avg: 32.13 | Epsilon: 0.999
+Episode 1 | Reward: 23.60 | Avg: 27.86 | Epsilon: 0.998
+Episode 2 | Reward: 20.82 | Avg: 25.52 | Epsilon: 0.997
+Episode 3 | Reward: 19.27 | Avg: 23.95 | Epsilon: 0.996
+Episode 4 | Reward: 58.95 | Avg: 30.95 | Epsilon: 0.995
+Episode 5 | Reward: 9.21 | Avg: 27.33 | Epsilon: 0.994
+Episode 6 | Reward: 9.04 | Avg: 24.72 | Epsilon: 0.993
+Episode 7 | Reward: 10.06 | Avg: 22.89 | Epsilon: 0.992
+Episode 8 | Reward: 16.70 | Avg: 22.20 | Epsilon: 0.991
+Episode 9 | Reward: 17.07 | Avg: 21.69 | Epsilon: 0.990
+Episode 10 | Reward: 30.33 | Avg: 22.47 | Epsilon: 0.989
+Episode 11 | Reward: 10.85 | Avg: 21.50 | Epsilon: 0.988
+Episode 12 | Reward: 9.71 | Avg: 20.60 | Epsilon: 0.987
+Episode 13 | Reward: 10.18 | Avg: 19.85 | Epsilon: 0.986
+Episode 14 | Reward: 17.93 | Avg: 19.72 | Epsilon: 0.985
+Episode 15 | Reward: 9.64 | Avg: 19.09 | Epsilon: 0.984
+Episode 16 | Reward: 9.25 | Avg: 18.51 | Epsilon: 0.983
+Episode 17 | Reward: 9.61 | Avg: 18.02 | Epsilon: 0.982
+Episode 18 | Reward: 6.55 | Avg: 17.42 | Epsilon: 0.981
+Episode 19 | Reward: 9.78 | Avg: 17.03 | Epsilon: 0.980
+Episode 20 | Reward: 16.09 | Avg: 16.99 | Epsilon: 0.979
+Episode 21 | Reward: 9.83 | Avg: 16.66 | Epsilon: 0.978
+Episode 22 | Reward: 34.15 | Avg: 17.42 | Epsilon: 0.977
+Episode 23 | Reward: 10.78 | Avg: 17.15 | Epsilon: 0.976
+Episode 24 | Reward: 10.61 | Avg: 16.89 | Epsilon: 0.975
+Episode 25 | Reward: 24.39 | Avg: 17.17 | Epsilon: 0.974
+Episode 26 | Reward: 18.65 | Avg: 17.23 | Epsilon: 0.973
+Episode 27 | Reward: 26.16 | Avg: 17.55 | Epsilon: 0.972
+Episode 28 | Reward: 18.73 | Avg: 17.59 | Epsilon: 0.971
+Episode 29 | Reward: 8.60 | Avg: 17.29 | Epsilon: 0.970
+Episode 30 | Reward: 22.72 | Avg: 17.46 | Epsilon: 0.969
+Episode 31 | Reward: 24.56 | Avg: 17.69 | Epsilon: 0.968
+Episode 32 | Reward: 9.15 | Avg: 17.43 | Epsilon: 0.968
+Episode 33 | Reward: 8.63 | Avg: 17.17 | Epsilon: 0.967
+Episode 34 | Reward: 7.28 | Avg: 16.89 | Epsilon: 0.966
+Episode 35 | Reward: 16.69 | Avg: 16.88 | Epsilon: 0.965
+Episode 36 | Reward: 22.88 | Avg: 17.04 | Epsilon: 0.964
+Episode 37 | Reward: 9.97 | Avg: 16.86 | Epsilon: 0.963
+Episode 38 | Reward: 6.19 | Avg: 16.58 | Epsilon: 0.962
+Episode 39 | Reward: 23.45 | Avg: 16.75 | Epsilon: 0.961
+Episode 40 | Reward: 9.00 | Avg: 16.57 | Epsilon: 0.960
+Episode 41 | Reward: 10.72 | Avg: 16.43 | Epsilon: 0.959
+Episode 42 | Reward: 9.45 | Avg: 16.26 | Epsilon: 0.958
+Episode 43 | Reward: 22.97 | Avg: 16.42 | Epsilon: 0.957
+Episode 44 | Reward: 10.18 | Avg: 16.28 | Epsilon: 0.956
+Episode 45 | Reward: 8.58 | Avg: 16.11 | Epsilon: 0.955
+Episode 46 | Reward: 9.41 | Avg: 15.97 | Epsilon: 0.954
+Episode 47 | Reward: 24.78 | Avg: 16.15 | Epsilon: 0.953
+Episode 48 | Reward: 22.29 | Avg: 16.28 | Epsilon: 0.952
+Episode 49 | Reward: 9.83 | Avg: 16.15 | Epsilon: 0.951
+Run crashed at episode 50:

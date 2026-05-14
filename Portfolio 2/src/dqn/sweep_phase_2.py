@@ -12,32 +12,31 @@ sweep_config = {
         "name": "avg_recent_reward",
         "goal": "maximize"
     },
-    "early_terminate": {
-        "type": "hyperband",
-        "min_iter": 50
-    },
     "parameters": {
         "lr": {
-            "values": [0.001, 0.0001, 0.00001]
+            "values": [0.000005, 0.00001, 0.00005]
         },
         "epsilon_decay": {
-            "values": [0.990, 0.995, 0.999]
-        },
-        "hidden_size": {
-            "values": [32, 64, 128]
-        },
-        "batch_size": {
-            "values": [16, 32, 64]
+            "values": [0.997, 0.998, 0.999]
         },
         "gamma": {
-            "values": [0.95, 0.99, 0.999]
+            "values": [0.95, 0.99]
+        },
+        "target_update_every": {
+            "values": [10, 20, 50]
         }
     }
 }
 
+# Fixed parameters
+HIDDEN_SIZE = 64
+BATCH_SIZE = 32
+EPISODES = 1000
+TRAIN_EVERY = 16
+SAVE_EVERY = 100
+GRAD_CLIP = 1.0
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# TRAIN_EVERY = 8 if device.type == "cuda" else 16
-TRAIN_EVERY = 16  # simplified
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
 
 env = make_env()
@@ -46,18 +45,24 @@ def train():
     run = wandb.init()
     config = wandb.config
 
-    RUN_NAME = f"sweep-lr{config.lr}-decay{config.epsilon_decay}-hidden{config.hidden_size}-batch{config.batch_size}-gamma{config.gamma}"
+    RUN_NAME = f"p2-lr{config.lr}-decay{config.epsilon_decay}-gamma{config.gamma}-tgt{config.target_update_every}"
     print(f"\nStarting run: {RUN_NAME}")
 
     wandb.config.update({
         "run_name": RUN_NAME,
+        "hidden_size": HIDDEN_SIZE,
+        "batch_size": BATCH_SIZE,
+        "episodes": EPISODES,
+        "train_every": TRAIN_EVERY,
+        "grad_clip": GRAD_CLIP,
+        "resume_command": f"python -m src.sweep2 {wandb.run.sweep_id}"
     }, allow_val_change=True)
 
-    wandb.run.name = f"phase-1-sweep-{wandb.run.id[:4]}"
+    wandb.run.name = f"phase-2-sweep-{wandb.run.id[:4]}"
 
     agent = DQNAgent(
         input_size=83,
-        hidden_size=config.hidden_size,
+        hidden_size=HIDDEN_SIZE,
         output_size=4,
         lr=config.lr,
         gamma=config.gamma,
@@ -65,11 +70,11 @@ def train():
         epsilon_decay=config.epsilon_decay,
         epsilon_min=0.05,
         buffer_size=100000,
-        batch_size=config.batch_size
+        batch_size=BATCH_SIZE,
+        grad_clip=GRAD_CLIP
     )
 
-    # Warm up GPU/CPU before real-time loop
-    dummy = torch.zeros(config.batch_size, 83).to(agent.device)
+    dummy = torch.zeros(BATCH_SIZE, 83).to(agent.device)
     with torch.no_grad():
         agent.q_network(dummy)
         agent.target_network(dummy)
@@ -84,8 +89,6 @@ def train():
         [0, 1, 0],   # brake
     ]
 
-    EPISODES = 500
-    TARGET_UPDATE_EVERY = 10
     recent_rewards = []
     x = 0
 
@@ -116,10 +119,10 @@ def train():
 
             agent.decay_epsilon()
 
-            if x % TARGET_UPDATE_EVERY == 0:
+            if x % config.target_update_every == 0:
                 agent.update_target_network()
 
-            if x % 50 == 0:
+            if x % SAVE_EVERY == 0:
                 agent.save(f"experiments/runs/{RUN_NAME}/dqn_episode_{x}.pt")
 
             recent_rewards.append(total_reward)
@@ -134,12 +137,12 @@ def train():
                 "buffer_size": len(agent.buffer),
                 "episode_length": step_count,
                 "loss": loss if loss is not None else 0,
-            })
+            }, step=x)
 
             print(f"Episode {x} | Reward: {total_reward:.2f} | Avg: {sum(recent_rewards)/len(recent_rewards):.2f} | Epsilon: {agent.epsilon:.3f}")
 
         agent.save(f"experiments/runs/{RUN_NAME}/dqn_final.pt")
-        wandb.finish(exit_code=0)  # success
+        wandb.finish(exit_code=0)
 
     except KeyboardInterrupt:
         print("Manual stop - saving checkpoint...")
@@ -154,7 +157,6 @@ def train():
         pass
 
 
-# Your PC creates the sweep, buddy's PC joins it
 if len(sys.argv) > 1:
     sweep_id = sys.argv[1]
     print(f"Joining existing sweep: {sweep_id}")
@@ -171,5 +173,5 @@ wandb.agent(
     function=train,
     entity="hhs-autonomous-systems",
     project="trackmania-rl",
-    count=10
+    count=5
 )
