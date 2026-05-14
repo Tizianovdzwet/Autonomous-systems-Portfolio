@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 32
+epsilon_decay:
+  value: 0.99
+gamma:
+  value: 0.999
+hidden_size:
+  value: 64
+lr:
+  value: 1.0e-05

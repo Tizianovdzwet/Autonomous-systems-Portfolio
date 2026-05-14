@@ -1,0 +1,1 @@
+{"total_reward":19.490009307861328,"_timestamp":1.7787796577535458e+09,"episode_length":350,"episode":152,"_wandb":{"runtime":2899},"buffer_size":50485,"loss":0,"_runtime":2899,"epsilon":0.21487444770607952,"avg_recent_reward":10.88720989227295,"_step":152}
