@@ -1,0 +1,65 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            y1c0lekge4wy8e5k147ajtva3o8bn8ot:
+                args:
+                    - 69gnvced
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "1999375429632"
+                        used: "991846670336"
+                email: willemvd@outlook.com
+                executable: C:\Users\Wille\anaconda3\envs\trackmania-rl\python.exe
+                git:
+                    commit: 90bb6519de7562cc0f62efc577d24f566a55b822
+                    remote: https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git
+                host: Willem_PC
+                memory:
+                    total: "33409187840"
+                os: Windows-10-10.0.26200-SP0
+                program: -m src.sweep_phase_2
+                python: CPython 3.10.20
+                root: C:\Users\Wille\OneDrive - De Haagse Hogeschool\Documenten\GitHub\Autonomous-systems-Portfolio\Portfolio 2
+                startedAt: "2026-05-15T07:55:41.944263Z"
+                writerId: y1c0lekge4wy8e5k147ajtva3o8bn8ot
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 14
+                - 17
+                - 61
+            "4": 3.10.20
+            "5": 0.25.1
+            "8":
+                - 3
+            "12": 0.25.1
+            "13": windows-amd64
+batch_size:
+    value: 32
+episodes:
+    value: 1000
+epsilon_decay:
+    value: 0.997
+gamma:
+    value: 0.95
+hidden_size:
+    value: 64
+lr:
+    value: 5e-06
+resume_command:
+    value: python -m src.sweep2 69gnvced
+run_name:
+    value: p2-lr5e-06-decay0.997-gamma0.95-tgt50
+target_update_every:
+    value: 50
+train_every:
+    value: 16

@@ -35,6 +35,10 @@ EPISODES = 1000
 TRAIN_EVERY = 16
 SAVE_EVERY = 100
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2f73baa (Fase 2 MATT-PC)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
 

@@ -1,0 +1,1619 @@
+
+Starting run: p2-lr1e-05-decay0.998-gamma0.99-tgt20
+Network warmed up!
+Episode 0 | Reward: 9.68 | Avg: 9.68 | Epsilon: 0.998
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.12829380040057003
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07764220601529814
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.1821870000276249
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11425600000075065
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.15242910000961274
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06748690718086436
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 1 | Reward: 89.43 | Avg: 49.56 | Epsilon: 0.996
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.12171640223823488
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06229900039033964
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 2 | Reward: 16.81 | Avg: 38.64 | Epsilon: 0.994
+Episode 3 | Reward: 16.37 | Avg: 33.07 | Epsilon: 0.992
+Episode 4 | Reward: 17.85 | Avg: 30.03 | Epsilon: 0.990
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05508000269765034
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 5 | Reward: 24.39 | Avg: 29.09 | Epsilon: 0.988
+Episode 6 | Reward: 9.85 | Avg: 26.34 | Epsilon: 0.986
+Episode 7 | Reward: 25.26 | Avg: 26.21 | Epsilon: 0.984
+Episode 8 | Reward: 50.45 | Avg: 28.90 | Epsilon: 0.982
+Episode 9 | Reward: 17.66 | Avg: 27.78 | Epsilon: 0.980
+Episode 10 | Reward: 9.52 | Avg: 26.12 | Epsilon: 0.978
+Episode 11 | Reward: 10.00 | Avg: 24.77 | Epsilon: 0.976
+Episode 12 | Reward: 10.64 | Avg: 23.69 | Epsilon: 0.974
+Episode 13 | Reward: 18.21 | Avg: 23.29 | Epsilon: 0.972
+Episode 14 | Reward: 9.47 | Avg: 22.37 | Epsilon: 0.970
+Episode 15 | Reward: 9.12 | Avg: 21.54 | Epsilon: 0.968
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05462470251950435
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05524360464187339
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 16 | Reward: 68.43 | Avg: 24.30 | Epsilon: 0.967
+Episode 17 | Reward: 9.89 | Avg: 23.50 | Epsilon: 0.965
+Episode 18 | Reward: 9.81 | Avg: 22.78 | Epsilon: 0.963
+Episode 19 | Reward: 69.97 | Avg: 25.14 | Epsilon: 0.961
+Episode 20 | Reward: 2.94 | Avg: 24.08 | Epsilon: 0.959
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050974602956557646
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 21 | Reward: 16.31 | Avg: 23.73 | Epsilon: 0.957
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07315630989614874
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 22 | Reward: 69.34 | Avg: 25.71 | Epsilon: 0.955
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06270020041847602
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 23 | Reward: 10.72 | Avg: 25.09 | Epsilon: 0.953
+Episode 24 | Reward: 10.16 | Avg: 24.49 | Epsilon: 0.951
+Episode 25 | Reward: 9.47 | Avg: 23.91 | Epsilon: 0.949
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05653040047036484
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 26 | Reward: 25.37 | Avg: 23.97 | Epsilon: 0.947
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0653947128157597
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.056127105111954734
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 27 | Reward: 108.27 | Avg: 26.98 | Epsilon: 0.945
+Episode 28 | Reward: 10.26 | Avg: 26.40 | Epsilon: 0.944
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06060950132086873
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 29 | Reward: 10.59 | Avg: 25.87 | Epsilon: 0.942
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0963686004106421
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11913340000319295
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11515530000906438
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.15547710002283566
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 30 | Reward: 17.56 | Avg: 25.61 | Epsilon: 0.940
+Episode 31 | Reward: 16.36 | Avg: 25.32 | Epsilon: 0.938
+Episode 32 | Reward: 10.08 | Avg: 24.86 | Epsilon: 0.936
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.051135702087776735
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 33 | Reward: 15.95 | Avg: 24.59 | Epsilon: 0.934
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.560434302984504
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 34 | Reward: 70.35 | Avg: 25.90 | Epsilon: 0.932
+Episode 35 | Reward: 10.18 | Avg: 25.46 | Epsilon: 0.930
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055020800384227186
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05781870137434453
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 36 | Reward: 9.03 | Avg: 25.02 | Epsilon: 0.929
+Episode 37 | Reward: 9.34 | Avg: 24.61 | Epsilon: 0.927
+Episode 38 | Reward: 68.24 | Avg: 25.73 | Epsilon: 0.925
+Episode 39 | Reward: 8.87 | Avg: 25.31 | Epsilon: 0.923
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06659940388635732
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 40 | Reward: 26.49 | Avg: 25.33 | Epsilon: 0.921
+Episode 41 | Reward: 9.73 | Avg: 24.96 | Epsilon: 0.919
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.059197400987613946
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 42 | Reward: 10.01 | Avg: 24.61 | Epsilon: 0.918
+Episode 43 | Reward: 32.97 | Avg: 24.80 | Epsilon: 0.916
+Episode 44 | Reward: 9.84 | Avg: 24.47 | Epsilon: 0.914
+Episode 45 | Reward: 9.28 | Avg: 24.14 | Epsilon: 0.912
+Episode 46 | Reward: 10.86 | Avg: 23.86 | Epsilon: 0.910
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05862500020884909
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06719150391290896
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 47 | Reward: 33.98 | Avg: 24.07 | Epsilon: 0.908
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.052396101207705215
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 48 | Reward: 23.37 | Avg: 24.06 | Epsilon: 0.907
+Episode 49 | Reward: 17.39 | Avg: 23.92 | Epsilon: 0.905
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09312520039384253
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 50 | Reward: 15.25 | Avg: 24.03 | Epsilon: 0.903
+Episode 51 | Reward: 9.99 | Avg: 22.45 | Epsilon: 0.901
+Episode 52 | Reward: 9.39 | Avg: 22.30 | Epsilon: 0.899
+Episode 53 | Reward: 10.86 | Avg: 22.19 | Epsilon: 0.898
+Episode 54 | Reward: 10.76 | Avg: 22.04 | Epsilon: 0.896
+Episode 55 | Reward: 15.87 | Avg: 21.87 | Epsilon: 0.894
+Episode 56 | Reward: 9.96 | Avg: 21.88 | Epsilon: 0.892
+Episode 57 | Reward: 9.79 | Avg: 21.57 | Epsilon: 0.890
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06926300429040566
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.6281847004429437
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 58 | Reward: 24.66 | Avg: 21.05 | Epsilon: 0.889
+Episode 59 | Reward: 9.02 | Avg: 20.88 | Epsilon: 0.887
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06830440522753634
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 60 | Reward: 31.03 | Avg: 21.31 | Epsilon: 0.885
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05256060039391741
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 61 | Reward: 85.75 | Avg: 22.82 | Epsilon: 0.883
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08327740037930198
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0544491006876342
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 62 | Reward: 7.91 | Avg: 22.77 | Epsilon: 0.882
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05484270356828347
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 63 | Reward: 25.59 | Avg: 22.92 | Epsilon: 0.880
+Episode 64 | Reward: 9.95 | Avg: 22.93 | Epsilon: 0.878
+Episode 65 | Reward: 22.71 | Avg: 23.20 | Epsilon: 0.876
+Episode 66 | Reward: 8.05 | Avg: 21.99 | Epsilon: 0.874
+Episode 67 | Reward: 15.25 | Avg: 22.10 | Epsilon: 0.873
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06383560245740227
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 68 | Reward: 9.75 | Avg: 22.10 | Epsilon: 0.871
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07052910156198777
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 69 | Reward: 43.00 | Avg: 21.56 | Epsilon: 0.869
+Episode 70 | Reward: 25.65 | Avg: 22.01 | Epsilon: 0.867
+Episode 71 | Reward: 9.69 | Avg: 21.88 | Epsilon: 0.866
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07777650281786919
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 72 | Reward: 26.23 | Avg: 21.02 | Epsilon: 0.864
+Episode 73 | Reward: 19.23 | Avg: 21.19 | Epsilon: 0.862
+Episode 74 | Reward: 10.08 | Avg: 21.19 | Epsilon: 0.861
+Episode 75 | Reward: 23.03 | Avg: 21.46 | Epsilon: 0.859
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05432870262302458
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 76 | Reward: 22.83 | Avg: 21.41 | Epsilon: 0.857
+Episode 77 | Reward: 9.02 | Avg: 19.42 | Epsilon: 0.855
+Episode 78 | Reward: 9.29 | Avg: 19.40 | Epsilon: 0.854
+Episode 79 | Reward: 10.23 | Avg: 19.39 | Epsilon: 0.852
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06753420038148761
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 80 | Reward: 9.99 | Avg: 19.24 | Epsilon: 0.850
+Episode 81 | Reward: 11.13 | Avg: 19.14 | Epsilon: 0.849
+Episode 82 | Reward: 15.65 | Avg: 19.25 | Epsilon: 0.847
+Episode 83 | Reward: 16.28 | Avg: 19.26 | Epsilon: 0.845
+Episode 84 | Reward: 16.16 | Avg: 18.17 | Epsilon: 0.844
+Episode 85 | Reward: 16.43 | Avg: 18.30 | Epsilon: 0.842
+Episode 86 | Reward: 10.40 | Avg: 18.32 | Epsilon: 0.840
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.058694902167189866
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 87 | Reward: 15.95 | Avg: 18.46 | Epsilon: 0.838
+Episode 88 | Reward: 16.98 | Avg: 17.43 | Epsilon: 0.837
+Episode 89 | Reward: 9.99 | Avg: 17.45 | Epsilon: 0.835
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06162500233040191
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 90 | Reward: 10.81 | Avg: 17.14 | Epsilon: 0.833
+Episode 91 | Reward: 9.91 | Avg: 17.14 | Epsilon: 0.832
+Episode 92 | Reward: 11.23 | Avg: 17.17 | Epsilon: 0.830
+Episode 93 | Reward: 11.49 | Avg: 16.74 | Epsilon: 0.828
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05974990193499252
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 94 | Reward: 9.60 | Avg: 16.73 | Epsilon: 0.827
+Episode 95 | Reward: 10.14 | Avg: 16.75 | Epsilon: 0.825
+Episode 96 | Reward: 9.84 | Avg: 16.73 | Epsilon: 0.823
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5887669026269577
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 97 | Reward: 8.70 | Avg: 16.23 | Epsilon: 0.822
+Episode 98 | Reward: 16.13 | Avg: 16.08 | Epsilon: 0.820
+Episode 99 | Reward: 15.91 | Avg: 16.05 | Epsilon: 0.819
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07132070019724779
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05047870002454147
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 100 | Reward: 16.93 | Avg: 16.08 | Epsilon: 0.817
+Episode 101 | Reward: 6.18 | Avg: 16.01 | Epsilon: 0.815
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07113990021753125
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 102 | Reward: 2.41 | Avg: 15.87 | Epsilon: 0.814
+Episode 103 | Reward: 10.65 | Avg: 15.86 | Epsilon: 0.812
+Episode 104 | Reward: 11.30 | Avg: 15.88 | Epsilon: 0.810
+Episode 105 | Reward: 10.20 | Avg: 15.76 | Epsilon: 0.809
+Episode 106 | Reward: 16.32 | Avg: 15.89 | Epsilon: 0.807
+Episode 107 | Reward: 9.18 | Avg: 15.88 | Epsilon: 0.806
+Episode 108 | Reward: 16.00 | Avg: 15.70 | Epsilon: 0.804
+Episode 109 | Reward: 9.97 | Avg: 15.72 | Epsilon: 0.802
+Episode 110 | Reward: 20.86 | Avg: 15.52 | Epsilon: 0.801
+Episode 111 | Reward: 10.14 | Avg: 14.01 | Epsilon: 0.799
+Episode 112 | Reward: 23.48 | Avg: 14.32 | Epsilon: 0.798
+Episode 113 | Reward: 9.10 | Avg: 13.99 | Epsilon: 0.796
+Episode 114 | Reward: 9.71 | Avg: 13.98 | Epsilon: 0.794
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05920530128059909
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 115 | Reward: 10.15 | Avg: 13.73 | Epsilon: 0.793
+Episode 116 | Reward: 16.31 | Avg: 13.90 | Epsilon: 0.791
+Episode 117 | Reward: 7.38 | Avg: 13.74 | Epsilon: 0.790
+Episode 118 | Reward: 16.98 | Avg: 13.89 | Epsilon: 0.788
+Episode 119 | Reward: 10.43 | Avg: 13.23 | Epsilon: 0.786
+Episode 120 | Reward: 10.37 | Avg: 12.93 | Epsilon: 0.785
+Episode 121 | Reward: 31.40 | Avg: 13.36 | Epsilon: 0.783
+Episode 122 | Reward: 4.29 | Avg: 12.92 | Epsilon: 0.782
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06093550112564117
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 123 | Reward: 9.89 | Avg: 12.74 | Epsilon: 0.780
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05000550398835912
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 124 | Reward: 23.07 | Avg: 13.00 | Epsilon: 0.779
+Episode 125 | Reward: 10.26 | Avg: 12.74 | Epsilon: 0.777
+Episode 126 | Reward: 8.64 | Avg: 12.46 | Epsilon: 0.775
+Episode 127 | Reward: 10.11 | Avg: 12.48 | Epsilon: 0.774
+Episode 128 | Reward: 9.64 | Avg: 12.49 | Epsilon: 0.772
+Episode 129 | Reward: 23.21 | Avg: 12.75 | Epsilon: 0.771
+Episode 130 | Reward: 8.84 | Avg: 12.72 | Epsilon: 0.769
+Episode 131 | Reward: 24.26 | Avg: 12.99 | Epsilon: 0.768
+Episode 132 | Reward: 22.79 | Avg: 13.13 | Epsilon: 0.766
+Episode 133 | Reward: 6.81 | Avg: 12.94 | Epsilon: 0.765
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050059102999512106
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.12101820029783994
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 134 | Reward: 16.48 | Avg: 12.95 | Epsilon: 0.763
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05827810199116357
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 135 | Reward: 15.28 | Avg: 12.92 | Epsilon: 0.762
+Episode 136 | Reward: 8.42 | Avg: 12.88 | Epsilon: 0.760
+Episode 137 | Reward: 9.66 | Avg: 12.76 | Epsilon: 0.759
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05135830378276296
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 138 | Reward: 52.15 | Avg: 13.46 | Epsilon: 0.757
+Episode 139 | Reward: 24.42 | Avg: 13.75 | Epsilon: 0.756
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05996640131343156
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 140 | Reward: 11.05 | Avg: 13.75 | Epsilon: 0.754
+Episode 141 | Reward: 10.13 | Avg: 13.76 | Epsilon: 0.753
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.054287100734654814
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 142 | Reward: 2.82 | Avg: 13.59 | Epsilon: 0.751
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06053180037997663
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 143 | Reward: 10.19 | Avg: 13.56 | Epsilon: 0.750
+Episode 144 | Reward: 9.72 | Avg: 13.57 | Epsilon: 0.748
+Episode 145 | Reward: 9.17 | Avg: 13.55 | Epsilon: 0.747
+Episode 146 | Reward: 10.16 | Avg: 13.55 | Epsilon: 0.745
+Episode 147 | Reward: 8.95 | Avg: 13.56 | Epsilon: 0.744
+Episode 148 | Reward: 19.15 | Avg: 13.62 | Epsilon: 0.742
+Episode 149 | Reward: 10.07 | Avg: 13.50 | Epsilon: 0.741
+Episode 150 | Reward: 9.75 | Avg: 13.36 | Epsilon: 0.739
+Episode 151 | Reward: 7.74 | Avg: 13.39 | Epsilon: 0.738
+Episode 152 | Reward: 8.96 | Avg: 13.52 | Epsilon: 0.736
+Episode 153 | Reward: 10.03 | Avg: 13.51 | Epsilon: 0.735
+Episode 154 | Reward: 9.78 | Avg: 13.48 | Epsilon: 0.733
+Episode 155 | Reward: 17.93 | Avg: 13.63 | Epsilon: 0.732
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07604580075712875
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05544680237653665
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 156 | Reward: 24.99 | Avg: 13.81 | Epsilon: 0.730
+Episode 157 | Reward: 9.58 | Avg: 13.81 | Epsilon: 0.729
+Episode 158 | Reward: 8.14 | Avg: 13.66 | Epsilon: 0.727
+Episode 159 | Reward: 10.38 | Avg: 13.66 | Epsilon: 0.726
+Episode 160 | Reward: 22.47 | Avg: 13.70 | Epsilon: 0.724
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0688261003815569
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 161 | Reward: 7.74 | Avg: 13.65 | Epsilon: 0.723
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07462300028419122
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 162 | Reward: 17.46 | Avg: 13.53 | Epsilon: 0.722
+Episode 163 | Reward: 9.94 | Avg: 13.55 | Epsilon: 0.720
+Episode 164 | Reward: 11.17 | Avg: 13.57 | Epsilon: 0.719
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.6224831001309212
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 165 | Reward: 10.01 | Avg: 13.57 | Epsilon: 0.717
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.058372700528707355
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05743150529451668
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 166 | Reward: 35.37 | Avg: 13.95 | Epsilon: 0.716
+Episode 167 | Reward: 2.79 | Avg: 13.86 | Epsilon: 0.714
+Episode 168 | Reward: 9.94 | Avg: 13.72 | Epsilon: 0.713
+Episode 169 | Reward: 10.76 | Avg: 13.73 | Epsilon: 0.712
+Episode 170 | Reward: 31.02 | Avg: 14.14 | Epsilon: 0.710
+Episode 171 | Reward: 21.08 | Avg: 13.93 | Epsilon: 0.709
+Episode 172 | Reward: 10.88 | Avg: 14.07 | Epsilon: 0.707
+Episode 173 | Reward: 9.93 | Avg: 14.07 | Epsilon: 0.706
+Episode 174 | Reward: 9.43 | Avg: 13.79 | Epsilon: 0.704
+Episode 175 | Reward: 10.62 | Avg: 13.80 | Epsilon: 0.703
+Episode 176 | Reward: 9.25 | Avg: 13.81 | Epsilon: 0.702
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05399210506584495
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 177 | Reward: 16.50 | Avg: 13.94 | Epsilon: 0.700
+Episode 178 | Reward: 8.68 | Avg: 13.92 | Epsilon: 0.699
+Episode 179 | Reward: 15.97 | Avg: 13.78 | Epsilon: 0.697
+Episode 180 | Reward: 10.48 | Avg: 13.81 | Epsilon: 0.696
+Episode 181 | Reward: 9.11 | Avg: 13.51 | Epsilon: 0.695
+Episode 182 | Reward: 8.19 | Avg: 13.21 | Epsilon: 0.693
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05011500068940222
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 183 | Reward: 22.82 | Avg: 13.53 | Epsilon: 0.692
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0612860010296572
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08555590148898773
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 184 | Reward: 15.85 | Avg: 13.52 | Epsilon: 0.690
+Episode 185 | Reward: 16.59 | Avg: 13.55 | Epsilon: 0.689
+Episode 186 | Reward: 19.34 | Avg: 13.77 | Epsilon: 0.688
+Episode 187 | Reward: 10.12 | Avg: 13.78 | Epsilon: 0.686
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055397606891347095
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 188 | Reward: 37.88 | Avg: 13.49 | Epsilon: 0.685
+Episode 189 | Reward: 7.44 | Avg: 13.15 | Epsilon: 0.684
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0804122056288179
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 190 | Reward: 31.87 | Avg: 13.57 | Epsilon: 0.682
+Episode 191 | Reward: 18.63 | Avg: 13.74 | Epsilon: 0.681
+Episode 192 | Reward: 1.95 | Avg: 13.72 | Epsilon: 0.680
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05403200149885379
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 193 | Reward: 9.98 | Avg: 13.72 | Epsilon: 0.678
+Episode 194 | Reward: 10.06 | Avg: 13.72 | Epsilon: 0.677
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06591330078663304
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 195 | Reward: 22.67 | Avg: 13.99 | Epsilon: 0.675
+Episode 196 | Reward: 8.24 | Avg: 13.95 | Epsilon: 0.674
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06448860821546987
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05628460072330199
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 197 | Reward: 57.04 | Avg: 14.92 | Epsilon: 0.673
+Episode 198 | Reward: 2.78 | Avg: 14.59 | Epsilon: 0.671
+Episode 199 | Reward: 10.27 | Avg: 14.59 | Epsilon: 0.670
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05915140229626559
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06451700141769834
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 200 | Reward: 15.50 | Avg: 14.71 | Epsilon: 0.669
+Episode 201 | Reward: 6.23 | Avg: 14.68 | Epsilon: 0.667
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07549100133473985
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06010150382644497
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 202 | Reward: 22.75 | Avg: 14.95 | Epsilon: 0.666
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0675378035812173
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 203 | Reward: 13.58 | Avg: 15.02 | Epsilon: 0.665
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0752229017962236
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 204 | Reward: 9.79 | Avg: 15.02 | Epsilon: 0.663
+Episode 205 | Reward: 16.95 | Avg: 15.00 | Epsilon: 0.662
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11378060336573981
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06026580123580061
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0528798000595998
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.18483940002624877
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07032030005939305
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 206 | Reward: 17.15 | Avg: 14.85 | Epsilon: 0.661
+Episode 207 | Reward: 8.83 | Avg: 14.83 | Epsilon: 0.659
+Episode 208 | Reward: 21.35 | Avg: 15.10 | Epsilon: 0.658
+Episode 209 | Reward: 9.23 | Avg: 15.07 | Epsilon: 0.657
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07423300432856195
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05551720049697906
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 210 | Reward: 22.45 | Avg: 15.07 | Epsilon: 0.655
+Episode 211 | Reward: 10.31 | Avg: 15.12 | Epsilon: 0.654
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06449460086878389
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 212 | Reward: 9.00 | Avg: 14.96 | Epsilon: 0.653
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07627480119117536
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5746807010145858
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 213 | Reward: 52.37 | Avg: 15.80 | Epsilon: 0.652
+Episode 214 | Reward: 3.06 | Avg: 15.64 | Epsilon: 0.650
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.056457901519024745
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08907260178239085
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05190070127719082
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 215 | Reward: 41.40 | Avg: 16.27 | Epsilon: 0.649
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06624600139912218
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.31649300002027303
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 216 | Reward: 8.67 | Avg: 15.74 | Epsilon: 0.648
+Episode 217 | Reward: 8.17 | Avg: 15.84 | Epsilon: 0.646
+Episode 218 | Reward: 22.69 | Avg: 16.10 | Epsilon: 0.645
+Episode 219 | Reward: 17.07 | Avg: 16.22 | Epsilon: 0.644
+Episode 220 | Reward: 10.10 | Avg: 15.81 | Epsilon: 0.642
+Episode 221 | Reward: 10.48 | Avg: 15.59 | Epsilon: 0.641
+Episode 222 | Reward: 15.64 | Avg: 15.69 | Epsilon: 0.640
+Episode 223 | Reward: 18.17 | Avg: 15.85 | Epsilon: 0.639
+Episode 224 | Reward: 2.81 | Avg: 15.72 | Epsilon: 0.637
+Episode 225 | Reward: 9.03 | Avg: 15.69 | Epsilon: 0.636
+Episode 226 | Reward: 2.00 | Avg: 15.54 | Epsilon: 0.635
+Episode 227 | Reward: 8.63 | Avg: 15.39 | Epsilon: 0.634
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05498670335509814
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 228 | Reward: 17.67 | Avg: 15.57 | Epsilon: 0.632
+Episode 229 | Reward: 7.15 | Avg: 15.39 | Epsilon: 0.631
+Episode 230 | Reward: 15.94 | Avg: 15.50 | Epsilon: 0.630
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.054175201803445816
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 231 | Reward: 71.74 | Avg: 16.75 | Epsilon: 0.628
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.16570120039978065
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5901996004977264
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.13539780004066415
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 232 | Reward: 9.61 | Avg: 16.78 | Epsilon: 0.627
+Episode 233 | Reward: 6.71 | Avg: 16.46 | Epsilon: 0.626
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.14301950222579762
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 234 | Reward: 20.16 | Avg: 16.55 | Epsilon: 0.625
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07266850039013661
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06219160245382227
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 235 | Reward: 11.97 | Avg: 16.45 | Epsilon: 0.623
+Episode 236 | Reward: 9.56 | Avg: 16.26 | Epsilon: 0.622
+Episode 237 | Reward: 17.81 | Avg: 16.41 | Epsilon: 0.621
+Episode 238 | Reward: 10.01 | Avg: 15.85 | Epsilon: 0.620
+Episode 239 | Reward: 9.05 | Avg: 15.89 | Epsilon: 0.618
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06042220033123158
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 240 | Reward: 17.93 | Avg: 15.61 | Epsilon: 0.617
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.16730190039379522
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 241 | Reward: 8.84 | Avg: 15.41 | Epsilon: 0.616
+Episode 242 | Reward: 3.15 | Avg: 15.44 | Epsilon: 0.615
+Episode 243 | Reward: 9.75 | Avg: 15.43 | Epsilon: 0.614
+Episode 244 | Reward: 8.26 | Avg: 15.39 | Epsilon: 0.612
+Episode 245 | Reward: 9.84 | Avg: 15.14 | Epsilon: 0.611
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06733900264953263
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 246 | Reward: 38.67 | Avg: 15.75 | Epsilon: 0.610
+Episode 247 | Reward: 11.06 | Avg: 14.83 | Epsilon: 0.609
+Episode 248 | Reward: 16.04 | Avg: 15.09 | Epsilon: 0.607
+Episode 249 | Reward: 62.35 | Avg: 16.13 | Epsilon: 0.606
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07269490038743243
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06188080049469136
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 250 | Reward: 2.11 | Avg: 15.87 | Epsilon: 0.605
+Episode 251 | Reward: 12.37 | Avg: 15.99 | Epsilon: 0.604
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07451420038705692
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05171640307526104
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 252 | Reward: 16.38 | Avg: 15.86 | Epsilon: 0.603
+Episode 253 | Reward: 16.81 | Avg: 15.93 | Epsilon: 0.601
+Episode 254 | Reward: 34.42 | Avg: 16.42 | Epsilon: 0.600
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.1386881003563758
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05925140291219577
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 255 | Reward: 24.85 | Avg: 16.58 | Epsilon: 0.599
+Episode 256 | Reward: 9.24 | Avg: 16.42 | Epsilon: 0.598
+Episode 257 | Reward: 9.10 | Avg: 16.42 | Epsilon: 0.597
+Episode 258 | Reward: 9.12 | Avg: 16.18 | Epsilon: 0.595
+Episode 259 | Reward: 9.96 | Avg: 16.19 | Epsilon: 0.594
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.060620901465881616
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 260 | Reward: 16.77 | Avg: 16.08 | Epsilon: 0.593
+Episode 261 | Reward: 22.79 | Avg: 16.33 | Epsilon: 0.592
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07783580038812943
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 262 | Reward: 9.33 | Avg: 16.34 | Epsilon: 0.591
+Episode 263 | Reward: 4.26 | Avg: 15.37 | Epsilon: 0.589
+Episode 264 | Reward: 2.29 | Avg: 15.36 | Epsilon: 0.588
+Episode 265 | Reward: 27.54 | Avg: 15.08 | Epsilon: 0.587
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0650873011618387
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 266 | Reward: 10.16 | Avg: 15.11 | Epsilon: 0.586
+Episode 267 | Reward: 22.59 | Avg: 15.40 | Epsilon: 0.585
+Episode 268 | Reward: 17.84 | Avg: 15.30 | Epsilon: 0.584
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0510537009104155
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 269 | Reward: 5.85 | Avg: 15.08 | Epsilon: 0.582
+Episode 270 | Reward: 20.18 | Avg: 15.28 | Epsilon: 0.581
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.6234176011348609
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 271 | Reward: 9.47 | Avg: 15.26 | Epsilon: 0.580
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05288000375730917
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 272 | Reward: 12.23 | Avg: 15.19 | Epsilon: 0.579
+Episode 273 | Reward: 10.09 | Avg: 15.03 | Epsilon: 0.578
+Episode 274 | Reward: 9.20 | Avg: 15.16 | Epsilon: 0.577
+Episode 275 | Reward: 20.62 | Avg: 15.39 | Epsilon: 0.575
+Episode 276 | Reward: 8.10 | Avg: 15.51 | Epsilon: 0.574
+Episode 277 | Reward: 15.75 | Avg: 15.65 | Epsilon: 0.573
+Episode 278 | Reward: 9.17 | Avg: 15.48 | Epsilon: 0.572
+Episode 279 | Reward: 10.65 | Avg: 15.55 | Epsilon: 0.571
+Episode 280 | Reward: 10.04 | Avg: 15.44 | Epsilon: 0.570
+Episode 281 | Reward: 3.10 | Avg: 14.06 | Epsilon: 0.569
+Episode 282 | Reward: 9.85 | Avg: 14.07 | Epsilon: 0.567
+Episode 283 | Reward: 10.13 | Avg: 14.14 | Epsilon: 0.566
+Episode 284 | Reward: 16.47 | Avg: 14.06 | Epsilon: 0.565
+Episode 285 | Reward: 15.16 | Avg: 14.13 | Epsilon: 0.564
+Episode 286 | Reward: 5.80 | Avg: 14.05 | Epsilon: 0.563
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08694950063363649
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 287 | Reward: 7.85 | Avg: 13.85 | Epsilon: 0.562
+Episode 288 | Reward: 9.86 | Avg: 13.85 | Epsilon: 0.561
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08591780392453074
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.10597600127221085
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 289 | Reward: 41.58 | Avg: 14.50 | Epsilon: 0.560
+Episode 290 | Reward: 4.64 | Avg: 14.23 | Epsilon: 0.558
+Episode 291 | Reward: 10.87 | Avg: 14.27 | Epsilon: 0.557
+Episode 292 | Reward: 22.92 | Avg: 14.67 | Epsilon: 0.556
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050632300379220396
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 293 | Reward: 10.08 | Avg: 14.68 | Epsilon: 0.555
+Episode 294 | Reward: 2.70 | Avg: 14.57 | Epsilon: 0.554
+Episode 295 | Reward: 6.69 | Avg: 14.50 | Epsilon: 0.553
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08081920095719397
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 296 | Reward: 10.21 | Avg: 13.93 | Epsilon: 0.552
+Episode 297 | Reward: 7.79 | Avg: 13.87 | Epsilon: 0.551
+Episode 298 | Reward: 8.39 | Avg: 13.71 | Epsilon: 0.550
+Episode 299 | Reward: 10.43 | Avg: 12.68 | Epsilon: 0.548
+Episode 300 | Reward: 5.67 | Avg: 12.75 | Epsilon: 0.547
+Episode 301 | Reward: 10.88 | Avg: 12.72 | Epsilon: 0.546
+Episode 302 | Reward: 9.80 | Avg: 12.59 | Epsilon: 0.545
+Episode 303 | Reward: 15.75 | Avg: 12.56 | Epsilon: 0.544
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05951690109213814
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 304 | Reward: 7.57 | Avg: 12.03 | Epsilon: 0.543
+Episode 305 | Reward: 8.89 | Avg: 11.71 | Epsilon: 0.542
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.6128360008005984
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 306 | Reward: 9.28 | Avg: 11.71 | Epsilon: 0.541
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05519950098823756
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 307 | Reward: 5.23 | Avg: 11.63 | Epsilon: 0.540
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05297430115751922
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 308 | Reward: 8.38 | Avg: 11.62 | Epsilon: 0.539
+Episode 309 | Reward: 10.12 | Avg: 11.62 | Epsilon: 0.538
+Episode 310 | Reward: 8.51 | Avg: 11.46 | Epsilon: 0.537
+Episode 311 | Reward: 3.51 | Avg: 11.07 | Epsilon: 0.535
+Episode 312 | Reward: 9.88 | Avg: 11.08 | Epsilon: 0.534
+Episode 313 | Reward: 2.93 | Avg: 11.05 | Epsilon: 0.533
+Episode 314 | Reward: 10.62 | Avg: 11.22 | Epsilon: 0.532
+Episode 315 | Reward: 6.12 | Avg: 10.79 | Epsilon: 0.531
+Episode 316 | Reward: 8.39 | Avg: 10.76 | Epsilon: 0.530
+Episode 317 | Reward: 10.27 | Avg: 10.51 | Epsilon: 0.529
+Episode 318 | Reward: 3.49 | Avg: 10.22 | Epsilon: 0.528
+Episode 319 | Reward: 16.27 | Avg: 10.43 | Epsilon: 0.527
+Episode 320 | Reward: 3.85 | Avg: 10.11 | Epsilon: 0.526
+Episode 321 | Reward: 10.28 | Avg: 10.12 | Epsilon: 0.525
+Episode 322 | Reward: 9.68 | Avg: 10.07 | Epsilon: 0.524
+Episode 323 | Reward: 16.08 | Avg: 10.19 | Epsilon: 0.523
+Episode 324 | Reward: 1.58 | Avg: 10.04 | Epsilon: 0.522
+Episode 325 | Reward: 9.45 | Avg: 9.81 | Epsilon: 0.521
+Episode 326 | Reward: 8.89 | Avg: 9.83 | Epsilon: 0.520
+Episode 327 | Reward: 6.32 | Avg: 9.64 | Epsilon: 0.519
+Episode 328 | Reward: 2.05 | Avg: 9.50 | Epsilon: 0.518
+Episode 329 | Reward: 7.25 | Avg: 9.43 | Epsilon: 0.517
+Episode 330 | Reward: 6.54 | Avg: 9.36 | Epsilon: 0.515
+Episode 331 | Reward: 6.62 | Avg: 9.43 | Epsilon: 0.514
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.061278800189029425
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 332 | Reward: 22.30 | Avg: 9.68 | Epsilon: 0.513
+Episode 333 | Reward: 31.63 | Avg: 10.11 | Epsilon: 0.512
+Episode 334 | Reward: 15.76 | Avg: 10.10 | Epsilon: 0.511
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05167110179900192
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 335 | Reward: 10.44 | Avg: 10.00 | Epsilon: 0.510
+Episode 336 | Reward: 25.13 | Avg: 10.39 | Epsilon: 0.509
+Episode 337 | Reward: 10.47 | Avg: 10.44 | Epsilon: 0.508
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5961718003673013
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05643740069353953
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 338 | Reward: 9.25 | Avg: 10.43 | Epsilon: 0.507
+Episode 339 | Reward: 10.02 | Avg: 9.80 | Epsilon: 0.506
+Episode 340 | Reward: 5.02 | Avg: 9.81 | Epsilon: 0.505
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06405710693798028
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 341 | Reward: 31.35 | Avg: 10.21 | Epsilon: 0.504
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.058327700273366645
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.15745000244351104
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.13714589999290183
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07667680003214628
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08650320000015199
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.12921210000058636
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06181720198947005
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 342 | Reward: 31.74 | Avg: 10.39 | Epsilon: 0.503
+Episode 343 | Reward: 9.90 | Avg: 10.39 | Epsilon: 0.502
+Episode 344 | Reward: 9.61 | Avg: 10.53 | Epsilon: 0.501
+Episode 345 | Reward: 4.44 | Avg: 10.48 | Epsilon: 0.500
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05860640213359147
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 346 | Reward: 15.91 | Avg: 10.59 | Epsilon: 0.499
+Episode 347 | Reward: 1.53 | Avg: 10.47 | Epsilon: 0.498
+Episode 348 | Reward: 2.29 | Avg: 10.35 | Epsilon: 0.497
+Episode 349 | Reward: 3.24 | Avg: 10.20 | Epsilon: 0.496
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05738410144113004
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 350 | Reward: 22.18 | Avg: 10.53 | Epsilon: 0.495
+Episode 351 | Reward: 9.54 | Avg: 10.51 | Epsilon: 0.494
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11497360040084459
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 352 | Reward: 1.81 | Avg: 10.35 | Epsilon: 0.493
+Episode 353 | Reward: 8.50 | Avg: 10.20 | Epsilon: 0.492
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06471700055408292
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 354 | Reward: 10.17 | Avg: 10.25 | Epsilon: 0.491
+Episode 355 | Reward: 10.90 | Avg: 10.29 | Epsilon: 0.490
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5322848014184274
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 356 | Reward: 8.26 | Avg: 10.27 | Epsilon: 0.489
+Episode 357 | Reward: 5.65 | Avg: 10.28 | Epsilon: 0.488
+Episode 358 | Reward: 17.75 | Avg: 10.47 | Epsilon: 0.487
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05961820075754076
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 359 | Reward: 9.89 | Avg: 10.47 | Epsilon: 0.486
+Episode 360 | Reward: 16.34 | Avg: 10.62 | Epsilon: 0.485
+Episode 361 | Reward: 7.95 | Avg: 10.71 | Epsilon: 0.484
+Episode 362 | Reward: 8.51 | Avg: 10.68 | Epsilon: 0.483
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05718780079041608
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 363 | Reward: 6.52 | Avg: 10.76 | Epsilon: 0.483
+Episode 364 | Reward: 2.10 | Avg: 10.58 | Epsilon: 0.482
+Episode 365 | Reward: 23.03 | Avg: 10.92 | Epsilon: 0.481
+Episode 366 | Reward: 11.35 | Avg: 10.98 | Epsilon: 0.480
+Episode 367 | Reward: 9.98 | Avg: 10.98 | Epsilon: 0.479
+Episode 368 | Reward: 30.22 | Avg: 11.51 | Epsilon: 0.478
+Episode 369 | Reward: 22.76 | Avg: 11.64 | Epsilon: 0.477
+Episode 370 | Reward: 25.31 | Avg: 12.07 | Epsilon: 0.476
+Episode 371 | Reward: 9.31 | Avg: 12.05 | Epsilon: 0.475
+Episode 372 | Reward: 2.88 | Avg: 11.91 | Epsilon: 0.474
+Episode 373 | Reward: 6.00 | Avg: 11.71 | Epsilon: 0.473
+Episode 374 | Reward: 10.63 | Avg: 11.89 | Epsilon: 0.472
+Episode 375 | Reward: 18.08 | Avg: 12.07 | Epsilon: 0.471
+Episode 376 | Reward: 1.86 | Avg: 11.93 | Epsilon: 0.470
+Episode 377 | Reward: 10.25 | Avg: 12.00 | Epsilon: 0.469
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05738280131481588
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05468640162143856
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 378 | Reward: 16.28 | Avg: 12.29 | Epsilon: 0.468
+Episode 379 | Reward: 10.13 | Avg: 12.35 | Epsilon: 0.467
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06104630135814659
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 380 | Reward: 10.54 | Avg: 12.43 | Epsilon: 0.466
+Episode 381 | Reward: 16.71 | Avg: 12.63 | Epsilon: 0.465
+Episode 382 | Reward: 10.28 | Avg: 12.39 | Epsilon: 0.465
+Episode 383 | Reward: 10.34 | Avg: 11.96 | Epsilon: 0.464
+Episode 384 | Reward: 9.70 | Avg: 11.84 | Epsilon: 0.463
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06812100039678626
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 385 | Reward: 10.21 | Avg: 11.84 | Epsilon: 0.462
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.10014220280572772
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.062207500595832244
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 386 | Reward: 17.29 | Avg: 11.68 | Epsilon: 0.461
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05491570389131084
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05085760017391294
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05038420841447078
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 387 | Reward: 68.78 | Avg: 12.85 | Epsilon: 0.460
+Episode 388 | Reward: 7.98 | Avg: 12.82 | Epsilon: 0.459
+Episode 389 | Reward: 22.70 | Avg: 13.07 | Epsilon: 0.458
+Episode 390 | Reward: 14.38 | Avg: 13.26 | Epsilon: 0.457
+Episode 391 | Reward: 5.31 | Avg: 12.74 | Epsilon: 0.456
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06706560018938035
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05839220338384621
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 392 | Reward: 22.84 | Avg: 12.56 | Epsilon: 0.455
+Episode 393 | Reward: 2.57 | Avg: 12.42 | Epsilon: 0.454
+Episode 394 | Reward: 6.68 | Avg: 12.36 | Epsilon: 0.453
+Episode 395 | Reward: 6.80 | Avg: 12.40 | Epsilon: 0.453
+Episode 396 | Reward: 10.10 | Avg: 12.29 | Epsilon: 0.452
+Episode 397 | Reward: 8.78 | Avg: 12.43 | Epsilon: 0.451
+Episode 398 | Reward: 9.87 | Avg: 12.58 | Epsilon: 0.450
+Episode 399 | Reward: 8.95 | Avg: 12.70 | Epsilon: 0.449
+Episode 400 | Reward: 10.30 | Avg: 12.46 | Epsilon: 0.448
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0546436010627076
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 401 | Reward: 9.96 | Avg: 12.47 | Epsilon: 0.447
+Episode 402 | Reward: 9.04 | Avg: 12.61 | Epsilon: 0.446
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0832480001845397
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 403 | Reward: 5.23 | Avg: 12.55 | Epsilon: 0.445
+Episode 404 | Reward: 17.13 | Avg: 12.69 | Epsilon: 0.444
+Episode 405 | Reward: 8.79 | Avg: 12.65 | Epsilon: 0.444
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06740020579309203
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05047050505527295
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 406 | Reward: 85.27 | Avg: 14.19 | Epsilon: 0.443
+Episode 407 | Reward: 15.72 | Avg: 14.39 | Epsilon: 0.442
+Episode 408 | Reward: 7.25 | Avg: 14.18 | Epsilon: 0.441
+Episode 409 | Reward: 10.06 | Avg: 14.18 | Epsilon: 0.440
+Episode 410 | Reward: 15.86 | Avg: 14.17 | Epsilon: 0.439
+Episode 411 | Reward: 10.81 | Avg: 14.23 | Epsilon: 0.438
+Episode 412 | Reward: 5.14 | Avg: 14.16 | Epsilon: 0.437
+Episode 413 | Reward: 13.23 | Avg: 14.30 | Epsilon: 0.437
+Episode 414 | Reward: 7.76 | Avg: 14.41 | Epsilon: 0.436
+Episode 415 | Reward: 10.68 | Avg: 14.16 | Epsilon: 0.435
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08708210047916509
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05262800128548406
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050204900675453246
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 416 | Reward: 16.33 | Avg: 14.26 | Epsilon: 0.434
+Episode 417 | Reward: 6.88 | Avg: 14.20 | Epsilon: 0.433
+Episode 418 | Reward: 10.78 | Avg: 13.81 | Epsilon: 0.432
+Episode 419 | Reward: 10.19 | Avg: 13.56 | Epsilon: 0.431
+Episode 420 | Reward: 6.20 | Avg: 13.18 | Epsilon: 0.430
+Episode 421 | Reward: 17.56 | Avg: 13.34 | Epsilon: 0.430
+Episode 422 | Reward: 3.82 | Avg: 13.36 | Epsilon: 0.429
+Episode 423 | Reward: 11.34 | Avg: 13.47 | Epsilon: 0.428
+Episode 424 | Reward: 9.82 | Avg: 13.45 | Epsilon: 0.427
+Episode 425 | Reward: 10.18 | Avg: 13.29 | Epsilon: 0.426
+Episode 426 | Reward: 16.94 | Avg: 13.59 | Epsilon: 0.425
+Episode 427 | Reward: 2.48 | Avg: 13.44 | Epsilon: 0.424
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0536169002589304
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 428 | Reward: 1.75 | Avg: 13.15 | Epsilon: 0.424
+Episode 429 | Reward: 6.14 | Avg: 13.07 | Epsilon: 0.423
+Episode 430 | Reward: 9.67 | Avg: 13.05 | Epsilon: 0.422
+Episode 431 | Reward: 10.09 | Avg: 12.92 | Epsilon: 0.421
+Episode 432 | Reward: 9.87 | Avg: 12.91 | Epsilon: 0.420
+Episode 433 | Reward: 15.96 | Avg: 13.02 | Epsilon: 0.419
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05072340162587352
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 434 | Reward: 10.04 | Avg: 13.03 | Epsilon: 0.419
+Episode 435 | Reward: 15.84 | Avg: 13.14 | Epsilon: 0.418
+Episode 436 | Reward: 11.83 | Avg: 13.03 | Epsilon: 0.417
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07507230024202727
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06095050016301684
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 437 | Reward: 10.67 | Avg: 11.87 | Epsilon: 0.416
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05362070124829188
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 438 | Reward: 7.25 | Avg: 11.86 | Epsilon: 0.415
+Episode 439 | Reward: 4.79 | Avg: 11.50 | Epsilon: 0.414
+Episode 440 | Reward: 15.31 | Avg: 11.52 | Epsilon: 0.414
+Episode 441 | Reward: 9.80 | Avg: 11.61 | Epsilon: 0.413
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06733520203852095
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 442 | Reward: 8.67 | Avg: 11.32 | Epsilon: 0.412
+Episode 443 | Reward: 9.83 | Avg: 11.47 | Epsilon: 0.411
+Episode 444 | Reward: 3.81 | Avg: 11.41 | Epsilon: 0.410
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06408050109166652
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 445 | Reward: 16.00 | Avg: 11.60 | Epsilon: 0.409
+Episode 446 | Reward: 9.14 | Avg: 11.58 | Epsilon: 0.409
+Episode 447 | Reward: 15.98 | Avg: 11.72 | Epsilon: 0.408
+Episode 448 | Reward: 1.28 | Avg: 11.55 | Epsilon: 0.407
+Episode 449 | Reward: 13.88 | Avg: 11.65 | Epsilon: 0.406
+Episode 450 | Reward: 9.22 | Avg: 11.63 | Epsilon: 0.405
+Episode 451 | Reward: 10.54 | Avg: 11.64 | Epsilon: 0.405
+Episode 452 | Reward: 10.07 | Avg: 11.66 | Epsilon: 0.404
+Episode 453 | Reward: 15.26 | Avg: 11.86 | Epsilon: 0.403
+Episode 454 | Reward: 10.91 | Avg: 11.73 | Epsilon: 0.402
+Episode 455 | Reward: 1.92 | Avg: 11.60 | Epsilon: 0.401
+Episode 456 | Reward: 9.74 | Avg: 10.09 | Epsilon: 0.401
+Episode 457 | Reward: 53.89 | Avg: 10.85 | Epsilon: 0.400
+Episode 458 | Reward: 4.76 | Avg: 10.80 | Epsilon: 0.399
+Episode 459 | Reward: 11.52 | Avg: 10.83 | Epsilon: 0.398
+Episode 460 | Reward: 16.08 | Avg: 10.83 | Epsilon: 0.397
+Episode 461 | Reward: 2.68 | Avg: 10.67 | Epsilon: 0.397
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05764190148329362
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 462 | Reward: 6.72 | Avg: 10.70 | Epsilon: 0.396
+Episode 463 | Reward: 9.98 | Avg: 10.64 | Epsilon: 0.395
+Episode 464 | Reward: 4.77 | Avg: 10.58 | Epsilon: 0.394
+Episode 465 | Reward: 10.64 | Avg: 10.58 | Epsilon: 0.393
+Episode 466 | Reward: 6.39 | Avg: 10.38 | Epsilon: 0.393
+Episode 467 | Reward: 2.12 | Avg: 10.28 | Epsilon: 0.392
+Episode 468 | Reward: 2.19 | Avg: 10.11 | Epsilon: 0.391
+Episode 469 | Reward: 8.05 | Avg: 10.07 | Epsilon: 0.390
+Episode 470 | Reward: 36.85 | Avg: 10.68 | Epsilon: 0.389
+Episode 471 | Reward: 4.59 | Avg: 10.42 | Epsilon: 0.389
+Episode 472 | Reward: 9.82 | Avg: 10.54 | Epsilon: 0.388
+Episode 473 | Reward: 10.27 | Avg: 10.52 | Epsilon: 0.387
+Episode 474 | Reward: 9.21 | Avg: 10.51 | Epsilon: 0.386
+Episode 475 | Reward: 3.11 | Avg: 10.37 | Epsilon: 0.386
+Episode 476 | Reward: 9.75 | Avg: 10.22 | Epsilon: 0.385
+Episode 477 | Reward: 8.00 | Avg: 10.33 | Epsilon: 0.384
+Episode 478 | Reward: 6.91 | Avg: 10.44 | Epsilon: 0.383
+Episode 479 | Reward: 22.80 | Avg: 10.77 | Epsilon: 0.383
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05399170258897357
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 480 | Reward: 22.97 | Avg: 11.04 | Epsilon: 0.382
+Episode 481 | Reward: 6.06 | Avg: 10.95 | Epsilon: 0.381
+Episode 482 | Reward: 2.61 | Avg: 10.81 | Epsilon: 0.380
+Episode 483 | Reward: 4.27 | Avg: 10.58 | Epsilon: 0.379
+Episode 484 | Reward: 9.99 | Avg: 10.57 | Epsilon: 0.379
+Episode 485 | Reward: 2.27 | Avg: 10.30 | Epsilon: 0.378
+Episode 486 | Reward: 6.14 | Avg: 10.19 | Epsilon: 0.377
+Episode 487 | Reward: 7.87 | Avg: 10.13 | Epsilon: 0.376
+Episode 488 | Reward: 7.77 | Avg: 10.14 | Epsilon: 0.376
+Episode 489 | Reward: 21.46 | Avg: 10.48 | Epsilon: 0.375
+Episode 490 | Reward: 9.75 | Avg: 10.37 | Epsilon: 0.374
+Episode 491 | Reward: 15.01 | Avg: 10.47 | Epsilon: 0.373
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0847482020908501
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06504610012052581
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 492 | Reward: 23.79 | Avg: 10.77 | Epsilon: 0.373
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07315820077201352
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 493 | Reward: 8.07 | Avg: 10.74 | Epsilon: 0.372
+Episode 494 | Reward: 2.74 | Avg: 10.72 | Epsilon: 0.371
+Episode 495 | Reward: 10.64 | Avg: 10.61 | Epsilon: 0.370
+Episode 496 | Reward: 8.39 | Avg: 10.59 | Epsilon: 0.370
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05368240165989846
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 497 | Reward: 9.52 | Avg: 10.46 | Epsilon: 0.369
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07981360450503416
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 498 | Reward: 25.88 | Avg: 10.96 | Epsilon: 0.368
+Episode 499 | Reward: 3.41 | Avg: 10.75 | Epsilon: 0.368
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06666610125103034
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 500 | Reward: 8.97 | Avg: 10.74 | Epsilon: 0.367
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.052683001616969705
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 501 | Reward: 16.04 | Avg: 10.85 | Epsilon: 0.366
+Episode 502 | Reward: 6.59 | Avg: 10.78 | Epsilon: 0.365
+Episode 503 | Reward: 9.42 | Avg: 10.67 | Epsilon: 0.365
+Episode 504 | Reward: 10.13 | Avg: 10.65 | Epsilon: 0.364
+Episode 505 | Reward: 3.80 | Avg: 10.69 | Epsilon: 0.363
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08140120017924346
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 506 | Reward: 8.71 | Avg: 10.67 | Epsilon: 0.362
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06916360050672665
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 507 | Reward: 10.09 | Avg: 9.79 | Epsilon: 0.362
+Episode 508 | Reward: 8.96 | Avg: 9.88 | Epsilon: 0.361
+Episode 509 | Reward: 8.25 | Avg: 9.81 | Epsilon: 0.360
+Episode 510 | Reward: 6.15 | Avg: 9.61 | Epsilon: 0.360
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055897901562275365
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 511 | Reward: 1.69 | Avg: 9.59 | Epsilon: 0.359
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0695728006248828
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05056570001761429
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 512 | Reward: 2.97 | Avg: 9.52 | Epsilon: 0.358
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05690200178651139
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 513 | Reward: 9.20 | Avg: 9.50 | Epsilon: 0.357
+Episode 514 | Reward: 16.15 | Avg: 9.73 | Epsilon: 0.357
+Episode 515 | Reward: 8.41 | Avg: 9.68 | Epsilon: 0.356
+Episode 516 | Reward: 7.71 | Avg: 9.71 | Epsilon: 0.355
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06229590004659258
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 517 | Reward: 9.79 | Avg: 9.86 | Epsilon: 0.355
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06227070084423758
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 518 | Reward: 7.11 | Avg: 9.96 | Epsilon: 0.354
+Episode 519 | Reward: 10.09 | Avg: 10.00 | Epsilon: 0.353
+Episode 520 | Reward: 9.48 | Avg: 9.46 | Epsilon: 0.352
+Episode 521 | Reward: 78.59 | Avg: 10.94 | Epsilon: 0.352
+Episode 522 | Reward: 14.94 | Avg: 11.04 | Epsilon: 0.351
+Episode 523 | Reward: 21.18 | Avg: 11.26 | Epsilon: 0.350
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0574871021672152
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 524 | Reward: 10.57 | Avg: 11.28 | Epsilon: 0.350
+Episode 525 | Reward: 2.45 | Avg: 11.27 | Epsilon: 0.349
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05659730010665953
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 526 | Reward: 3.05 | Avg: 11.14 | Epsilon: 0.348
+Episode 527 | Reward: 4.31 | Avg: 11.06 | Epsilon: 0.347
+Episode 528 | Reward: 6.36 | Avg: 11.05 | Epsilon: 0.347
+Episode 529 | Reward: 11.09 | Avg: 10.82 | Epsilon: 0.346
+Episode 530 | Reward: 15.75 | Avg: 10.67 | Epsilon: 0.345
+Episode 531 | Reward: 5.04 | Avg: 10.65 | Epsilon: 0.345
+Episode 532 | Reward: 10.51 | Avg: 10.81 | Epsilon: 0.344
+Episode 533 | Reward: 4.67 | Avg: 10.82 | Epsilon: 0.343
+Episode 534 | Reward: 2.25 | Avg: 10.66 | Epsilon: 0.343
+Episode 535 | Reward: 15.07 | Avg: 10.92 | Epsilon: 0.342
+Episode 536 | Reward: 16.30 | Avg: 11.12 | Epsilon: 0.341
+Episode 537 | Reward: 12.53 | Avg: 11.22 | Epsilon: 0.341
+Episode 538 | Reward: 1.68 | Avg: 11.09 | Epsilon: 0.340
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06084970003576018
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05222680277074687
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 539 | Reward: 10.31 | Avg: 10.87 | Epsilon: 0.339
+Episode 540 | Reward: 10.51 | Avg: 10.89 | Epsilon: 0.339
+Episode 541 | Reward: 1.94 | Avg: 10.63 | Epsilon: 0.338
+Episode 542 | Reward: 9.05 | Avg: 10.33 | Epsilon: 0.337
+Episode 543 | Reward: 7.23 | Avg: 10.31 | Epsilon: 0.337
+Episode 544 | Reward: 23.70 | Avg: 10.73 | Epsilon: 0.336
+Episode 545 | Reward: 4.60 | Avg: 10.61 | Epsilon: 0.335
+Episode 546 | Reward: 3.10 | Avg: 10.51 | Epsilon: 0.335
+Episode 547 | Reward: 10.46 | Avg: 10.52 | Epsilon: 0.334
+Episode 548 | Reward: 22.40 | Avg: 10.46 | Epsilon: 0.333
+Episode 549 | Reward: 10.15 | Avg: 10.59 | Epsilon: 0.333
+Episode 550 | Reward: 11.10 | Avg: 10.63 | Epsilon: 0.332
+Episode 551 | Reward: 10.34 | Avg: 10.52 | Epsilon: 0.331
+Episode 552 | Reward: 8.92 | Avg: 10.57 | Epsilon: 0.331
+Episode 553 | Reward: 9.82 | Avg: 10.57 | Epsilon: 0.330
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05835380306234583
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 554 | Reward: 16.77 | Avg: 10.71 | Epsilon: 0.329
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09568760765250772
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 555 | Reward: 58.91 | Avg: 11.81 | Epsilon: 0.329
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0939300007885322
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 556 | Reward: 10.56 | Avg: 11.85 | Epsilon: 0.328
+Episode 557 | Reward: 24.89 | Avg: 12.14 | Epsilon: 0.327
+Episode 558 | Reward: 10.17 | Avg: 12.17 | Epsilon: 0.327
+Episode 559 | Reward: 16.47 | Avg: 12.33 | Epsilon: 0.326
+Episode 560 | Reward: 3.84 | Avg: 12.28 | Epsilon: 0.325
+Episode 561 | Reward: 4.05 | Avg: 12.33 | Epsilon: 0.325
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06076240030233748
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 562 | Reward: 6.94 | Avg: 12.41 | Epsilon: 0.324
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.058010401466162875
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 563 | Reward: 4.24 | Avg: 12.31 | Epsilon: 0.323
+Episode 564 | Reward: 3.54 | Avg: 12.06 | Epsilon: 0.323
+Episode 565 | Reward: 4.85 | Avg: 11.99 | Epsilon: 0.322
+Episode 566 | Reward: 16.77 | Avg: 12.17 | Epsilon: 0.321
+Episode 567 | Reward: 10.83 | Avg: 12.19 | Epsilon: 0.321
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06942450004862621
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 568 | Reward: 2.77 | Avg: 12.10 | Epsilon: 0.320
+Episode 569 | Reward: 9.82 | Avg: 12.10 | Epsilon: 0.319
+Episode 570 | Reward: 5.04 | Avg: 12.01 | Epsilon: 0.319
+Episode 571 | Reward: 9.67 | Avg: 10.63 | Epsilon: 0.318
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.059571101010078564
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 572 | Reward: 4.37 | Avg: 10.42 | Epsilon: 0.318
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.062486500886734575
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 573 | Reward: 7.77 | Avg: 10.15 | Epsilon: 0.317
+Episode 574 | Reward: 16.10 | Avg: 10.26 | Epsilon: 0.316
+Episode 575 | Reward: 10.64 | Avg: 10.43 | Epsilon: 0.316
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07421350048389286
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09377680139732547
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 576 | Reward: 10.26 | Avg: 10.57 | Epsilon: 0.315
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06581360136624426
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 577 | Reward: 9.28 | Avg: 10.67 | Epsilon: 0.314
+Episode 578 | Reward: 4.85 | Avg: 10.64 | Epsilon: 0.314
+Episode 579 | Reward: 3.20 | Avg: 10.48 | Epsilon: 0.313
+Episode 580 | Reward: 2.17 | Avg: 10.21 | Epsilon: 0.312
+Episode 581 | Reward: 9.83 | Avg: 10.30 | Epsilon: 0.312
+Episode 582 | Reward: 9.83 | Avg: 10.29 | Epsilon: 0.311
+Episode 583 | Reward: 4.79 | Avg: 10.29 | Epsilon: 0.311
+Episode 584 | Reward: 8.33 | Avg: 10.42 | Epsilon: 0.310
+Episode 585 | Reward: 7.48 | Avg: 10.26 | Epsilon: 0.309
+Episode 586 | Reward: 9.72 | Avg: 10.13 | Epsilon: 0.309
+Episode 587 | Reward: 2.98 | Avg: 9.94 | Epsilon: 0.308
+Episode 588 | Reward: 23.06 | Avg: 10.37 | Epsilon: 0.308
+Episode 589 | Reward: 4.05 | Avg: 10.24 | Epsilon: 0.307
+Episode 590 | Reward: 11.18 | Avg: 10.26 | Epsilon: 0.306
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.062491301621776074
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 591 | Reward: 27.69 | Avg: 10.77 | Epsilon: 0.306
+Episode 592 | Reward: 3.51 | Avg: 10.66 | Epsilon: 0.305
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05805760741350241
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 593 | Reward: 36.70 | Avg: 11.25 | Epsilon: 0.304
+Episode 594 | Reward: 2.03 | Avg: 10.82 | Epsilon: 0.304
+Episode 595 | Reward: 1.73 | Avg: 10.76 | Epsilon: 0.303
+Episode 596 | Reward: 9.65 | Avg: 10.89 | Epsilon: 0.303
+Episode 597 | Reward: 7.84 | Avg: 10.84 | Epsilon: 0.302
+Episode 598 | Reward: 6.27 | Avg: 10.52 | Epsilon: 0.301
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07065590098500252
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 599 | Reward: 11.09 | Avg: 10.53 | Epsilon: 0.301
+Episode 600 | Reward: 1.62 | Avg: 10.34 | Epsilon: 0.300
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.10030550067313015
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.10296009999001399
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06913360001635738
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09665940000559203
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06709520003641956
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 601 | Reward: 9.29 | Avg: 10.32 | Epsilon: 0.300
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.053460200753761455
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 602 | Reward: 6.33 | Avg: 10.27 | Epsilon: 0.299
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05787710004369728
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05813450049026869
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 603 | Reward: 7.93 | Avg: 10.23 | Epsilon: 0.298
+Episode 604 | Reward: 8.71 | Avg: 10.07 | Epsilon: 0.298
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050955801823874936
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 605 | Reward: 8.55 | Avg: 9.07 | Epsilon: 0.297
+Episode 606 | Reward: 17.24 | Avg: 9.20 | Epsilon: 0.297
+Episode 607 | Reward: 22.64 | Avg: 9.15 | Epsilon: 0.296
+Episode 608 | Reward: 9.02 | Avg: 9.13 | Epsilon: 0.295
+Episode 609 | Reward: 5.49 | Avg: 8.91 | Epsilon: 0.295
+Episode 610 | Reward: 5.71 | Avg: 8.95 | Epsilon: 0.294
+Episode 611 | Reward: 2.77 | Avg: 8.92 | Epsilon: 0.294
+Episode 612 | Reward: 7.06 | Avg: 8.93 | Epsilon: 0.293
+Episode 613 | Reward: 2.85 | Avg: 8.90 | Epsilon: 0.293
+Episode 614 | Reward: 1.55 | Avg: 8.86 | Epsilon: 0.292
+Episode 615 | Reward: 8.53 | Avg: 8.93 | Epsilon: 0.291
+Episode 616 | Reward: 16.08 | Avg: 8.92 | Epsilon: 0.291
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05591590190306306
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 617 | Reward: 9.62 | Avg: 8.89 | Epsilon: 0.290
+Episode 618 | Reward: 3.64 | Avg: 8.91 | Epsilon: 0.290
+Episode 619 | Reward: 8.91 | Avg: 8.89 | Epsilon: 0.289
+Episode 620 | Reward: 10.14 | Avg: 9.00 | Epsilon: 0.288
+Episode 621 | Reward: 8.62 | Avg: 8.97 | Epsilon: 0.288
+Episode 622 | Reward: 21.04 | Avg: 9.31 | Epsilon: 0.287
+Episode 623 | Reward: 0.89 | Avg: 9.17 | Epsilon: 0.287
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055299000698141754
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 624 | Reward: 8.49 | Avg: 9.02 | Epsilon: 0.286
+Episode 625 | Reward: 10.71 | Avg: 9.02 | Epsilon: 0.286
+Episode 626 | Reward: 15.87 | Avg: 9.13 | Epsilon: 0.285
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06360040037543513
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 627 | Reward: 1.61 | Avg: 8.98 | Epsilon: 0.284
+Episode 628 | Reward: 2.46 | Avg: 8.93 | Epsilon: 0.284
+Episode 629 | Reward: 7.24 | Avg: 9.01 | Epsilon: 0.283
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.051349300949368626
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 630 | Reward: 8.67 | Avg: 9.14 | Epsilon: 0.283
+Episode 631 | Reward: 8.51 | Avg: 9.11 | Epsilon: 0.282
+Episode 632 | Reward: 20.34 | Avg: 9.32 | Epsilon: 0.282
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050946603005286306
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 633 | Reward: 22.51 | Avg: 9.68 | Epsilon: 0.281
+Episode 634 | Reward: 1.27 | Avg: 9.54 | Epsilon: 0.280
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.11650420047226362
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 635 | Reward: 9.99 | Avg: 9.59 | Epsilon: 0.280
+Episode 636 | Reward: 10.86 | Avg: 9.61 | Epsilon: 0.279
+Episode 637 | Reward: 9.37 | Avg: 9.74 | Epsilon: 0.279
+Episode 638 | Reward: 16.05 | Avg: 9.60 | Epsilon: 0.278
+Episode 639 | Reward: 16.12 | Avg: 9.84 | Epsilon: 0.278
+Episode 640 | Reward: 17.37 | Avg: 9.96 | Epsilon: 0.277
+Episode 641 | Reward: 15.10 | Avg: 9.71 | Epsilon: 0.277
+Episode 642 | Reward: 1.31 | Avg: 9.67 | Epsilon: 0.276
+Episode 643 | Reward: 30.19 | Avg: 9.54 | Epsilon: 0.275
+Episode 644 | Reward: 1.64 | Avg: 9.53 | Epsilon: 0.275
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09414110006764531
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 645 | Reward: 10.29 | Avg: 9.70 | Epsilon: 0.274
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05979740378097631
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 646 | Reward: 25.53 | Avg: 10.02 | Epsilon: 0.274
+Episode 647 | Reward: 5.19 | Avg: 9.97 | Epsilon: 0.273
+Episode 648 | Reward: 2.28 | Avg: 9.89 | Epsilon: 0.273
+Episode 649 | Reward: 24.03 | Avg: 10.14 | Epsilon: 0.272
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0565747041546274
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 650 | Reward: 25.80 | Avg: 10.63 | Epsilon: 0.272
+Episode 651 | Reward: 5.95 | Avg: 10.56 | Epsilon: 0.271
+Episode 652 | Reward: 10.46 | Avg: 10.64 | Epsilon: 0.271
+Episode 653 | Reward: 7.29 | Avg: 10.63 | Epsilon: 0.270
+Episode 654 | Reward: 9.82 | Avg: 10.65 | Epsilon: 0.269
+Episode 655 | Reward: 67.87 | Avg: 11.84 | Epsilon: 0.269
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07690330038894899
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 656 | Reward: 3.51 | Avg: 11.57 | Epsilon: 0.268
+Episode 657 | Reward: 5.07 | Avg: 11.21 | Epsilon: 0.268
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05181510091642849
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 658 | Reward: 3.34 | Avg: 11.10 | Epsilon: 0.267
+Episode 659 | Reward: 10.77 | Avg: 11.21 | Epsilon: 0.267
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05450240024947561
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 660 | Reward: 5.18 | Avg: 11.20 | Epsilon: 0.266
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05421780081815086
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 661 | Reward: 10.37 | Avg: 11.35 | Epsilon: 0.266
+Episode 662 | Reward: 6.15 | Avg: 11.33 | Epsilon: 0.265
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05681690099299885
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 663 | Reward: 24.47 | Avg: 11.76 | Epsilon: 0.265
+Episode 664 | Reward: 10.24 | Avg: 11.94 | Epsilon: 0.264
+Episode 665 | Reward: 11.36 | Avg: 11.99 | Epsilon: 0.264
+Episode 666 | Reward: 2.95 | Avg: 11.73 | Epsilon: 0.263
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05023410287685692
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 667 | Reward: 15.89 | Avg: 11.85 | Epsilon: 0.263
+Episode 668 | Reward: 2.56 | Avg: 11.83 | Epsilon: 0.262
+Episode 669 | Reward: 2.75 | Avg: 11.71 | Epsilon: 0.261
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07299450386199169
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 670 | Reward: 26.20 | Avg: 12.03 | Epsilon: 0.261
+Episode 671 | Reward: 9.77 | Avg: 12.05 | Epsilon: 0.260
+Episode 672 | Reward: 4.01 | Avg: 11.71 | Epsilon: 0.260
+Episode 673 | Reward: 3.06 | Avg: 11.76 | Epsilon: 0.259
+Episode 674 | Reward: 10.56 | Avg: 11.80 | Epsilon: 0.259
+Episode 675 | Reward: 15.59 | Avg: 11.90 | Epsilon: 0.258
+Episode 676 | Reward: 3.20 | Avg: 11.64 | Epsilon: 0.258
+Episode 677 | Reward: 2.46 | Avg: 11.66 | Epsilon: 0.257
+Episode 678 | Reward: 15.25 | Avg: 11.92 | Epsilon: 0.257
+Episode 679 | Reward: 5.83 | Avg: 11.89 | Epsilon: 0.256
+Episode 680 | Reward: 2.27 | Avg: 11.76 | Epsilon: 0.256
+Episode 681 | Reward: 2.46 | Avg: 11.64 | Epsilon: 0.255
+Episode 682 | Reward: 17.01 | Avg: 11.57 | Epsilon: 0.255
+Episode 683 | Reward: 1.26 | Avg: 11.15 | Epsilon: 0.254
+Episode 684 | Reward: 2.39 | Avg: 11.17 | Epsilon: 0.254
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.059525500546442345
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 685 | Reward: 3.57 | Avg: 11.04 | Epsilon: 0.253
+Episode 686 | Reward: 8.82 | Avg: 11.00 | Epsilon: 0.253
+Episode 687 | Reward: 9.97 | Avg: 11.01 | Epsilon: 0.252
+Episode 688 | Reward: 15.94 | Avg: 11.01 | Epsilon: 0.252
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06307470047613606
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 689 | Reward: 10.88 | Avg: 10.90 | Epsilon: 0.251
+Episode 690 | Reward: 10.20 | Avg: 10.76 | Epsilon: 0.251
+Episode 691 | Reward: 10.62 | Avg: 10.67 | Epsilon: 0.250
+Episode 692 | Reward: 10.37 | Avg: 10.85 | Epsilon: 0.250
+Episode 693 | Reward: 11.16 | Avg: 10.47 | Epsilon: 0.249
+Episode 694 | Reward: 8.87 | Avg: 10.62 | Epsilon: 0.249
+Episode 695 | Reward: 1.54 | Avg: 10.44 | Epsilon: 0.248
+Episode 696 | Reward: 4.64 | Avg: 10.02 | Epsilon: 0.248
+Episode 697 | Reward: 2.80 | Avg: 9.98 | Epsilon: 0.247
+Episode 698 | Reward: 2.12 | Avg: 9.97 | Epsilon: 0.247
+Episode 699 | Reward: 3.33 | Avg: 9.56 | Epsilon: 0.246
+Episode 700 | Reward: 23.24 | Avg: 9.51 | Epsilon: 0.246
+Episode 701 | Reward: 21.33 | Avg: 9.82 | Epsilon: 0.245
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09694590041181073
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 702 | Reward: 2.03 | Avg: 9.65 | Epsilon: 0.245
+Episode 703 | Reward: 1.70 | Avg: 9.54 | Epsilon: 0.244
+Episode 704 | Reward: 1.97 | Avg: 9.38 | Epsilon: 0.244
+Episode 705 | Reward: 36.24 | Avg: 8.75 | Epsilon: 0.243
+Episode 706 | Reward: 5.12 | Avg: 8.78 | Epsilon: 0.243
+Episode 707 | Reward: 25.87 | Avg: 9.19 | Epsilon: 0.242
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07440410100389272
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06321680048131384
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06263030294212513
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 708 | Reward: 15.75 | Avg: 9.44 | Epsilon: 0.242
+Episode 709 | Reward: 2.90 | Avg: 9.28 | Epsilon: 0.241
+Episode 710 | Reward: 2.37 | Avg: 9.23 | Epsilon: 0.241
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.10353630018653348
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 711 | Reward: 23.22 | Avg: 9.49 | Epsilon: 0.240
+Episode 712 | Reward: 8.66 | Avg: 9.54 | Epsilon: 0.240
+Episode 713 | Reward: 9.46 | Avg: 9.24 | Epsilon: 0.239
+Episode 714 | Reward: 13.79 | Avg: 9.31 | Epsilon: 0.239
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05562800052575767
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 715 | Reward: 2.33 | Avg: 9.13 | Epsilon: 0.238
+Episode 716 | Reward: 25.57 | Avg: 9.58 | Epsilon: 0.238
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05030720459762961
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 717 | Reward: 23.29 | Avg: 9.73 | Epsilon: 0.238
+Episode 718 | Reward: 2.32 | Avg: 9.72 | Epsilon: 0.237
+Episode 719 | Reward: 1.93 | Avg: 9.70 | Epsilon: 0.237
+Episode 720 | Reward: 2.30 | Avg: 9.23 | Epsilon: 0.236
+Episode 721 | Reward: 16.32 | Avg: 9.36 | Epsilon: 0.236
+Episode 722 | Reward: 8.80 | Avg: 9.45 | Epsilon: 0.235
+Episode 723 | Reward: 7.54 | Avg: 9.54 | Epsilon: 0.235
+Episode 724 | Reward: 10.05 | Avg: 9.53 | Epsilon: 0.234
+Episode 725 | Reward: 15.77 | Avg: 9.54 | Epsilon: 0.234
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.050719500228296965
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 726 | Reward: 5.87 | Avg: 9.59 | Epsilon: 0.233
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06858970111352392
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 727 | Reward: 10.91 | Avg: 9.76 | Epsilon: 0.233
+Episode 728 | Reward: 2.30 | Avg: 9.50 | Epsilon: 0.232
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07573820074321702
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 729 | Reward: 9.80 | Avg: 9.58 | Epsilon: 0.232
+Episode 730 | Reward: 8.89 | Avg: 9.71 | Epsilon: 0.231
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09593720090924762
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 731 | Reward: 2.75 | Avg: 9.72 | Epsilon: 0.231
+Episode 732 | Reward: 2.31 | Avg: 9.42 | Epsilon: 0.231
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07284330285619944
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 733 | Reward: 31.26 | Avg: 10.02 | Epsilon: 0.230
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07052910022321157
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 734 | Reward: 3.18 | Avg: 10.04 | Epsilon: 0.230
+Episode 735 | Reward: 2.82 | Avg: 10.02 | Epsilon: 0.229
+Episode 736 | Reward: 9.93 | Avg: 10.05 | Epsilon: 0.229
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07826450021821074
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07285740016959608
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 737 | Reward: 6.62 | Avg: 9.98 | Epsilon: 0.228
+Episode 738 | Reward: 2.33 | Avg: 9.71 | Epsilon: 0.228
+Episode 739 | Reward: 16.79 | Avg: 9.83 | Epsilon: 0.227
+Episode 740 | Reward: 2.31 | Avg: 9.67 | Epsilon: 0.227
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.058476801263168454
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0718728028878104
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08914810611167923
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 741 | Reward: 67.47 | Avg: 10.80 | Epsilon: 0.226
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05569800108787604
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 742 | Reward: 4.00 | Avg: 10.68 | Epsilon: 0.226
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06158690218580887
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0659442005562596
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 743 | Reward: 15.81 | Avg: 10.77 | Epsilon: 0.225
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06412980071036145
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 744 | Reward: 30.44 | Avg: 11.20 | Epsilon: 0.225
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05169300301349722
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0590601020376198
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06726420222548768
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 745 | Reward: 34.95 | Avg: 11.87 | Epsilon: 0.225
+Episode 746 | Reward: 2.67 | Avg: 11.83 | Epsilon: 0.224
+Episode 747 | Reward: 9.71 | Avg: 11.97 | Epsilon: 0.224
+Episode 748 | Reward: 7.48 | Avg: 12.08 | Epsilon: 0.223
+Episode 749 | Reward: 1.34 | Avg: 12.04 | Epsilon: 0.223
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06615130070713349
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 750 | Reward: 15.11 | Avg: 11.87 | Epsilon: 0.222
+Episode 751 | Reward: 10.68 | Avg: 11.66 | Epsilon: 0.222
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0797128007397987
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 752 | Reward: 10.27 | Avg: 11.83 | Epsilon: 0.221
+Episode 753 | Reward: 9.76 | Avg: 11.99 | Epsilon: 0.221
+Episode 754 | Reward: 2.35 | Avg: 11.99 | Epsilon: 0.221
+Episode 755 | Reward: 15.68 | Avg: 11.58 | Epsilon: 0.220
+Episode 756 | Reward: 1.97 | Avg: 11.52 | Epsilon: 0.220
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05262910306919366
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 757 | Reward: 15.52 | Avg: 11.31 | Epsilon: 0.219
+Episode 758 | Reward: 1.39 | Avg: 11.03 | Epsilon: 0.219
+Episode 759 | Reward: 10.01 | Avg: 11.17 | Epsilon: 0.218
+Episode 760 | Reward: 10.69 | Avg: 11.33 | Epsilon: 0.218
+Episode 761 | Reward: 1.86 | Avg: 10.91 | Epsilon: 0.218
+Episode 762 | Reward: 2.21 | Avg: 10.78 | Epsilon: 0.217
+Episode 763 | Reward: 2.00 | Avg: 10.63 | Epsilon: 0.217
+Episode 764 | Reward: 1.80 | Avg: 10.39 | Epsilon: 0.216
+Episode 765 | Reward: 5.15 | Avg: 10.45 | Epsilon: 0.216
+Episode 766 | Reward: 2.76 | Avg: 9.99 | Epsilon: 0.215
+Episode 767 | Reward: 16.32 | Avg: 9.85 | Epsilon: 0.215
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.1182019003899768
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 768 | Reward: 1.36 | Avg: 9.83 | Epsilon: 0.214
+Episode 769 | Reward: 10.11 | Avg: 9.99 | Epsilon: 0.214
+Episode 770 | Reward: 10.53 | Avg: 10.16 | Epsilon: 0.214
+Episode 771 | Reward: 2.95 | Avg: 9.89 | Epsilon: 0.213
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05096270109061152
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 772 | Reward: 10.63 | Avg: 9.93 | Epsilon: 0.213
+Episode 773 | Reward: 1.94 | Avg: 9.82 | Epsilon: 0.212
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06699330033734441
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 774 | Reward: 10.32 | Avg: 9.82 | Epsilon: 0.212
+Episode 775 | Reward: 2.11 | Avg: 9.55 | Epsilon: 0.211
+Episode 776 | Reward: 1.39 | Avg: 9.46 | Epsilon: 0.211
+Episode 777 | Reward: 0.86 | Avg: 9.26 | Epsilon: 0.211
+Episode 778 | Reward: 5.02 | Avg: 9.31 | Epsilon: 0.210
+Episode 779 | Reward: 6.35 | Avg: 9.24 | Epsilon: 0.210
+Episode 780 | Reward: 8.04 | Avg: 9.23 | Epsilon: 0.209
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055948802357306704
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 781 | Reward: 16.21 | Avg: 9.50 | Epsilon: 0.209
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.07156830019084737
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 782 | Reward: 10.63 | Avg: 9.66 | Epsilon: 0.209
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.15754650469170883
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.16110720002325252
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.16941910001332872
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.20149520004633814
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.3591797000844963
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.1514016000146512
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 783 | Reward: 22.22 | Avg: 9.48 | Epsilon: 0.208
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.20726990004186518
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 135.84514780007885
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.14883930003270507
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.514297300047474
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.12434570002369583
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06616700015729293
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.22364969999762252
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06516520009608939
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 1.0258458000898827
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.056678000022657216
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0721465001697652
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.13535299999057315
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08266990003176033
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06385700003011152
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 784 | Reward: 1.09 | Avg: 9.44 | Epsilon: 0.208
+Episode 785 | Reward: 16.06 | Avg: 9.70 | Epsilon: 0.207
+Episode 786 | Reward: 10.26 | Avg: 9.71 | Epsilon: 0.207
+Episode 787 | Reward: 4.87 | Avg: 9.68 | Epsilon: 0.206
+Episode 788 | Reward: 2.21 | Avg: 9.67 | Epsilon: 0.206
+Episode 789 | Reward: 1.11 | Avg: 9.36 | Epsilon: 0.206
+Episode 790 | Reward: 15.45 | Avg: 9.62 | Epsilon: 0.205
+Episode 791 | Reward: 1.96 | Avg: 8.31 | Epsilon: 0.205
+Episode 792 | Reward: 10.54 | Avg: 8.44 | Epsilon: 0.204
+Episode 793 | Reward: 10.33 | Avg: 8.33 | Epsilon: 0.204
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09236470056930557
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.051197400578530505
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 794 | Reward: 68.77 | Avg: 9.10 | Epsilon: 0.204
+Episode 795 | Reward: 2.76 | Avg: 8.46 | Epsilon: 0.203
+Episode 796 | Reward: 1.42 | Avg: 8.43 | Epsilon: 0.203
+Episode 797 | Reward: 2.55 | Avg: 8.29 | Epsilon: 0.202
+Episode 798 | Reward: 9.28 | Avg: 8.32 | Epsilon: 0.202
+Episode 799 | Reward: 10.33 | Avg: 8.50 | Epsilon: 0.202
+Episode 800 | Reward: 18.79 | Avg: 8.58 | Epsilon: 0.201
+Episode 801 | Reward: 4.60 | Avg: 8.46 | Epsilon: 0.201
+Episode 802 | Reward: 5.32 | Avg: 8.36 | Epsilon: 0.200
+Episode 803 | Reward: 6.44 | Avg: 8.29 | Epsilon: 0.200
+Episode 804 | Reward: 23.02 | Avg: 8.70 | Epsilon: 0.200
+Episode 805 | Reward: 5.16 | Avg: 8.49 | Epsilon: 0.199
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05560410433099605
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 806 | Reward: 31.74 | Avg: 9.09 | Epsilon: 0.199
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.054343200114089996
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 807 | Reward: 2.14 | Avg: 8.82 | Epsilon: 0.198
+Episode 808 | Reward: 16.66 | Avg: 9.13 | Epsilon: 0.198
+Episode 809 | Reward: 10.18 | Avg: 9.13 | Epsilon: 0.198
+Episode 810 | Reward: 9.35 | Avg: 9.10 | Epsilon: 0.197
+Episode 811 | Reward: 15.10 | Avg: 9.37 | Epsilon: 0.197
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.5763761007983703
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 812 | Reward: 8.82 | Avg: 9.50 | Epsilon: 0.196
+Episode 813 | Reward: 22.46 | Avg: 9.91 | Epsilon: 0.196
+Episode 814 | Reward: 4.99 | Avg: 9.97 | Epsilon: 0.196
+Episode 815 | Reward: 16.31 | Avg: 10.20 | Epsilon: 0.195
+Episode 816 | Reward: 2.82 | Avg: 10.20 | Epsilon: 0.195
+Episode 817 | Reward: 2.34 | Avg: 9.92 | Epsilon: 0.194
+Episode 818 | Reward: 3.24 | Avg: 9.96 | Epsilon: 0.194
+Episode 819 | Reward: 10.08 | Avg: 9.96 | Epsilon: 0.194
+Episode 820 | Reward: 8.52 | Avg: 9.91 | Epsilon: 0.193
+Episode 821 | Reward: 21.65 | Avg: 10.29 | Epsilon: 0.193
+Episode 822 | Reward: 7.15 | Avg: 10.22 | Epsilon: 0.193
+Episode 823 | Reward: 9.89 | Avg: 10.38 | Epsilon: 0.192
+Episode 824 | Reward: 1.97 | Avg: 10.21 | Epsilon: 0.192
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.054608410253422335
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 825 | Reward: 56.37 | Avg: 11.30 | Epsilon: 0.191
+Episode 826 | Reward: 16.79 | Avg: 11.60 | Epsilon: 0.191
+Episode 827 | Reward: 3.37 | Avg: 11.65 | Epsilon: 0.191
+Episode 828 | Reward: 3.03 | Avg: 11.61 | Epsilon: 0.190
+Episode 829 | Reward: 5.23 | Avg: 11.59 | Epsilon: 0.190
+Episode 830 | Reward: 7.65 | Avg: 11.58 | Epsilon: 0.189
+Episode 831 | Reward: 10.03 | Avg: 11.46 | Epsilon: 0.189
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06594600094831549
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 832 | Reward: 10.35 | Avg: 11.46 | Epsilon: 0.189
+Episode 833 | Reward: 14.69 | Avg: 11.30 | Epsilon: 0.188
+Episode 834 | Reward: 15.87 | Avg: 11.60 | Epsilon: 0.188
+Episode 835 | Reward: 26.65 | Avg: 11.81 | Epsilon: 0.188
+Episode 836 | Reward: 6.73 | Avg: 11.74 | Epsilon: 0.187
+Episode 837 | Reward: 3.10 | Avg: 11.71 | Epsilon: 0.187
+Episode 838 | Reward: 9.10 | Avg: 11.84 | Epsilon: 0.186
+Episode 839 | Reward: 9.29 | Avg: 12.01 | Epsilon: 0.186
+Episode 840 | Reward: 15.88 | Avg: 12.02 | Epsilon: 0.186
+Episode 841 | Reward: 12.14 | Avg: 12.22 | Epsilon: 0.185
+Episode 842 | Reward: 4.81 | Avg: 12.11 | Epsilon: 0.185
+Episode 843 | Reward: 5.53 | Avg: 12.01 | Epsilon: 0.185
+Episode 844 | Reward: 14.80 | Avg: 10.93 | Epsilon: 0.184
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055884308385429904
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 845 | Reward: 75.16 | Avg: 12.38 | Epsilon: 0.184
+Episode 846 | Reward: 4.55 | Avg: 12.44 | Epsilon: 0.183
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06727900117402896
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 847 | Reward: 11.02 | Avg: 12.61 | Epsilon: 0.183
+Episode 848 | Reward: 16.35 | Avg: 12.75 | Epsilon: 0.183
+Episode 849 | Reward: 6.44 | Avg: 12.67 | Epsilon: 0.182
+Episode 850 | Reward: 8.00 | Avg: 12.46 | Epsilon: 0.182
+Episode 851 | Reward: 23.85 | Avg: 12.84 | Epsilon: 0.182
+Episode 852 | Reward: 6.61 | Avg: 12.87 | Epsilon: 0.181
+Episode 853 | Reward: 9.92 | Avg: 12.94 | Epsilon: 0.181
+Episode 854 | Reward: 2.06 | Avg: 12.52 | Epsilon: 0.181
+Episode 855 | Reward: 6.96 | Avg: 12.55 | Epsilon: 0.180
+Episode 856 | Reward: 15.69 | Avg: 12.23 | Epsilon: 0.180
+Episode 857 | Reward: 10.19 | Avg: 12.39 | Epsilon: 0.179
+Episode 858 | Reward: 22.79 | Avg: 12.52 | Epsilon: 0.179
+Episode 859 | Reward: 7.05 | Avg: 12.45 | Epsilon: 0.179
+Episode 860 | Reward: 29.46 | Avg: 12.86 | Epsilon: 0.178
+Episode 861 | Reward: 16.72 | Avg: 12.89 | Epsilon: 0.178
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.05475000137812458
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 862 | Reward: 11.54 | Avg: 12.94 | Epsilon: 0.178
+Episode 863 | Reward: 10.27 | Avg: 12.70 | Epsilon: 0.177
+Episode 864 | Reward: 10.75 | Avg: 12.82 | Epsilon: 0.177
+Episode 865 | Reward: 9.71 | Avg: 12.68 | Epsilon: 0.177
+Episode 866 | Reward: 1.92 | Avg: 12.67 | Epsilon: 0.176
+Episode 867 | Reward: 9.66 | Avg: 12.81 | Epsilon: 0.176
+Episode 868 | Reward: 4.60 | Avg: 12.84 | Epsilon: 0.176
+Episode 869 | Reward: 5.01 | Avg: 12.74 | Epsilon: 0.175
+Episode 870 | Reward: 13.01 | Avg: 12.83 | Epsilon: 0.175
+Episode 871 | Reward: 6.17 | Avg: 12.52 | Epsilon: 0.175
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.06626050209160894
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 872 | Reward: 10.12 | Avg: 12.58 | Epsilon: 0.174
+Episode 873 | Reward: 15.58 | Avg: 12.69 | Epsilon: 0.174
+Episode 874 | Reward: 2.70 | Avg: 12.71 | Epsilon: 0.173
+Episode 875 | Reward: 16.02 | Avg: 11.90 | Epsilon: 0.173
+Episode 876 | Reward: 16.13 | Avg: 11.89 | Epsilon: 0.173
+Episode 877 | Reward: 3.36 | Avg: 11.89 | Epsilon: 0.172
+Episode 878 | Reward: 15.23 | Avg: 12.13 | Epsilon: 0.172
+Episode 879 | Reward: 23.51 | Avg: 12.49 | Epsilon: 0.172
+Episode 880 | Reward: 3.46 | Avg: 12.41 | Epsilon: 0.171
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.059909603878622875
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 881 | Reward: 24.91 | Avg: 12.71 | Epsilon: 0.171
+Episode 882 | Reward: 36.23 | Avg: 13.23 | Epsilon: 0.171
+Episode 883 | Reward: 16.86 | Avg: 13.27 | Epsilon: 0.170
+Episode 884 | Reward: 14.87 | Avg: 13.25 | Epsilon: 0.170
+Episode 885 | Reward: 9.23 | Avg: 12.90 | Epsilon: 0.170
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0601122080697678
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 886 | Reward: 34.17 | Avg: 13.45 | Epsilon: 0.169
+Episode 887 | Reward: 6.47 | Avg: 13.52 | Epsilon: 0.169
+Episode 888 | Reward: 9.98 | Avg: 13.53 | Epsilon: 0.169
+Episode 889 | Reward: 3.92 | Avg: 13.43 | Epsilon: 0.168
+Episode 890 | Reward: 8.52 | Avg: 13.28 | Epsilon: 0.168
+Episode 891 | Reward: 4.66 | Avg: 13.13 | Epsilon: 0.168
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.08336430208873935
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 892 | Reward: 16.13 | Avg: 13.36 | Epsilon: 0.167
+Episode 893 | Reward: 14.72 | Avg: 13.54 | Epsilon: 0.167
+Episode 894 | Reward: 3.95 | Avg: 13.32 | Epsilon: 0.167
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.0620616021042224
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 895 | Reward: 15.13 | Avg: 12.12 | Epsilon: 0.166
+Episode 896 | Reward: 8.01 | Avg: 12.19 | Epsilon: 0.166
+Episode 897 | Reward: 5.15 | Avg: 12.08 | Epsilon: 0.166
+Episode 898 | Reward: 10.30 | Avg: 11.95 | Epsilon: 0.165
+Episode 899 | Reward: 7.87 | Avg: 11.98 | Epsilon: 0.165
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.055149803432868794
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 900 | Reward: 17.58 | Avg: 12.17 | Epsilon: 0.165
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.4707619000400882
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 901 | Reward: 5.61 | Avg: 11.81 | Epsilon: 0.164
+C:\Users\Wille\anaconda3\envs\trackmania-rl\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.09004150205873884
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 902 | Reward: 38.76 | Avg: 12.45 | Epsilon: 0.164
+Episode 903 | Reward: 9.70 | Avg: 12.45 | Epsilon: 0.164
+Episode 904 | Reward: 10.32 | Avg: 12.61 | Epsilon: 0.163
+Episode 905 | Reward: 6.82 | Avg: 12.61 | Epsilon: 0.163
+Episode 906 | Reward: 4.13 | Avg: 12.38 | Epsilon: 0.163
+Episode 907 | Reward: 16.09 | Avg: 12.50 | Epsilon: 0.162
+Episode 908 | Reward: 7.11 | Avg: 12.18 | Epsilon: 0.162
+Episode 909 | Reward: 2.74 | Avg: 12.10 | Epsilon: 0.162
+Episode 910 | Reward: 20.05 | Avg: 11.91 | Epsilon: 0.161
+Episode 911 | Reward: 4.19 | Avg: 11.66 | Epsilon: 0.161
+Episode 912 | Reward: 4.44 | Avg: 11.52 | Epsilon: 0.161
+Episode 913 | Reward: 3.97 | Avg: 11.39 | Epsilon: 0.160
+Episode 914 | Reward: 15.43 | Avg: 11.48 | Epsilon: 0.160
+Episode 915 | Reward: 4.29 | Avg: 11.38 | Epsilon: 0.160
+Episode 916 | Reward: 5.16 | Avg: 11.44 | Epsilon: 0.159
+Episode 917 | Reward: 7.65 | Avg: 11.40 | Epsilon: 0.159
+Episode 918 | Reward: 3.38 | Avg: 11.38 | Epsilon: 0.159
+Episode 919 | Reward: 6.66 | Avg: 11.41 | Epsilon: 0.159
+Episode 920 | Reward: 6.22 | Avg: 11.27 | Epsilon: 0.158
+Episode 921 | Reward: 5.12 | Avg: 11.25 | Epsilon: 0.158
+Episode 922 | Reward: 6.06 | Avg: 11.17 | Epsilon: 0.158
+Episode 923 | Reward: 3.86 | Avg: 10.94 | Epsilon: 0.157
+Episode 924 | Reward: 9.72 | Avg: 11.08 | Epsilon: 0.157
+Episode 925 | Reward: 9.57 | Avg: 10.95 | Epsilon: 0.157
+Episode 926 | Reward: 16.79 | Avg: 10.96 | Epsilon: 0.156
+Episode 927 | Reward: 12.07 | Avg: 11.14 | Epsilon: 0.156
+Episode 928 | Reward: 8.78 | Avg: 11.01 | Epsilon: 0.156
+Episode 929 | Reward: 60.46 | Avg: 11.75 | Epsilon: 0.155
+Episode 930 | Reward: 22.58 | Avg: 12.13 | Epsilon: 0.155
+Episode 931 | Reward: 10.94 | Avg: 11.85 | Epsilon: 0.155
+Episode 932 | Reward: 9.91 | Avg: 11.32 | Epsilon: 0.154
+Episode 933 | Reward: 3.96 | Avg: 11.06 | Epsilon: 0.154
+Episode 934 | Reward: 30.47 | Avg: 11.38 | Epsilon: 0.154
+Episode 935 | Reward: 5.49 | Avg: 11.30 | Epsilon: 0.154
+Episode 936 | Reward: 9.02 | Avg: 10.80 | Epsilon: 0.153
+Episode 937 | Reward: 9.10 | Avg: 10.85 | Epsilon: 0.153
+Episode 938 | Reward: 57.27 | Avg: 11.80 | Epsilon: 0.153
+Episode 939 | Reward: 9.51 | Avg: 11.91 | Epsilon: 0.152
+Episode 940 | Reward: 10.26 | Avg: 11.94 | Epsilon: 0.152
+Episode 941 | Reward: 9.88 | Avg: 12.05 | Epsilon: 0.152
+Episode 942 | Reward: 6.18 | Avg: 11.85 | Epsilon: 0.151
+Episode 943 | Reward: 8.26 | Avg: 11.72 | Epsilon: 0.151
+Episode 944 | Reward: 4.53 | Avg: 11.73 | Epsilon: 0.151
+Episode 945 | Reward: 3.84 | Avg: 11.51 | Epsilon: 0.150
+Episode 946 | Reward: 3.76 | Avg: 11.42 | Epsilon: 0.150
+Episode 947 | Reward: 3.59 | Avg: 11.39 | Epsilon: 0.150
+Episode 948 | Reward: 4.12 | Avg: 11.27 | Epsilon: 0.150
+Episode 949 | Reward: 11.47 | Avg: 11.34 | Epsilon: 0.149
+Episode 950 | Reward: 7.29 | Avg: 11.13 | Epsilon: 0.149
+Episode 951 | Reward: 7.31 | Avg: 11.17 | Epsilon: 0.149
+Episode 952 | Reward: 4.46 | Avg: 10.48 | Epsilon: 0.148
+Episode 953 | Reward: 3.72 | Avg: 10.36 | Epsilon: 0.148
+Episode 954 | Reward: 4.47 | Avg: 10.24 | Epsilon: 0.148
+Episode 955 | Reward: 4.60 | Avg: 10.20 | Epsilon: 0.148
+Episode 956 | Reward: 7.24 | Avg: 10.26 | Epsilon: 0.147
+Episode 957 | Reward: 4.14 | Avg: 10.02 | Epsilon: 0.147
+Episode 958 | Reward: 4.62 | Avg: 9.97 | Epsilon: 0.147
+Episode 959 | Reward: 5.04 | Avg: 10.02 | Epsilon: 0.146
+Episode 960 | Reward: 22.99 | Avg: 10.08 | Epsilon: 0.146
+Episode 961 | Reward: 4.15 | Avg: 10.08 | Epsilon: 0.146
+Episode 962 | Reward: 128.20 | Avg: 12.55 | Epsilon: 0.145
+Episode 963 | Reward: 1.47 | Avg: 12.50 | Epsilon: 0.145
+Episode 964 | Reward: 1.51 | Avg: 12.22 | Epsilon: 0.145
+Episode 965 | Reward: 1.44 | Avg: 12.17 | Epsilon: 0.145
+Episode 966 | Reward: 2.63 | Avg: 12.12 | Epsilon: 0.144
+Episode 967 | Reward: 1.17 | Avg: 11.99 | Epsilon: 0.144
+Episode 968 | Reward: 2.50 | Avg: 11.97 | Epsilon: 0.144
+Episode 969 | Reward: 3.70 | Avg: 11.91 | Epsilon: 0.143
+Episode 970 | Reward: 4.37 | Avg: 11.87 | Epsilon: 0.143
+Episode 971 | Reward: 4.35 | Avg: 11.86 | Epsilon: 0.143
+Episode 972 | Reward: 5.28 | Avg: 11.84 | Epsilon: 0.143
+Episode 973 | Reward: 10.14 | Avg: 11.97 | Epsilon: 0.142
+Episode 974 | Reward: 11.75 | Avg: 12.01 | Epsilon: 0.142
+Episode 975 | Reward: 11.16 | Avg: 12.04 | Epsilon: 0.142
+Episode 976 | Reward: 10.43 | Avg: 11.91 | Epsilon: 0.141
+Episode 977 | Reward: 5.33 | Avg: 11.78 | Epsilon: 0.141
+Episode 978 | Reward: 4.31 | Avg: 11.69 | Epsilon: 0.141
+Episode 979 | Reward: 9.87 | Avg: 10.68 | Epsilon: 0.141
+Episode 980 | Reward: 4.80 | Avg: 10.32 | Epsilon: 0.140
+Episode 981 | Reward: 5.94 | Avg: 10.22 | Epsilon: 0.140
+Episode 982 | Reward: 5.07 | Avg: 10.12 | Epsilon: 0.140
+Episode 983 | Reward: 4.50 | Avg: 10.13 | Epsilon: 0.139
+Episode 984 | Reward: 4.12 | Avg: 9.61 | Epsilon: 0.139
+Episode 985 | Reward: 5.34 | Avg: 9.60 | Epsilon: 0.139
+Episode 986 | Reward: 9.93 | Avg: 9.62 | Epsilon: 0.139
+Episode 987 | Reward: 11.28 | Avg: 9.67 | Epsilon: 0.138
+Episode 988 | Reward: 4.86 | Avg: 8.62 | Epsilon: 0.138
+Episode 989 | Reward: 9.00 | Avg: 8.61 | Epsilon: 0.138
+Episode 990 | Reward: 8.47 | Avg: 8.57 | Epsilon: 0.138
+Episode 991 | Reward: 4.27 | Avg: 8.46 | Epsilon: 0.137
+Episode 992 | Reward: 4.01 | Avg: 8.42 | Epsilon: 0.137
+Episode 993 | Reward: 4.33 | Avg: 8.34 | Epsilon: 0.137
+Episode 994 | Reward: 9.02 | Avg: 8.43 | Epsilon: 0.136
+Episode 995 | Reward: 3.73 | Avg: 8.43 | Epsilon: 0.136
+Episode 996 | Reward: 14.02 | Avg: 8.63 | Epsilon: 0.136
+Episode 997 | Reward: 35.77 | Avg: 9.27 | Epsilon: 0.136
+Episode 998 | Reward: 4.46 | Avg: 9.28 | Epsilon: 0.135
+Episode 999 | Reward: 4.83 | Avg: 9.15 | Epsilon: 0.135

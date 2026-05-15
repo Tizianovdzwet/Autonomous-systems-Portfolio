@@ -1,0 +1,29 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "CPython 3.10.20",
+  "startedAt": "2026-05-14T17:58:59.298103Z",
+  "args": [
+    "69gnvced"
+  ],
+  "program": "-m src.sweep_phase_2",
+  "git": {
+    "remote": "https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git",
+    "commit": "90bb6519de7562cc0f62efc577d24f566a55b822"
+  },
+  "email": "willemvd@outlook.com",
+  "root": "C:\\Users\\Wille\\OneDrive - De Haagse Hogeschool\\Documenten\\GitHub\\Autonomous-systems-Portfolio\\Portfolio 2",
+  "host": "Willem_PC",
+  "executable": "C:\\Users\\Wille\\anaconda3\\envs\\trackmania-rl\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "1999375429632",
+      "used": "990996680704"
+    }
+  },
+  "memory": {
+    "total": "33409187840"
+  },
+  "writerId": "ds9djxu5iyr6u8vduiu912jb3qbu9k0y"
+}
