@@ -1,0 +1,26 @@
+2026-05-15 04:34:50,468 INFO    Thread-486997 (_run_job):2984 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-15 04:34:50,468 INFO    Thread-486997 (_run_job):2984 [wandb_setup.py:_flush():81] Configure stats pid to 2984
+2026-05-15 04:34:50,468 INFO    Thread-486997 (_run_job):2984 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-15 04:34:50,469 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\matth\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260515_043450-ltd3ragx\logs\debug.log
+2026-05-15 04:34:50,469 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\matth\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260515_043450-ltd3ragx\logs\debug-internal.log
+2026-05-15 04:34:50,469 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():850] calling init triggers
+2026-05-15 04:34:50,469 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():855] wandb.init called with sweep_config: {'epsilon_decay': 0.998, 'gamma': 0.99, 'lr': 1e-05, 'target_update_every': 10}
+config: {'_wandb': {}}
+2026-05-15 04:34:50,469 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():898] starting backend
+2026-05-15 04:34:55,825 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():913] sending inform_init request
+2026-05-15 04:34:57,085 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():918] backend started and connected
+2026-05-15 04:34:57,086 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_config_callback():1415] config_cb None None {'epsilon_decay': 0.998, 'gamma': 0.99, 'lr': 1e-05, 'target_update_every': 10}
+2026-05-15 04:34:57,095 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():988] updated telemetry
+2026-05-15 04:34:57,153 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-15 04:34:57,487 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-15 04:34:57,695 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-15 04:34:57,695 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-15 04:34:57,695 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-15 04:34:57,696 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-15 04:34:57,699 INFO    Thread-486997 (_run_job):2984 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-15 04:34:57,701 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_config_callback():1415] config_cb None None {'run_name': 'p2-lr1e-05-decay0.998-gamma0.99-tgt10', 'hidden_size': 64, 'batch_size': 32, 'episodes': 1000, 'train_every': 16, 'resume_command': 'python -m src.sweep2 69gnvced'}
+2026-05-15 08:36:09,459 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_finish():2321] finishing run hhs-autonomous-systems/trackmania-rl/ltd3ragx
+2026-05-15 08:36:09,462 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 0
+2026-05-15 08:36:09,463 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_restore():2502] restore
+2026-05-15 08:36:09,464 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_restore():2508] restore done
+2026-05-15 08:36:10,807 INFO    Thread-486997 (_run_job):2984 [wandb_run.py:_footer_sync_info():3889] logging synced files

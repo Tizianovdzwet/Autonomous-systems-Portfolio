@@ -34,7 +34,6 @@ BATCH_SIZE = 32
 EPISODES = 1000
 TRAIN_EVERY = 16
 SAVE_EVERY = 100
-GRAD_CLIP = 1.0
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
@@ -54,7 +53,6 @@ def train():
         "batch_size": BATCH_SIZE,
         "episodes": EPISODES,
         "train_every": TRAIN_EVERY,
-        "grad_clip": GRAD_CLIP,
         "resume_command": f"python -m src.sweep2 {wandb.run.sweep_id}"
     }, allow_val_change=True)
 
@@ -70,8 +68,7 @@ def train():
         epsilon_decay=config.epsilon_decay,
         epsilon_min=0.05,
         buffer_size=100000,
-        batch_size=BATCH_SIZE,
-        grad_clip=GRAD_CLIP
+        batch_size=BATCH_SIZE
     )
 
     dummy = torch.zeros(BATCH_SIZE, 83).to(agent.device)
