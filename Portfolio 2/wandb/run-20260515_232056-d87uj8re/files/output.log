@@ -1,0 +1,5 @@
+Network warmed up!
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.18057120038429275
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 10.04 | Avg: 10.04 | Epsilon: 0.999 | Steps: 188
+Manual stop - saving checkpoint...
