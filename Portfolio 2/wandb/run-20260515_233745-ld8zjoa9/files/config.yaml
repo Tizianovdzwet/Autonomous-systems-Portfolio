@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            x5btmwn5q1ihe5ecyjnjwdrsf2bddor6:
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.2"
+                disk:
+                    /:
+                        total: "510769754112"
+                        used: "399459106816"
+                email: matthias@devreede.net
+                executable: C:\Users\matth\miniconda3\envs\trackmania\python.exe
+                git:
+                    commit: f87bf261b3a8f362e1a64ea877828f814fd4c215
+                    remote: https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-14255b5d-2007-b415-1a63-bb8880f20b6f
+                host: TIES-LEGION
+                memory:
+                    total: "16505966592"
+                os: Windows-10-10.0.26200-SP0
+                program: -m src.dqn.train
+                python: CPython 3.10.20
+                root: C:\Users\matth\Autonomous-systems-Portfolio\Portfolio 2
+                startedAt: "2026-05-15T21:37:45.020555Z"
+                writerId: x5btmwn5q1ihe5ecyjnjwdrsf2bddor6
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.10.20
+            "5": 0.26.1
+            "8":
+                - 3
+            "12": 0.26.1
+            "13": windows-amd64
+batch_size:
+    value: 32
+buffer_size:
+    value: 500000
+episodes:
+    value: 5000
+epsilon_decay:
+    value: 0.999
+epsilon_min:
+    value: 0.05
+gamma:
+    value: 0.95
+hidden_size:
+    value: 64
+lr:
+    value: 1e-05
+target_update_every:
+    value: 50
+train_every:
+    value: 16

@@ -1,0 +1,21 @@
+Network warmed up!
+C:\Users\matth\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.25731790000156707
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: 9.69 | Avg: 9.69 | Epsilon: 0.999 | Steps: 219
+Episode 1 | Reward: 24.90 | Avg: 17.30 | Epsilon: 0.998 | Steps: 426
+Episode 2 | Reward: 9.91 | Avg: 14.83 | Epsilon: 0.997 | Steps: 157
+Episode 3 | Reward: 5.48 | Avg: 12.49 | Epsilon: 0.996 | Steps: 159
+Episode 4 | Reward: 9.85 | Avg: 11.97 | Epsilon: 0.995 | Steps: 149
+Episode 5 | Reward: 9.70 | Avg: 11.59 | Epsilon: 0.994 | Steps: 223
+Episode 6 | Reward: 10.22 | Avg: 11.39 | Epsilon: 0.993 | Steps: 162
+Episode 7 | Reward: 31.12 | Avg: 13.86 | Epsilon: 0.992 | Steps: 639
+Episode 8 | Reward: 59.01 | Avg: 18.88 | Epsilon: 0.991 | Steps: 1000
+Episode 9 | Reward: 10.04 | Avg: 17.99 | Epsilon: 0.990 | Steps: 214
+Episode 10 | Reward: 18.55 | Avg: 18.04 | Epsilon: 0.989 | Steps: 422
+Episode 11 | Reward: 26.18 | Avg: 18.72 | Epsilon: 0.988 | Steps: 470
+Episode 12 | Reward: 10.09 | Avg: 18.06 | Epsilon: 0.987 | Steps: 185
+Episode 13 | Reward: 9.62 | Avg: 17.45 | Epsilon: 0.986 | Steps: 182
+Episode 14 | Reward: 9.44 | Avg: 16.92 | Epsilon: 0.985 | Steps: 181
+Episode 15 | Reward: 17.56 | Avg: 16.96 | Epsilon: 0.984 | Steps: 362
+Episode 16 | Reward: 10.88 | Avg: 16.60 | Epsilon: 0.983 | Steps: 179
+Manual stop - saving checkpoint...
