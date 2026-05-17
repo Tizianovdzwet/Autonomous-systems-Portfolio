@@ -1,0 +1,15 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.10.20",
+  "startedAt":  "2026-05-16T23:37:59.959006Z",
+  "program":  "-m src.sweep_3",
+  "git":  {
+    "remote":  "https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git",
+    "commit":  "3131cf14f2a9b2d850d2b08c0406474013e03b7c"
+  },
+  "email":  "matthias@devreede.net",
+  "root":  "C:\\Users\\matt\\Documents\\[1] - Code Projects\\[0] - College\\Autonomous-systems-Portfolio\\Portfolio 2",
+  "host":  "DESKTOP-V93H26C",
+  "executable":  "C:\\Users\\matt\\miniconda3\\envs\\trackmania\\python.exe",
+  "writerId":  "xucf340f9obk8gb4hfi3di6m2l1hxwtv"
+}

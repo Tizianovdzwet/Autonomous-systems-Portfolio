@@ -1,0 +1,21 @@
+2026-05-16 23:15:18,736 INFO    Thread-9 (_run_job):27432 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-16 23:15:18,737 INFO    Thread-9 (_run_job):27432 [wandb_setup.py:_flush():81] Configure stats pid to 27432
+2026-05-16 23:15:18,737 INFO    Thread-9 (_run_job):27432 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-16 23:15:18,737 INFO    Thread-9 (_run_job):27432 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260516_231518-kabff6v2\logs\debug.log
+2026-05-16 23:15:18,737 INFO    Thread-9 (_run_job):27432 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260516_231518-kabff6v2\logs\debug-internal.log
+2026-05-16 23:15:18,739 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():850] calling init triggers
+2026-05-16 23:15:18,739 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():855] wandb.init called with sweep_config: {'action_space': '5_slight_steer'}
+config: {'_wandb': {}}
+2026-05-16 23:15:18,739 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():898] starting backend
+2026-05-16 23:15:20,985 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():913] sending inform_init request
+2026-05-16 23:15:21,260 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():918] backend started and connected
+2026-05-16 23:15:21,261 INFO    Thread-9 (_run_job):27432 [wandb_run.py:_config_callback():1415] config_cb None None {'action_space': '5_slight_steer'}
+2026-05-16 23:15:21,261 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():988] updated telemetry
+2026-05-16 23:15:21,302 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-16 23:15:21,647 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-16 23:15:21,766 INFO    Thread-9 (_run_job):27432 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-16 23:15:21,766 INFO    Thread-9 (_run_job):27432 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-16 23:15:21,766 INFO    Thread-9 (_run_job):27432 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-16 23:15:21,766 INFO    Thread-9 (_run_job):27432 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-16 23:15:21,770 INFO    Thread-9 (_run_job):27432 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-16 23:15:21,771 INFO    Thread-9 (_run_job):27432 [wandb_run.py:_config_callback():1415] config_cb None None {'run_name': 'phase-3-sweep-kabf', 'lr': 5e-06, 'epsilon_decay': 0.995, 'hidden_size': 64, 'batch_size': 32, 'episodes': 1000, 'train_every': 16, 'epsilon_min': 0.15, 'gamma': 0.99, 'target_update_every': 10, 'n_actions': 5, 'constant_penalty': -0.5, 'algorithm': 'Double-DQN', 'resume_command': 'python -m src.sweep3 90jdgl73'}

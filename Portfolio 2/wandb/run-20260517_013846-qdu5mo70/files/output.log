@@ -1,0 +1,37 @@
+
+Starting run: p3-
+Network warmed up!
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.2061935998935951
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: -1.77 | Avg: -1.77 | Epsilon: 0.995 | Steps: 204 | Loss: 1990.4845 | Q: 22.1145 | Actions: ['0.32', '0.34', '0.33']
+Episode 1 | Reward: -9.64 | Avg: -5.71 | Epsilon: 0.990 | Steps: 222 | Loss: 449.0481 | Q: 21.2487 | Actions: ['0.33', '0.35', '0.32']
+Episode 2 | Reward: -12.00 | Avg: -7.80 | Epsilon: 0.985 | Steps: 548 | Loss: 378.2806 | Q: 20.9422 | Actions: ['0.34', '0.33', '0.33']
+Episode 3 | Reward: -5.37 | Avg: -7.20 | Epsilon: 0.980 | Steps: 491 | Loss: 299.0928 | Q: 22.2916 | Actions: ['0.32', '0.33', '0.35']
+Episode 4 | Reward: -1.45 | Avg: -6.05 | Epsilon: 0.975 | Steps: 201 | Loss: 215.9715 | Q: 23.6032 | Actions: ['0.35', '0.28', '0.37']
+Episode 5 | Reward: -3.87 | Avg: -5.68 | Epsilon: 0.970 | Steps: 223 | Loss: 276.1815 | Q: 22.5392 | Actions: ['0.35', '0.33', '0.33']
+Episode 6 | Reward: -4.33 | Avg: -5.49 | Epsilon: 0.966 | Steps: 233 | Loss: 212.1675 | Q: 25.1396 | Actions: ['0.38', '0.26', '0.36']
+Episode 7 | Reward: -0.48 | Avg: -4.86 | Epsilon: 0.961 | Steps: 187 | Loss: 158.5732 | Q: 27.9575 | Actions: ['0.35', '0.32', '0.34']
+Episode 8 | Reward: -5.99 | Avg: -4.99 | Epsilon: 0.956 | Steps: 247 | Loss: 194.1422 | Q: 28.0406 | Actions: ['0.26', '0.34', '0.40']
+Episode 9 | Reward: -3.65 | Avg: -4.86 | Epsilon: 0.951 | Steps: 219 | Loss: 179.3010 | Q: 28.8570 | Actions: ['0.32', '0.31', '0.37']
+Episode 10 | Reward: -4.89 | Avg: -4.86 | Epsilon: 0.946 | Steps: 81 | Loss: 161.0335 | Q: 28.8692 | Actions: ['0.30', '0.26', '0.44']
+Episode 11 | Reward: -1.34 | Avg: -4.57 | Epsilon: 0.942 | Steps: 192 | Loss: 220.8302 | Q: 28.5572 | Actions: ['0.31', '0.38', '0.31']
+Episode 12 | Reward: -2.92 | Avg: -4.44 | Epsilon: 0.937 | Steps: 221 | Loss: 216.2680 | Q: 29.9050 | Actions: ['0.29', '0.33', '0.38']
+Episode 13 | Reward: -5.99 | Avg: -4.55 | Epsilon: 0.932 | Steps: 81 | Loss: 178.6714 | Q: 30.9199 | Actions: ['0.28', '0.23', '0.48']
+Episode 14 | Reward: -5.07 | Avg: -4.58 | Epsilon: 0.928 | Steps: 124 | Loss: 176.3505 | Q: 32.0150 | Actions: ['0.34', '0.27', '0.40']
+Exception in thread Thread-3488 (__send_act_get_obs_and_wait):
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 320, in __send_act_get_obs_and_wait
+    self.__update_obs_rew_terminated_truncated()  # capture observation
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 334, in __update_obs_rew_terminated_truncated
+    o, r, d, i = self.interface.get_obs_rew_terminated_info()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 281, in get_obs_rew_terminated_info
+    img, speed, data = self.grab_lidar_speed_and_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 250, in grab_lidar_speed_and_data
+    data = self.client.retrieve_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\utils\tools.py", line 72, in retrieve_data
+    assert t_now - t_start < timeout, f"OpenPlanet stopped sending data since more than {timeout}s."
+AssertionError: OpenPlanet stopped sending data since more than 10.0s.

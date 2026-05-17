@@ -1,0 +1,26 @@
+
+Starting run: p3-['3_basic']
+Network warmed up!
+Episode 0 | Reward: -8.10 | Avg: -8.10 | Epsilon: 0.995 | Steps: 81 | Loss: 661.9070 | Q: 3.6853 | Actions: ['0.36', '0.31', '0.33']
+Episode 1 | Reward: -2.58 | Avg: -5.34 | Epsilon: 0.990 | Steps: 213 | Loss: 993.4384 | Q: 2.7065 | Actions: ['0.31', '0.37', '0.32']
+Episode 2 | Reward: -6.67 | Avg: -5.78 | Epsilon: 0.985 | Steps: 125 | Loss: 1034.9993 | Q: 1.9371 | Actions: ['0.34', '0.33', '0.34']
+Episode 3 | Reward: -3.27 | Avg: -5.15 | Epsilon: 0.980 | Steps: 293 | Loss: 950.8078 | Q: 2.3716 | Actions: ['0.29', '0.35', '0.35']
+Episode 4 | Reward: 0.31 | Avg: -4.06 | Epsilon: 0.975 | Steps: 93 | Loss: 689.7198 | Q: 6.4102 | Actions: ['0.31', '0.42', '0.27']
+Episode 5 | Reward: -9.78 | Avg: -5.01 | Epsilon: 0.970 | Steps: 168 | Loss: 747.0809 | Q: 5.8490 | Actions: ['0.33', '0.27', '0.40']
+Exception in thread Thread-1149 (__send_act_get_obs_and_wait):
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 320, in __send_act_get_obs_and_wait
+    self.__update_obs_rew_terminated_truncated()  # capture observation
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 334, in __update_obs_rew_terminated_truncated
+    o, r, d, i = self.interface.get_obs_rew_terminated_info()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 281, in get_obs_rew_terminated_info
+    img, speed, data = self.grab_lidar_speed_and_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 250, in grab_lidar_speed_and_data
+    data = self.client.retrieve_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\utils\tools.py", line 72, in retrieve_data
+    assert t_now - t_start < timeout, f"OpenPlanet stopped sending data since more than {timeout}s."
+AssertionError: OpenPlanet stopped sending data since more than 10.0s.

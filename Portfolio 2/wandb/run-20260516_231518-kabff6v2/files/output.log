@@ -1,0 +1,37 @@
+
+Starting run: phase-3-sweep-kabf
+Network warmed up!
+C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py:261: UserWarning: Time-step timed out. Elapsed since last time-step: 0.20151929989515338
+  warnings.warn(f"Time-step timed out. Elapsed since last time-step: {now - self.__t_end}")
+Episode 0 | Reward: -73.32 | Avg: -73.32 | Epsilon: 0.995 | Steps: 184 | Loss: 3108.5354 | Q: -14.5372 | Actions: ['0.23', '0.17', '0.18', '0.19', '0.23']
+Episode 1 | Reward: -75.12 | Avg: -74.22 | Epsilon: 0.990 | Steps: 187 | Loss: 4485.1970 | Q: -8.8044 | Actions: ['0.24', '0.23', '0.17', '0.19', '0.17']
+Episode 2 | Reward: -89.11 | Avg: -79.18 | Epsilon: 0.985 | Steps: 215 | Loss: 4274.3485 | Q: -10.2805 | Actions: ['0.18', '0.22', '0.25', '0.14', '0.21']
+Episode 3 | Reward: -167.67 | Avg: -101.31 | Epsilon: 0.980 | Steps: 425 | Loss: 4035.2229 | Q: -7.8677 | Actions: ['0.20', '0.17', '0.22', '0.24', '0.17']
+Episode 4 | Reward: -88.69 | Avg: -98.78 | Epsilon: 0.975 | Steps: 197 | Loss: 3819.2807 | Q: -5.2704 | Actions: ['0.22', '0.19', '0.21', '0.19', '0.19']
+Episode 5 | Reward: -93.47 | Avg: -97.90 | Epsilon: 0.970 | Steps: 224 | Loss: 3653.2363 | Q: -6.4094 | Actions: ['0.19', '0.24', '0.15', '0.18', '0.23']
+Episode 6 | Reward: -82.18 | Avg: -95.65 | Epsilon: 0.966 | Steps: 202 | Loss: 3844.1261 | Q: -6.3616 | Actions: ['0.18', '0.18', '0.20', '0.20', '0.24']
+Episode 7 | Reward: -83.52 | Avg: -94.14 | Epsilon: 0.961 | Steps: 204 | Loss: 3798.8251 | Q: -7.1587 | Actions: ['0.23', '0.23', '0.22', '0.14', '0.18']
+Episode 8 | Reward: -93.62 | Avg: -94.08 | Epsilon: 0.956 | Steps: 225 | Loss: 3626.9830 | Q: -4.8860 | Actions: ['0.22', '0.16', '0.23', '0.17', '0.22']
+Episode 9 | Reward: -82.35 | Avg: -92.90 | Epsilon: 0.951 | Steps: 202 | Loss: 3785.1521 | Q: -8.9457 | Actions: ['0.20', '0.23', '0.23', '0.17', '0.17']
+Episode 10 | Reward: -114.23 | Avg: -94.84 | Epsilon: 0.946 | Steps: 254 | Loss: 3345.2874 | Q: -4.9069 | Actions: ['0.18', '0.18', '0.24', '0.22', '0.19']
+Episode 11 | Reward: -38.70 | Avg: -90.16 | Epsilon: 0.942 | Steps: 83 | Loss: 2777.2501 | Q: -0.7769 | Actions: ['0.29', '0.18', '0.14', '0.19', '0.19']
+Episode 12 | Reward: -80.49 | Avg: -89.42 | Epsilon: 0.937 | Steps: 198 | Loss: 2873.0953 | Q: -5.1999 | Actions: ['0.22', '0.23', '0.16', '0.18', '0.22']
+Episode 13 | Reward: -70.13 | Avg: -88.04 | Epsilon: 0.932 | Steps: 178 | Loss: 3053.1355 | Q: -4.0985 | Actions: ['0.24', '0.20', '0.21', '0.20', '0.15']
+Episode 14 | Reward: -57.34 | Avg: -86.00 | Epsilon: 0.928 | Steps: 126 | Loss: 3256.6225 | Q: -8.7844 | Actions: ['0.18', '0.18', '0.21', '0.24', '0.18']
+Exception in thread Thread-3118 (__send_act_get_obs_and_wait):
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 320, in __send_act_get_obs_and_wait
+    self.__update_obs_rew_terminated_truncated()  # capture observation
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 334, in __update_obs_rew_terminated_truncated
+    o, r, d, i = self.interface.get_obs_rew_terminated_info()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 281, in get_obs_rew_terminated_info
+    img, speed, data = self.grab_lidar_speed_and_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 250, in grab_lidar_speed_and_data
+    data = self.client.retrieve_data()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\utils\tools.py", line 72, in retrieve_data
+    assert t_now - t_start < timeout, f"OpenPlanet stopped sending data since more than {timeout}s."
+AssertionError: OpenPlanet stopped sending data since more than 10.0s.

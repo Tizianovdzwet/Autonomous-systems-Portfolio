@@ -1,0 +1,21 @@
+2026-05-17 02:18:03,853 INFO    Thread-9 (_run_job):35900 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-17 02:18:03,853 INFO    Thread-9 (_run_job):35900 [wandb_setup.py:_flush():81] Configure stats pid to 35900
+2026-05-17 02:18:03,853 INFO    Thread-9 (_run_job):35900 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-17 02:18:03,853 INFO    Thread-9 (_run_job):35900 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260517_021803-sxacwsmi\logs\debug.log
+2026-05-17 02:18:03,854 INFO    Thread-9 (_run_job):35900 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\wandb\run-20260517_021803-sxacwsmi\logs\debug-internal.log
+2026-05-17 02:18:03,854 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():850] calling init triggers
+2026-05-17 02:18:03,854 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():855] wandb.init called with sweep_config: {'action_space': '3_basic'}
+config: {'_wandb': {}}
+2026-05-17 02:18:03,854 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():898] starting backend
+2026-05-17 02:18:06,098 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():913] sending inform_init request
+2026-05-17 02:18:06,374 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():918] backend started and connected
+2026-05-17 02:18:06,374 INFO    Thread-9 (_run_job):35900 [wandb_run.py:_config_callback():1415] config_cb None None {'action_space': '3_basic'}
+2026-05-17 02:18:06,375 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():988] updated telemetry
+2026-05-17 02:18:06,411 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-17 02:18:06,682 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-17 02:18:06,803 INFO    Thread-9 (_run_job):35900 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-17 02:18:06,804 INFO    Thread-9 (_run_job):35900 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-17 02:18:06,804 INFO    Thread-9 (_run_job):35900 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-17 02:18:06,804 INFO    Thread-9 (_run_job):35900 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-17 02:18:06,807 INFO    Thread-9 (_run_job):35900 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-17 02:18:06,807 INFO    Thread-9 (_run_job):35900 [wandb_run.py:_config_callback():1415] config_cb None None {'run_name': "p3-['3_basic']", 'lr': 5e-06, 'epsilon_decay': 0.995, 'hidden_size': 64, 'batch_size': 32, 'episodes': 2000, 'train_every': 16, 'epsilon_min': 0.15, 'gamma': 0.99, 'target_update_every': 10, 'n_actions': 3, 'constant_penalty': -0.5, 'algorithm': 'Double-DQN', 'resume_command': 'python -m src.sweep3 b97mdrf5'}

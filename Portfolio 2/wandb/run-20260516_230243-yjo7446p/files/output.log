@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\wandb\sdk\wandb_config.py", line 166, in __getattr__
+    return self.__getitem__(key)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\wandb\sdk\wandb_config.py", line 131, in __getitem__
+    return self._items[key]
+KeyError: 'lr'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\sweep_3.py", line 91, in train
+    RUN_NAME = f"p3-{config.action_space}-lr{config.lr}-decay{config.epsilon_decay}"
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\wandb\sdk\wandb_config.py", line 168, in __getattr__
+    raise AttributeError(
+AttributeError: <class 'wandb.sdk.wandb_config.Config'> object has no attribute 'lr'

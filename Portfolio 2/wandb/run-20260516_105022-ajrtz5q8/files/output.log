@@ -1,0 +1,35 @@
+Network warmed up!
+Episode 0 | Reward: 125.26 | Avg: 125.26 | Epsilon: 0.999 | Steps: 289 | Loss: 1594.9104 | Q: 12.4425 | Fwd: 0.31 L: 0.33 R: 0.36
+Episode 1 | Reward: 126.21 | Avg: 125.73 | Epsilon: 0.998 | Steps: 247 | Loss: 567.2938 | Q: 12.6313 | Fwd: 0.33 L: 0.33 R: 0.34
+Episode 2 | Reward: 96.07 | Avg: 115.85 | Epsilon: 0.997 | Steps: 81 | Loss: 535.7557 | Q: 12.3433 | Fwd: 0.35 L: 0.41 R: 0.25
+Episode 3 | Reward: 125.23 | Avg: 118.19 | Epsilon: 0.996 | Steps: 343 | Loss: 388.6773 | Q: 13.9404 | Fwd: 0.32 L: 0.31 R: 0.36
+Episode 4 | Reward: 124.86 | Avg: 119.53 | Epsilon: 0.995 | Steps: 291 | Loss: 480.0580 | Q: 15.7309 | Fwd: 0.36 L: 0.30 R: 0.34
+Episode 5 | Reward: 125.53 | Avg: 120.53 | Epsilon: 0.994 | Steps: 252 | Loss: 316.5475 | Q: 18.4615 | Fwd: 0.37 L: 0.31 R: 0.32
+Episode 6 | Reward: 125.16 | Avg: 121.19 | Epsilon: 0.993 | Steps: 326 | Loss: 328.4628 | Q: 19.3821 | Fwd: 0.31 L: 0.29 R: 0.40
+Episode 7 | Reward: 123.94 | Avg: 121.53 | Epsilon: 0.992 | Steps: 308 | Loss: 201.3311 | Q: 21.6448 | Fwd: 0.35 L: 0.33 R: 0.32
+Episode 8 | Reward: 108.32 | Avg: 120.06 | Epsilon: 0.991 | Steps: 149 | Loss: 402.8308 | Q: 21.5844 | Fwd: 0.36 L: 0.28 R: 0.37
+Episode 9 | Reward: 114.52 | Avg: 119.51 | Epsilon: 0.990 | Steps: 252 | Loss: 240.6600 | Q: 22.3450 | Fwd: 0.33 L: 0.33 R: 0.34
+Episode 10 | Reward: 110.74 | Avg: 118.71 | Epsilon: 0.989 | Steps: 157 | Loss: 292.4857 | Q: 22.7197 | Fwd: 0.38 L: 0.34 R: 0.29
+Episode 11 | Reward: 119.94 | Avg: 118.81 | Epsilon: 0.988 | Steps: 218 | Loss: 356.7226 | Q: 21.1633 | Fwd: 0.32 L: 0.29 R: 0.39
+Episode 12 | Reward: 119.04 | Avg: 118.83 | Epsilon: 0.987 | Steps: 233 | Loss: 318.0890 | Q: 21.3462 | Fwd: 0.36 L: 0.31 R: 0.32
+Episode 13 | Reward: 112.76 | Avg: 118.40 | Epsilon: 0.986 | Steps: 143 | Loss: 184.1870 | Q: 20.6497 | Fwd: 0.36 L: 0.29 R: 0.35
+Episode 14 | Reward: 120.02 | Avg: 118.51 | Epsilon: 0.985 | Steps: 178 | Loss: 316.0613 | Q: 21.6124 | Fwd: 0.34 L: 0.38 R: 0.28
+Episode 15 | Reward: 120.02 | Avg: 118.60 | Epsilon: 0.984 | Steps: 230 | Loss: 323.5121 | Q: 19.0486 | Fwd: 0.36 L: 0.34 R: 0.30
+Episode 16 | Reward: 124.73 | Avg: 118.96 | Epsilon: 0.983 | Steps: 284 | Loss: 295.7945 | Q: 20.0161 | Fwd: 0.38 L: 0.29 R: 0.33
+Episode 17 | Reward: 112.78 | Avg: 118.62 | Epsilon: 0.982 | Steps: 194 | Loss: 332.6235 | Q: 20.0332 | Fwd: 0.31 L: 0.35 R: 0.34
+Episode 18 | Reward: 124.74 | Avg: 118.94 | Epsilon: 0.981 | Steps: 317 | Loss: 304.2164 | Q: 18.3913 | Fwd: 0.28 L: 0.38 R: 0.34
+Episode 19 | Reward: 104.47 | Avg: 118.22 | Epsilon: 0.980 | Steps: 115 | Loss: 285.7974 | Q: 18.4029 | Fwd: 0.30 L: 0.35 R: 0.35
+Episode 20 | Reward: 120.38 | Avg: 118.32 | Epsilon: 0.979 | Steps: 233 | Loss: 298.8118 | Q: 16.9582 | Fwd: 0.31 L: 0.35 R: 0.34
+Episode 21 | Reward: 119.09 | Avg: 118.35 | Epsilon: 0.978 | Steps: 209 | Loss: 321.2148 | Q: 17.4459 | Fwd: 0.29 L: 0.34 R: 0.37
+Episode 22 | Reward: 102.22 | Avg: 117.65 | Epsilon: 0.977 | Steps: 147 | Loss: 229.3753 | Q: 17.6447 | Fwd: 0.29 L: 0.36 R: 0.35
+Episode 23 | Reward: 120.01 | Avg: 117.75 | Epsilon: 0.976 | Steps: 230 | Loss: 233.0777 | Q: 17.3091 | Fwd: 0.44 L: 0.26 R: 0.30
+Episode 24 | Reward: 126.01 | Avg: 118.08 | Epsilon: 0.975 | Steps: 285 | Loss: 320.5313 | Q: 16.5657 | Fwd: 0.32 L: 0.29 R: 0.39
+Episode 25 | Reward: 125.69 | Avg: 118.37 | Epsilon: 0.974 | Steps: 264 | Loss: 332.7265 | Q: 16.1926 | Fwd: 0.36 L: 0.30 R: 0.33
+Episode 26 | Reward: 125.64 | Avg: 118.64 | Epsilon: 0.973 | Steps: 281 | Loss: 245.9304 | Q: 15.5688 | Fwd: 0.31 L: 0.28 R: 0.41
+Episode 27 | Reward: 148.92 | Avg: 119.72 | Epsilon: 0.972 | Steps: 505 | Loss: 220.8630 | Q: 16.2102 | Fwd: 0.37 L: 0.30 R: 0.33
+Episode 28 | Reward: 111.61 | Avg: 119.45 | Epsilon: 0.971 | Steps: 151 | Loss: 222.4378 | Q: 15.2525 | Fwd: 0.34 L: 0.28 R: 0.37
+Episode 29 | Reward: 124.69 | Avg: 119.62 | Epsilon: 0.970 | Steps: 320 | Loss: 302.8198 | Q: 16.0378 | Fwd: 0.31 L: 0.29 R: 0.40
+Episode 30 | Reward: 125.57 | Avg: 119.81 | Epsilon: 0.969 | Steps: 296 | Loss: 198.5790 | Q: 15.4247 | Fwd: 0.33 L: 0.33 R: 0.34
+Episode 31 | Reward: 110.69 | Avg: 119.53 | Epsilon: 0.968 | Steps: 183 | Loss: 235.7854 | Q: 16.0099 | Fwd: 0.28 L: 0.33 R: 0.39
+Episode 32 | Reward: 102.01 | Avg: 119.00 | Epsilon: 0.968 | Steps: 132 | Loss: 281.5546 | Q: 16.8196 | Fwd: 0.24 L: 0.39 R: 0.36
+Manual stop - saving checkpoint...
