@@ -1,0 +1,81 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            f7hf26j64rcarb6ytuo835ufcse35th0:
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "499429404672"
+                        used: "439955947520"
+                email: matthias@devreede.net
+                executable: C:\Users\matt\miniconda3\envs\trackmania\python.exe
+                git:
+                    commit: cfd35124f8166a8b56ead5532e1f4d4fbd8382be
+                    remote: https://github.com/Tizianovdzwet/Autonomous-systems-Portfolio.git
+                gpu: NVIDIA GeForce RTX 4070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 5888
+                      memoryTotal: "12878610432"
+                      name: NVIDIA GeForce RTX 4070
+                      uuid: GPU-a0db4fb5-d0e2-b7b1-f0a0-247ce864b901
+                host: DESKTOP-V93H26C
+                memory:
+                    total: "34262204416"
+                os: Windows-10-10.0.19045-SP0
+                program: -m src.sweep_3
+                python: CPython 3.10.20
+                root: C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2
+                startedAt: "2026-05-17T00:21:58.345248Z"
+                writerId: f7hf26j64rcarb6ytuo835ufcse35th0
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 14
+                - 17
+            "4": 3.10.20
+            "5": 0.26.1
+            "8":
+                - 3
+            "12": 0.26.1
+            "13": windows-amd64
+action_space:
+    value: 3_basic
+algorithm:
+    value: Double-DQN
+batch_size:
+    value: 32
+constant_penalty:
+    value: -0.5
+episodes:
+    value: 2000
+epsilon_decay:
+    value: 0.995
+epsilon_min:
+    value: 0.15
+gamma:
+    value: 0.99
+hidden_size:
+    value: 64
+lr:
+    value: 5e-06
+n_actions:
+    value: 3
+resume_command:
+    value: python -m src.sweep3 4tpo15ru
+run_name:
+    value: p3-['3_basic']
+target_update_every:
+    value: 10
+train_every:
+    value: 16
