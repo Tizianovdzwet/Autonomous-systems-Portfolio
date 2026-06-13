@@ -1,0 +1,23 @@
+# Warlords MARL — PPO Training Requirements
+# Install with: pip install -r requirements.txt
+# Then run once: AutoROM   (downloads Atari ROMs, accept the license prompt)
+
+# Core RL
+stable-baselines3[extra]>=2.3.0
+
+# Atari / Multi-agent environment
+pettingzoo[atari]>=1.24.0
+supersuit>=3.9.0
+
+# ROM downloader
+autorom[accept-rom-license]>=0.6.1
+
+# Numerical / utilities
+numpy>=1.26.0
+
+# Training visualisation
+tensorboard>=2.16.0
+
+# Video recording (used in tournament notebook)
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
