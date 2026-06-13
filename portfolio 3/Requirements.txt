@@ -1,23 +1,18 @@
-# Warlords MARL — PPO Training Requirements
-# Install with: pip install -r requirements.txt
-# Then run once: AutoROM   (downloads Atari ROMs, accept the license prompt)
+# Warlords MARL — Local Requirements
+# Only needed for running the tournament notebook locally
+# Training is done in Google Colab
+# Install with: pip install -r Requirements.txt
 
-# Core RL
-stable-baselines3[extra]>=2.3.0
+# Stable-Baselines3 (for loading the trained PPO model in agent1.py)
+stable-baselines3>=2.3.0
 
-# Atari / Multi-agent environment
+# Multi-agent environment (tournament notebook)
 pettingzoo[atari]>=1.24.0
 supersuit>=3.9.0
 
-# ROM downloader
-autorom[accept-rom-license]>=0.6.1
-
-# Numerical / utilities
+# Numerical
 numpy>=1.26.0
 
-# Training visualisation
-tensorboard>=2.16.0
-
-# Video recording (used in tournament notebook)
+# Video recording (tournament notebook)
 imageio>=2.34.0
 imageio-ffmpeg>=0.4.9
