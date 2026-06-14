@@ -24,10 +24,6 @@ class Agent1:
 
     def act(self, observation) -> int:
         obs = np.asarray(observation, dtype=np.float32)
-
-        if self._vecnorm is not None:
-            obs = self._vecnorm.normalize_obs(obs[None])[0]
-
         action, _ = self.model.predict(obs, deterministic=True)
         return int(action)
 
