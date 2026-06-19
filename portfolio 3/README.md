@@ -1,6 +1,6 @@
 # Portfolio 3 — Multi-Agent Reinforcement Learning: Warlords
 
-This project implements a **Proximal Policy Optimization (PPO)** agent for the Atari multi-agent game [Warlords](https://ale.farama.org/multi-agent-environments/warlords/) using RAM-based observations. The agent is trained via self-play using Stable-Baselines3 and PettingZoo, and competes against other agents in a class tournament.
+This project implements a **Deep Q-Network (DQN)** agent for the Atari multi-agent game [Warlords](https://ale.farama.org/multi-agent-environments/warlords/) using RAM-based observations. The agent is trained via independent learners using Stable-Baselines3 and PettingZoo, and competes against other agents in a class tournament.
 
 ---
 
@@ -34,27 +34,28 @@ The agent plays **Warlords (v3)** via PettingZoo's Atari multi-agent environment
 
 ## Algorithm
 
-The agent uses **PPO (Proximal Policy Optimization)** with an MLP policy, chosen for the following reasons:
+The agent uses **DQN (Deep Q-Network)** with an MLP policy, chosen for the following reasons:
 
-- RAM observations are flat vectors — no spatial structure — making MLP more appropriate than CNN
-- PPO is more stable than DQN in competitive multi-agent settings due to its clipped objective
-- Stable-Baselines3 provides a well-tested PPO implementation with GPU support
+- RAM observations are flat 128-byte vectors — no spatial structure — making MLP more appropriate than CNN
+- DQN's experience replay buffer improves data efficiency, important in the sparse-reward Warlords environment
+- The discrete action space (6 actions) is exactly what DQN is designed for
+- Stable-Baselines3 provides a well-tested DQN implementation with GPU support
 
-The multi-agent environment is converted to a single-agent vectorised environment using SuperSuit wrappers, allowing standard SB3 training via self-play (the agent learns by playing all four paddles simultaneously).
+The multi-agent environment is wrapped with SuperSuit so DQN can train on a single paddle's perspective (independent learners). Three hyperparameter configurations were tested before arriving at the final model (see `Train_warlords.ipynb`).
 
-### Key Hyperparameters
+### Final Hyperparameters (Config C — 5M steps)
 
 | Parameter | Value | Motivation |
 |---|---|---|
-| `n_steps` | 512 | Steps per rollout before update |
-| `batch_size` | 256 | Mini-batch size for gradient updates |
-| `n_epochs` | 4 | Update passes per rollout |
+| `learning_rate` | 1e-4 | Lower lr gives more stable Q-value updates |
+| `buffer_size` | 100,000 | Larger buffer reduces sample correlation |
+| `batch_size` | 32 | Standard mini-batch size for DQN |
 | `gamma` | 0.99 | High discount — long-term strategy matters |
-| `gae_lambda` | 0.95 | Reduces variance in advantage estimates |
-| `clip_range` | 0.2 | Standard PPO clipping |
-| `ent_coef` | 0.01 | Entropy bonus to encourage exploration |
-| `learning_rate` | 2.5e-4 | Standard for Atari PPO |
-| `total_timesteps` | 2,000,000 | Training budget |
+| `train_freq` | 4 | Update every 4 environment steps |
+| `target_update_interval` | 1,000 | Stable target network updates |
+| `exploration_fraction` | 0.10 | Epsilon decays over first 10% of training |
+| `exploration_final_eps` | 0.02 | Minimum exploration rate |
+| `total_timesteps` | 5,000,000 | Training budget |
 
 ---
 
@@ -78,12 +79,12 @@ pip install -r Requirements.txt
 
 ### Training (Google Colab)
 
-Training is done on Google Colab due to Windows compatibility issues with `multi_agent_ale_py`. Open `train.ipynb` in Colab and run all cells. The trained model is saved to Google Drive as `ppo_warlords_final.zip`.
+Training is done on Google Colab due to Windows compatibility issues with `multi_agent_ale_py`. Open `Train_warlords.ipynb` in Colab and run all cells. The trained model is saved to Google Drive as `dqn_warlords_ram_5000000_steps.zip`.
 
-1. Upload `train.ipynb` to [Google Colab](https://colab.research.google.com)
+1. Upload `Train_warlords.ipynb` to [Google Colab](https://colab.research.google.com)
 2. Set runtime to **GPU** (Runtime → Change runtime type → T4 GPU)
-3. Run all cells — training takes approximately 30–60 minutes
-4. Download `ppo_warlords_final.zip` and place it in the `portfolio 3/` folder
+3. Run all cells — training takes approximately 2–4 hours for 5M steps
+4. Download `dqn_warlords_ram_5000000_steps.zip` and place it in the `portfolio 3/` folder
 
 ---
 
@@ -98,20 +99,19 @@ portfolio 3/
 ├── agent2.py
 ├── agent3.py
 ├── agent4.py
-└── ppo_warlords_final.zip   ← required for agent1.py to load
+└── dqn_warlords_ram_5000000_steps.zip   ← required for agent1.py to load
 ```
 
 ---
 
 ## Results
 
-> *To be completed after training.*
+Training reward curves, hyperparameter experiments, and baseline comparison are documented in `Train_warlords.ipynb`.
 
-Training reward curves and win rates against random baseline agents will be added here, including:
-
-- Episode reward over time (TensorBoard)
-- Win rate vs. random agents over 10 games
-- Discussion of hyperparameter experiments
+Summary:
+- Three hyperparameter configurations (A, B, C) were tested — Config C (5M steps, buffer=100k, lr=1e-4) gave the most stable training
+- Sanity check confirms the policy produces 3+ unique actions (no collapse)
+- Baseline comparison evaluates DQN vs. random policy over 20 games
 
 ---
 
@@ -119,9 +119,9 @@ Training reward curves and win rates against random baseline agents will be adde
 
 | File | Description |
 |---|---|
-| `agent1.py` | Loads `ppo_warlords_final.zip` and exposes an `act(observation)` method |
-| `agent2-4.py` | Random policy placeholders for local testing |
-| `train.ipynb` | Full PPO training pipeline with documentation |
+| `agent1.py` | Loads `dqn_warlords_ram_5000000_steps.zip` and exposes an `act(observation)` method |
+| `agent2-4.py` | Random policy placeholders for local testing and baseline comparison |
+| `Train_warlords.ipynb` | Full DQN training pipeline with hyperparameter experiments and evaluation |
 | `Requirements.txt` | Minimal local dependencies for running the tournament |
 | `warlords_tournament_ram_mode.ipynb` | Provided tournament runner (not modified) |
 
