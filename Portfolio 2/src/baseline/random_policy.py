@@ -7,7 +7,7 @@ episodes = 10
 run = wandb.init(
     entity="hhs-autonomous-systems",
     project="trackmania-rl",
-    name="random-policy",
+    name="custom-random-policy",
     config={
         "policy": "random",
         "episodes": episodes,

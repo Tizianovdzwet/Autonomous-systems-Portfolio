@@ -1,0 +1,23 @@
+Episode 0, Total Reward: 45.46002960205078
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\baseline\random_policy.py", line 33, in <module>
+    obs, reward, terminated, truncated, info = env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 392, in step
+    return super().step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 427, in step
+    self._join_thread()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 273, in _join_thread
+    self._at_thread.join()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt

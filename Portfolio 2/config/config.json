@@ -1,4 +1,4 @@
-{
+
   "RUN_NAME": "SAC_4_imgs_pretrained",
   "RESET_TRAINING": false,
   "BUFFERS_MAXLEN": 500000,
@@ -61,12 +61,12 @@
     "REDQ_N":10,
     "REDQ_M":2,
     "REDQ_Q_UPDATES_PER_POLICY_UPDATE":20,
-	"OPTIMIZER_ACTOR": "adam",
-	"OPTIMIZER_CRITIC": "adam",
-	"BETAS_ACTOR": [0.997, 0.997],
-	"BETAS_CRITIC": [0.997, 0.997],
-	"L2_ACTOR": 0.0,
-	"L2_CRITIC": 0.0
+    "OPTIMIZER_ACTOR": "adam",
+    "OPTIMIZER_CRITIC": "adam",
+    "BETAS_ACTOR": [0.997, 0.997],
+    "BETAS_CRITIC": [0.997, 0.997],
+    "L2_ACTOR": 0.0,
+    "L2_CRITIC": 0.0
   },
   "ENV": {
     "RTGYM_INTERFACE": "TM20LIDAR",
@@ -80,22 +80,22 @@
     "RTGYM_CONFIG": {
       "time_step_duration": 0.05,
       "start_obs_capture": 0.04,
-      "time_step_timeout_factor": 2.0,
+      "time_step_timeout_factor": 1.0,
       "act_buf_len": 2,
       "benchmark": false,
       "wait_on_done": true,
-      "ep_max_length": 5000,
-	  "interface_kwargs": {"save_replays": false}
+      "ep_max_length": 1000,
+      "interface_kwargs": {"save_replays": false}
     },
-	"REWARD_CONFIG": {
-		"END_OF_TRACK": 50.0,
-		"CONSTANT_PENALTY": -0.1,
-		"CHECK_FORWARD": 5,
-		"CHECK_BACKWARD": 2,
-		"FAILURE_COUNTDOWN": 10,
-		"MIN_STEPS": 70,
-		"MAX_STRAY": 100.0
-	}
+    "REWARD_CONFIG": {
+        "END_OF_TRACK": 100.0,
+        "CONSTANT_PENALTY": 0.0,
+        "CHECK_FORWARD": 500,
+        "CHECK_BACKWARD": 10,
+        "FAILURE_COUNTDOWN": 10,
+        "MIN_STEPS": 70,
+        "MAX_STRAY": 100.0
+    }
   },
   "__VERSION__": "0.6.0"
 }

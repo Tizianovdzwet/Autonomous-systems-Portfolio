@@ -35,18 +35,21 @@ EPISODES = 1000
 TRAIN_EVERY = 16
 SAVE_EVERY = 100
 
+# GPU enable
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
 
 env = make_env()
 
 def train():
-    run = wandb.init()
+    wandb.init()
     config = wandb.config
 
+    # Eerst run naam lokaal, dan aanpassen
     RUN_NAME = f"p2-lr{config.lr}-decay{config.epsilon_decay}-gamma{config.gamma}-tgt{config.target_update_every}"
     print(f"\nStarting run: {RUN_NAME}")
 
+    # Welke parameters pakken we?
     wandb.config.update({
         "run_name": RUN_NAME,
         "hidden_size": HIDDEN_SIZE,
@@ -56,8 +59,10 @@ def train():
         "resume_command": f"python -m src.sweep2 {wandb.run.sweep_id}"
     }, allow_val_change=True)
 
+    # Hernoem voor duidelijkheid
     wandb.run.name = f"phase-2-sweep-{wandb.run.id[:4]}"
 
+    # Agent definitie
     agent = DQNAgent(
         input_size=83,
         hidden_size=HIDDEN_SIZE,
@@ -71,6 +76,7 @@ def train():
         batch_size=BATCH_SIZE
     )
 
+    # GPU Warmup
     dummy = torch.zeros(BATCH_SIZE, 83).to(agent.device)
     with torch.no_grad():
         agent.q_network(dummy)
@@ -79,6 +85,7 @@ def train():
 
     os.makedirs(f"experiments/runs/{RUN_NAME}", exist_ok=True)
 
+    # Acties
     ACTIONS = [
         [1, 0, 0],   # forward
         [1, 0, 1],   # forward + left
@@ -89,14 +96,16 @@ def train():
     recent_rewards = []
     x = 0
 
+    # Episode start
     try:
+        # Voor elke run
         for x in range(EPISODES):
             obs, info = env.reset()
             done = False
             total_reward = 0
             step_count = 0
             loss = None
-
+            
             while not done:
                 loss = None
                 state = process_observation(obs)

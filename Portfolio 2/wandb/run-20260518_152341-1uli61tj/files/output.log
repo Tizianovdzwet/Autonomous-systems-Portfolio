@@ -1,0 +1,28 @@
+Episode 0, Total Reward: -1.5799962282180786
+Episode 1, Total Reward: -1.5799962282180786
+Episode 2, Total Reward: -1.849996566772461
+Episode 3, Total Reward: -1.5799962282180786
+Episode 4, Total Reward: -1.5799962282180786
+Episode 5, Total Reward: -1.5799962282180786
+Episode 6, Total Reward: -1.5799962282180786
+Episode 7, Total Reward: -1.5699964761734009
+Traceback (most recent call last):
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\matt\Documents\[1] - Code Projects\[0] - College\Autonomous-systems-Portfolio\Portfolio 2\src\baseline\random_policy.py", line 27, in <module>
+    env.reset()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\wrappers\common.py", line 399, in reset
+    return super().reset(seed=seed, options=options)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\gymnasium\core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\rtgym\envs\real_time_env.py", line 396, in reset
+    elt, info = self.interface.reset(seed=seed, options=options)
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 267, in reset
+    self.reset_common()
+  File "C:\Users\matt\miniconda3\envs\trackmania\lib\site-packages\tmrl\custom\tm\tm_gym_interfaces.py", line 141, in reset_common
+    time.sleep(time_sleep)  # must be long enough for image to be refreshed
+KeyboardInterrupt

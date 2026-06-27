@@ -35,26 +35,30 @@ sweep_config = {
     }
 }
 
+# GPU enable
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# TRAIN_EVERY = 8 if device.type == "cuda" else 16
-TRAIN_EVERY = 16  # simplified
+TRAIN_EVERY = 16
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
 
 env = make_env()
 
 def train():
-    run = wandb.init()
+    wandb.init()
     config = wandb.config
 
+    # Eerst run naam lokaal, dan aanpassen
     RUN_NAME = f"sweep-lr{config.lr}-decay{config.epsilon_decay}-hidden{config.hidden_size}-batch{config.batch_size}-gamma{config.gamma}"
     print(f"\nStarting run: {RUN_NAME}")
 
+    # Welke parameters pakken we?
     wandb.config.update({
         "run_name": RUN_NAME,
     }, allow_val_change=True)
 
+    # Hernoem voor duidelijkheid
     wandb.run.name = f"phase-1-sweep-{wandb.run.id[:4]}"
 
+    # Agent definitie
     agent = DQNAgent(
         input_size=83,
         hidden_size=config.hidden_size,
@@ -68,7 +72,7 @@ def train():
         batch_size=config.batch_size
     )
 
-    # Warm up GPU/CPU before real-time loop
+    # GPU Warmup
     dummy = torch.zeros(config.batch_size, 83).to(agent.device)
     with torch.no_grad():
         agent.q_network(dummy)
@@ -77,6 +81,7 @@ def train():
 
     os.makedirs(f"experiments/runs/{RUN_NAME}", exist_ok=True)
 
+    # Acties
     ACTIONS = [
         [1, 0, 0],   # forward
         [1, 0, 1],   # forward + left
@@ -89,7 +94,9 @@ def train():
     recent_rewards = []
     x = 0
 
+    # Episode start
     try:
+        # Voor elke run
         for x in range(EPISODES):
             obs, info = env.reset()
             done = False
@@ -134,12 +141,12 @@ def train():
                 "buffer_size": len(agent.buffer),
                 "episode_length": step_count,
                 "loss": loss if loss is not None else 0,
-            })
+            }, step=x)
 
             print(f"Episode {x} | Reward: {total_reward:.2f} | Avg: {sum(recent_rewards)/len(recent_rewards):.2f} | Epsilon: {agent.epsilon:.3f}")
 
         agent.save(f"experiments/runs/{RUN_NAME}/dqn_final.pt")
-        wandb.finish(exit_code=0)  # success
+        wandb.finish(exit_code=0)
 
     except KeyboardInterrupt:
         print("Manual stop - saving checkpoint...")
@@ -154,7 +161,6 @@ def train():
         pass
 
 
-# Your PC creates the sweep, buddy's PC joins it
 if len(sys.argv) > 1:
     sweep_id = sys.argv[1]
     print(f"Joining existing sweep: {sweep_id}")

@@ -5,17 +5,11 @@ from src.utils.environment import make_env
 from src.utils.environment import process_observation
 from src.dqn.agent import DQNAgent
 
-# ============================================================
-# EXPERIMENT PARAMETERS - change these between runs
-# ============================================================
+# PUUR VOOR SINGLE TESTS 
 LR = 0.000005
 EPSILON_DECAY = 0.995
 GAMMA = 0.99
 TARGET_UPDATE_EVERY = 10
-
-# ============================================================
-# FIXED PARAMETERS - don't change these between runs
-# ============================================================
 
 EPSILON = 1.0
 EPSILON_MIN = 0.15
@@ -28,11 +22,7 @@ TRAIN_EVERY = 16
 INPUT_SIZE = 83
 N_ACTIONS = 3
 
-# ============================================================
-# SETUP
-# ============================================================
-
-RUN_NAME = f"double-dqn-3actions-lr{LR}-decay{EPSILON_DECAY}-5000ep"
+RUN_NAME = f"customnaam"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
@@ -77,7 +67,7 @@ with torch.no_grad():
     agent.target_network(dummy)
 print("Network warmed up!")
 
-# Uncomment to resume from checkpoint:
+# VANAF CHECKPOINT
 # agent.load(f"experiments/runs/{RUN_NAME}/dqn_episode_X.pt")
 
 env = make_env()
@@ -89,9 +79,6 @@ ACTIONS = [
     [1, 0, -1],  # hard right
 ]
 
-# ============================================================
-# TRAINING LOOP
-# ============================================================
 recent_rewards = []
 x = 0
 
@@ -162,16 +149,7 @@ try:
             "epsilon": agent.epsilon,
             "buffer_size": len(agent.buffer),
             "episode_length": step_count,
-            "loss": avg_loss,
-            "avg_q_value": avg_q,
-            "grad_norm": grad_norm,
-            "max_speed": max_speed,
-            "avg_speed": avg_speed,
-            "action_forward": action_counts[0] / step_count,
-            "action_left": action_counts[1] / step_count,
-            "action_right": action_counts[2] / step_count,
-            "train_steps": loss_count,
-            "buffer_utilization": len(agent.buffer) / BUFFER_SIZE,
+            "loss": avg_loss
         }, step=x)
 
         print(f"Episode {x} | Reward: {total_reward:.2f} | Avg: {sum(recent_rewards)/len(recent_rewards):.2f} | Epsilon: {agent.epsilon:.3f} | Steps: {step_count} | Loss: {avg_loss:.4f} | Q: {avg_q:.4f} | Fwd: {action_counts[0]/step_count:.2f} L: {action_counts[1]/step_count:.2f} R: {action_counts[2]/step_count:.2f}")

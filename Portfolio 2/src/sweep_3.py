@@ -75,7 +75,7 @@ ACTION_SPACES = {
             [1, 0, 0],    # forward
             [1, 0, 0.5],  # slight left
             [1, 0, -0.5], # slight right
-            [1, 0, 1],    # hard left — asymmetric, track curves left more
+            [1, 0, 1],    # hard left
         ],
         "n_actions": 4
     },
@@ -116,7 +116,7 @@ sweep_config = {
         "action_space": {
             "values": [
                 "3_basic",
-                "4_brake", 
+                "4_brake",
                 "5_slight_steer",
                 "6_full",
                 "7_full_slight",
@@ -130,7 +130,7 @@ sweep_config = {
     }
 }
 
-# Fixed parameters
+# Vaste parameters
 HIDDEN_SIZE = 64
 BATCH_SIZE = 32
 EPISODES = 2000
@@ -144,22 +144,25 @@ TARGET_UPDATE_EVERY = 10
 LR = 0.000005
 EPSILON_DECAY = 0.995
 
+# GPU enable
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device} | TRAIN_EVERY: {TRAIN_EVERY}")
 
 env = make_env()
 
 def train():
-    run = wandb.init()
+    wandb.init()
     config = wandb.config
 
     space = ACTION_SPACES[config.action_space]
     ACTIONS = space["actions"]
     N_ACTIONS = space["n_actions"]
 
-    RUN_NAME = f"p3-{[config.action_space]}"
+    # Eerst run naam lokaal, dan aanpassen
+    RUN_NAME = f"p3-{config.action_space}"
     print(f"\nStarting run: {RUN_NAME}")
 
+    # Welke parameters pakken we?
     wandb.config.update({
         "run_name": RUN_NAME,
         "lr": LR,
@@ -177,8 +180,10 @@ def train():
         "resume_command": f"python -m src.sweep3 {wandb.run.sweep_id}"
     }, allow_val_change=True)
 
+    # Hernoem voor duidelijkheid
     wandb.run.name = f"phase-3-sweep-{wandb.run.id[:4]}"
 
+    # Agent definitie
     agent = DQNAgent(
         input_size=83,
         hidden_size=HIDDEN_SIZE,
@@ -192,6 +197,7 @@ def train():
         batch_size=BATCH_SIZE,
     )
 
+    # GPU Warmup
     dummy = torch.zeros(BATCH_SIZE, 83).to(agent.device)
     with torch.no_grad():
         agent.q_network(dummy)
@@ -203,7 +209,9 @@ def train():
     recent_rewards = []
     x = 0
 
+    # Episode start
     try:
+        # Voor elke run
         for x in range(EPISODES):
             obs, info = env.reset()
             done = False
@@ -261,8 +269,8 @@ def train():
             avg_q = total_q_value / loss_count if loss_count > 0 else 0
             avg_speed = total_speed / step_count if step_count > 0 else 0
 
-            # Build action log dynamically based on action space
-            action_log = {f"action_{i}": action_counts[i] / step_count 
+            # Bouw actie log dynamisch op basis van actieruimte
+            action_log = {f"action_{i}": action_counts[i] / step_count
                          for i in range(N_ACTIONS)}
 
             wandb.log({
@@ -298,6 +306,7 @@ def train():
         wandb.finish(exit_code=1)
     finally:
         pass
+
 
 if len(sys.argv) > 1:
     sweep_id = sys.argv[1]
